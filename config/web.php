@@ -9,13 +9,16 @@ $config = [
     'bootstrap' => ['log'],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
-        '@npm'   => '@vendor/npm-asset',
+        '@npm' => '@vendor/npm-asset',
     ],
     'components' => [
         'assetManager' => [
             'bundles' => [
                 'yii\bootstrap\BootstrapAsset' => false,
                 'yii\bootstrap\BootstrapPluginAsset' => false,
+                'yii\web\YiiAsset' => false,
+                'yii\web\JqueryAsset' => false,
+                'yii\jui\JuiAsset' => false,
             ]
         ],
         'request' => [
