@@ -146,18 +146,7 @@
                                     class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
                             >
                                 <span>Request Demo</span>
-                                <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 20 20"
-                                        fill="currentColor"
-                                        class="hi-mini hi-arrow-right-circle inline-block size-5"
-                                >
-                                    <path
-                                            fill-rule="evenodd"
-                                            d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h4.59l-2.1 1.95a.75.75 0 0 0 1.02 1.1l3.5-3.25a.75.75 0 0 0 0-1.1l-3.5-3.25a.75.75 0 1 0-1.02 1.1l2.1 1.95H6.75Z"
-                                            clip-rule="evenodd"
-                                    />
-                                </svg>
+                                <i class="fa-solid fa-circle-arrow-right text-lg"></i>
                             </a>
                         </div>
                         <div
@@ -386,8 +375,9 @@
                         ></div>
                         <div class="relative flex flex-col gap-6 md:flex-row">
                             <div class="space-y-6 md:w-1/2">
-                                <div
-                                        class="group rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-orange-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-orange-700/75"
+                                <a
+                                        href="#"
+                                        class="group block rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-orange-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-orange-700/75"
                                 >
                                     <div
                                             class="relative m-2 mb-6 inline-flex size-10 items-center justify-center"
@@ -406,9 +396,10 @@
                                     >
                                         Track leads through custom stages and keep every follow-up visible and on time.
                                     </p>
-                                </div>
-                                <div
-                                        class="group rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-rose-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-rose-700/75"
+                                </a>
+                                <a
+                                        href="#"
+                                        class="group block rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-rose-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-rose-700/75"
                                 >
                                     <div
                                             class="relative m-2 mb-6 inline-flex size-10 items-center justify-center"
@@ -428,11 +419,12 @@
                                         Move candidates through interviews, approvals, and onboarding using your own
                                         hiring process.
                                     </p>
-                                </div>
+                                </a>
                             </div>
                             <div class="flex items-center space-y-6 md:w-1/2">
-                                <div
-                                        class="group rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-indigo-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-indigo-700/75"
+                                <a
+                                        href="#"
+                                        class="group block rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-indigo-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-indigo-700/75"
                                 >
                                     <div
                                             class="relative m-2 mb-6 inline-flex size-10 items-center justify-center"
@@ -452,7 +444,7 @@
                                         Organize work by status and ownership so progress, blockers, and
                                         responsibilities are always clear.
                                     </p>
-                                </div>
+                                </a>
                                 <!--                                <div-->
                                 <!--                                        class="group rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-purple-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-purple-700/75"-->
                                 <!--                                >-->
@@ -683,14 +675,21 @@
                         <!-- END Features -->
 
                         <!-- Actions -->
-                        <div class="relative">
-                            <a
-                                    href="javascript:void(0)"
-                                    class="group relative inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
-                            >
-                                <span>Get Started</span>
-                            </a>
+                        <div class="flex flex-row justify-start items-center">
+                            <div class="relative">
+                                <div
+                                        class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
+                                ></div>
+                                <a
+                                        href="javascript:void(0)"
+                                        class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
+                                >
+                                    <span>Request Demo</span>
+                                    <i class="fa-solid fa-circle-arrow-right text-lg"></i>
+                                </a>
+                            </div>
                         </div>
+
                         <!-- END Actions -->
                     </div>
                 </div>
@@ -1122,7 +1121,7 @@
                                 class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
                         >
                             Our flow management platform is designed to fit the way different teams work. Explore how
-                            organizations across HR, engineering, and operations use our solution to organize tasks,
+                            organizations across Sales, HR team, and Project team use our solution to organize tasks,
                             reduce friction, and deliver results faster.
                         </p>
                     </div>
@@ -1136,21 +1135,9 @@
                             <summary
                                     class="flex cursor-pointer list-none items-center justify-between px-3 py-4 group-open:bg-gray-50 hover:bg-gray-50 dark:group-open:bg-gray-800/50 dark:hover:bg-gray-800/50 [&::-webkit-details-marker]:hidden"
                             >
-                                <h3 class="text-left font-semibold">HR Management</h3>
+                                <h3 class="text-left font-semibold">Sales team</h3>
                                 <div class="opacity-50 group-open:rotate-180 transition-all duration-200">
-                                    <svg
-                                            class="hi-mini hi-chevron-down inline-block size-5"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 20 20"
-                                            fill="currentColor"
-                                            aria-hidden="true"
-                                    >
-                                        <path
-                                                fill-rule="evenodd"
-                                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                                                clip-rule="evenodd"
-                                        />
-                                    </svg>
+                                    <i class="fa-solid fa-chevron-down text-xs"></i>
                                 </div>
                             </summary>
                             <div
@@ -1205,19 +1192,20 @@
                                                 class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                         >
                                             <span>Learn More</span>
-                                            <svg
-                                                    class="hi-mini hi-arrow-right inline-block size-5 opacity-50"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 20 20"
-                                                    fill="currentColor"
-                                                    aria-hidden="true"
-                                            >
-                                                <path
-                                                        fill-rule="evenodd"
-                                                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                                        clip-rule="evenodd"
-                                                />
-                                            </svg>
+                                            <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
+                                            <!--                                            <svg-->
+                                            <!--                                                    class="hi-mini hi-arrow-right inline-block size-5 opacity-50"-->
+                                            <!--                                                    xmlns="http://www.w3.org/2000/svg"-->
+                                            <!--                                                    viewBox="0 0 20 20"-->
+                                            <!--                                                    fill="currentColor"-->
+                                            <!--                                                    aria-hidden="true"-->
+                                            <!--                                            >-->
+                                            <!--                                                <path-->
+                                            <!--                                                        fill-rule="evenodd"-->
+                                            <!--                                                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"-->
+                                            <!--                                                        clip-rule="evenodd"-->
+                                            <!--                                                />-->
+                                            <!--                                            </svg>-->
                                         </a>
                                     </div>
                                     <!-- END Actions -->
@@ -1228,21 +1216,9 @@
                             <summary
                                     class="flex cursor-pointer list-none items-center justify-between px-3 py-4 group-open:bg-gray-50 hover:bg-gray-50 dark:group-open:bg-gray-800/50 dark:hover:bg-gray-800/50 [&::-webkit-details-marker]:hidden"
                             >
-                                <h3 class="text-left font-semibold">Software engineering</h3>
+                                <h3 class="text-left font-semibold">HR team</h3>
                                 <div class="opacity-50 group-open:rotate-180 transition-all duration-200">
-                                    <svg
-                                            class="hi-mini hi-chevron-down inline-block size-5"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 20 20"
-                                            fill="currentColor"
-                                            aria-hidden="true"
-                                    >
-                                        <path
-                                                fill-rule="evenodd"
-                                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                                                clip-rule="evenodd"
-                                        />
-                                    </svg>
+                                    <i class="fa-solid fa-chevron-down text-xs"></i>
                                 </div>
                             </summary>
                             <div
@@ -1297,19 +1273,20 @@
                                                 class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                         >
                                             <span>Learn More</span>
-                                            <svg
-                                                    class="hi-mini hi-arrow-right inline-block size-5 opacity-50"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 20 20"
-                                                    fill="currentColor"
-                                                    aria-hidden="true"
-                                            >
-                                                <path
-                                                        fill-rule="evenodd"
-                                                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                                        clip-rule="evenodd"
-                                                />
-                                            </svg>
+                                            <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
+                                            <!--                                            <svg-->
+                                            <!--                                                    class="hi-mini hi-arrow-right inline-block size-5 opacity-50"-->
+                                            <!--                                                    xmlns="http://www.w3.org/2000/svg"-->
+                                            <!--                                                    viewBox="0 0 20 20"-->
+                                            <!--                                                    fill="currentColor"-->
+                                            <!--                                                    aria-hidden="true"-->
+                                            <!--                                            >-->
+                                            <!--                                                <path-->
+                                            <!--                                                        fill-rule="evenodd"-->
+                                            <!--                                                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"-->
+                                            <!--                                                        clip-rule="evenodd"-->
+                                            <!--                                                />-->
+                                            <!--                                            </svg>-->
                                         </a>
                                     </div>
                                     <!-- END Actions -->
@@ -1321,22 +1298,10 @@
                                     class="flex cursor-pointer list-none items-center justify-between px-3 py-4 group-open:bg-gray-50 hover:bg-gray-50 dark:group-open:bg-gray-800/50 dark:hover:bg-gray-800/50 [&::-webkit-details-marker]:hidden"
                             >
                                 <h3 class="text-left font-semibold">
-                                    Customer relationship management
+                                    Project team
                                 </h3>
                                 <div class="opacity-50 group-open:rotate-180 transition-all duration-200">
-                                    <svg
-                                            class="hi-mini hi-chevron-down inline-block size-5"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 20 20"
-                                            fill="currentColor"
-                                            aria-hidden="true"
-                                    >
-                                        <path
-                                                fill-rule="evenodd"
-                                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                                                clip-rule="evenodd"
-                                        />
-                                    </svg>
+                                    <i class="fa-solid fa-chevron-down text-xs"></i>
                                 </div>
                             </summary>
                             <div
@@ -1391,19 +1356,7 @@
                                                 class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                         >
                                             <span>Learn More</span>
-                                            <svg
-                                                    class="hi-mini hi-arrow-right inline-block size-5 opacity-50"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 20 20"
-                                                    fill="currentColor"
-                                                    aria-hidden="true"
-                                            >
-                                                <path
-                                                        fill-rule="evenodd"
-                                                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                                        clip-rule="evenodd"
-                                                />
-                                            </svg>
+                                            <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
                                         </a>
                                     </div>
                                     <!-- END Actions -->
@@ -1426,8 +1379,8 @@
                                 class="-mb-px transition-all duration-75 flex grow items-center justify-center gap-2 border-y border-l border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
                                 data-tab-id="1"
                         >
-                            <i class="fa-solid fa-people"></i>
-                            <span class="hidden sm:inline-block">HR Management</span>
+                            <i class="fa-solid fa-scale-balanced"></i>
+                            <span class="hidden sm:inline-block">Sales team</span>
                         </button>
                         <button
                                 type="button"
@@ -1438,8 +1391,8 @@
                                 class="-mb-px transition-all duration-75 flex grow items-center justify-center gap-2 border-y border-l border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
                                 data-tab-id="2"
                         >
-                            <i class="fa-solid fa-code"></i>
-                            <span class="hidden sm:inline-block">Software Development</span>
+                            <i class="fa-solid fa-people-group"></i>
+                            <span class="hidden sm:inline-block">HR team</span>
                         </button>
                         <button
                                 type="button"
@@ -1450,8 +1403,8 @@
                                 class="-mb-px transition-all duration-75 flex grow items-center justify-center gap-2 border-y border-l border-r border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
                                 data-tab-id="3"
                         >
-                            <i class="fa-solid fa-people-group"></i>
-                            <span class="hidden sm:inline-block">Customer relationship Management</span>
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <span class="hidden sm:inline-block">Project team</span>
                         </button>
                     </div>
                     <!-- END Nav Tabs -->
@@ -1463,12 +1416,6 @@
                                     class="flex flex-col gap-12 lg:flex-row-reverse lg:items-center lg:gap-0"
                             >
                                 <div class="group relative flex-none lg:ml-16 lg:w-1/2 xl:ml-28">
-                                    <!--                                <div-->
-                                    <!--                                        class="absolute top-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-amber-500 opacity-40 blur-2xl lg:block"-->
-                                    <!--                                ></div>-->
-                                    <!--                                <div-->
-                                    <!--                                        class="absolute bottom-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-pink-500 opacity-40 blur-2xl lg:block"-->
-                                    <!--                                ></div>-->
                                     <img
                                             class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
                                             src="./assets/images/flow-for-hr.png"
@@ -1478,11 +1425,6 @@
                                 <div class="space-y-10 lg:w-1/2">
                                     <!-- Heading -->
                                     <div>
-                                        <!--                                        <div-->
-                                        <!--                                                class="mb-3 inline-flex rounded-sm bg-blue-100 px-2 py-1 text-sm leading-4 font-semibold text-blue-700 dark:bg-blue-950 dark:text-blue-200"-->
-                                        <!--                                        >-->
-                                        <!--                                            v6.0 is now live!-->
-                                        <!--                                        </div>-->
                                         <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
                                             Smarter HR workflows, more control
                                         </h2>
@@ -1499,21 +1441,21 @@
                                     <!-- Features -->
                                     <ul class="space-y-5">
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Enhanced HR workflow dashboard</h3>
                                         </li>
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Role-based access for HR, managers, and
                                                 approvers</h3>
                                         </li>
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Customizable stages for hiring, onboarding, and
                                                 reviews</h3>
                                         </li>
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Advanced settings for compliance and control</h3>
                                         </li>
                                     </ul>
@@ -1534,19 +1476,7 @@
                                                 class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                         >
                                             <span>Learn More</span>
-                                            <svg
-                                                    class="hi-mini hi-arrow-right inline-block size-5 opacity-50"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 20 20"
-                                                    fill="currentColor"
-                                                    aria-hidden="true"
-                                            >
-                                                <path
-                                                        fill-rule="evenodd"
-                                                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                                        clip-rule="evenodd"
-                                                />
-                                            </svg>
+                                            <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
                                         </a>
                                     </div>
                                     <!-- END Actions -->
@@ -1594,21 +1524,21 @@
                                     <!-- Features -->
                                     <ul class="space-y-5">
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Enhanced HR workflow dashboard</h3>
                                         </li>
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Role-based access for HR, managers, and
                                                 approvers</h3>
                                         </li>
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Customizable stages for hiring, onboarding, and
                                                 reviews</h3>
                                         </li>
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Advanced settings for compliance and control</h3>
                                         </li>
                                     </ul>
@@ -1629,19 +1559,7 @@
                                                 class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                         >
                                             <span>Learn More</span>
-                                            <svg
-                                                    class="hi-mini hi-arrow-right inline-block size-5 opacity-50"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 20 20"
-                                                    fill="currentColor"
-                                                    aria-hidden="true"
-                                            >
-                                                <path
-                                                        fill-rule="evenodd"
-                                                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                                        clip-rule="evenodd"
-                                                />
-                                            </svg>
+                                            <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
                                         </a>
                                     </div>
                                     <!-- END Actions -->
@@ -1689,21 +1607,21 @@
                                     <!-- Features -->
                                     <ul class="space-y-5">
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Enhanced HR workflow dashboard</h3>
                                         </li>
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Role-based access for HR, managers, and
                                                 approvers</h3>
                                         </li>
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Customizable stages for hiring, onboarding, and
                                                 reviews</h3>
                                         </li>
                                         <li class="flex items-center gap-3">
-                                            <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                            <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
                                             <h3 class="font-medium">Advanced settings for compliance and control</h3>
                                         </li>
                                     </ul>
@@ -1724,19 +1642,7 @@
                                                 class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                         >
                                             <span>Learn More</span>
-                                            <svg
-                                                    class="hi-mini hi-arrow-right inline-block size-5 opacity-50"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 20 20"
-                                                    fill="currentColor"
-                                                    aria-hidden="true"
-                                            >
-                                                <path
-                                                        fill-rule="evenodd"
-                                                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                                        clip-rule="evenodd"
-                                                />
-                                            </svg>
+                                            <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
                                         </a>
                                     </div>
                                     <!-- END Actions -->
@@ -1785,7 +1691,8 @@
                         <div class="text-center">
                             <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
                                 Ready?
-                                <span class="text-amber-500 dark:text-amber-850"
+                                <span
+                                        class="bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 bg-clip-text text-transparent"
                                 >Let’s do it!</span
                                 >
                             </h2>
@@ -1811,18 +1718,7 @@
                                         class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
                                 >
                                     <span>Request Demo</span>
-                                    <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 20 20"
-                                            fill="currentColor"
-                                            class="hi-mini hi-arrow-right-circle inline-block size-5"
-                                    >
-                                        <path
-                                                fill-rule="evenodd"
-                                                d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h4.59l-2.1 1.95a.75.75 0 0 0 1.02 1.1l3.5-3.25a.75.75 0 0 0 0-1.1l-3.5-3.25a.75.75 0 1 0-1.02 1.1l2.1 1.95H6.75Z"
-                                                clip-rule="evenodd"
-                                        />
-                                    </svg>
+                                    <i class="fa-solid fa-circle-arrow-right text-lg"></i>
                                 </a>
                             </div>
                         </div>
