@@ -29,6 +29,7 @@ class AppAsset extends AssetBundle
     public $js = [
         ['fa-kit/js/all.min.js', 'position' => View::POS_HEAD],
         'js/site/interactivity.js',
+        'js/site/transition.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',

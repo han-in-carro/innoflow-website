@@ -1,5 +1,6 @@
 window.addEventListener('load', () => {
     // Add interactivity to tab panels
+
     const tabPanelEls = document.querySelectorAll('.tab-panel')
     tabPanelEls.forEach(tabPanelEl => {
         const tabHeaderEls = tabPanelEl.querySelectorAll('.tab-header-container .tab-header')
@@ -63,5 +64,26 @@ window.addEventListener('load', () => {
                 }
             })
         }
+    })
+
+    // Nav bar menu toggle behaviors
+
+    const mobileMenuEl = document.querySelector('#mobile-menu')
+    const mobileMenuBackdropEl = document.querySelector('#mobile-menu-backdrop')
+    const mobileMenuOpenButtonEl = document.querySelector('#mobile-menu-open-button')
+    const mobileMenuCloseButtonEl = document.querySelector('#mobile-menu-close-button')
+
+    const mobileMenuElTransitionName = mobileMenuEl.dataset.transitionName;
+    const mobileMenuBackdropElTransitionName = mobileMenuBackdropEl.dataset.transitionName
+
+    mobileMenuOpenButtonEl.addEventListener('click', () => {
+        showElement(mobileMenuEl, mobileMenuElTransitionName)
+        showElement(mobileMenuBackdropEl, mobileMenuBackdropElTransitionName)
+
+    })
+
+    mobileMenuCloseButtonEl.addEventListener('click', function closeButtonClick() {
+        hideElement(mobileMenuEl, mobileMenuElTransitionName)
+        hideElement(mobileMenuBackdropEl, mobileMenuBackdropElTransitionName)
     })
 })

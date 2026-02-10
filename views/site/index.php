@@ -10,77 +10,353 @@
                 class="relative overflow-hidden bg-white dark:bg-gray-950 dark:text-gray-100"
         >
             <!-- Main Header -->
-            <header
-                    id="page-header"
-                    class="relative flex flex-none items-center border-b border-gray-200 bg-gray-50 py-8 dark:border-gray-700/50 dark:bg-gray-900/50"
-            >
+
+            <!-- END Main Header -->
+
+            <!-- Header -->
+            <header id="page-header"
+                    class="relative flex flex-none items-center border-b border-gray-200 bg-gray-50 dark:border-gray-700/50 dark:bg-gray-900/50 py-8">
                 <!-- Main Header Content -->
                 <div
-                        class="container mx-auto -my-8 flex flex-col gap-4 border-gray-200 bg-white/50 px-4 py-8 text-center sm:border-x md:flex-row md:items-center md:justify-between md:gap-0 lg:px-12 xl:max-w-7xl dark:border-gray-700/50 dark:bg-gray-950/25"
+                        class="container border-gray-200 mx-auto -my-8 flex items-center justify-between px-4 py-8 lg:px-8 xl:max-w-7xl  sm:border-x dark:border-gray-700/50"
                 >
-                    <div class="flex items-center justify-center">
+                    <!-- Left Section -->
+                    <div class="flex items-center gap-4">
+                        <!-- Logo -->
                         <a
                                 href="javascript:void(0)"
                                 class="group inline-flex items-center gap-2 text-lg font-extrabold text-gray-900 hover:opacity-75 dark:text-gray-100"
                         >
                             <img src="./svgs/innoflow-logo.svg" alt="Innoflow Logo" class="h-4"/>
                         </a>
+                        <!-- END Logo -->
                     </div>
-                    <div class="flex items-center justify-center text-center">
-                        <nav class="flex items-center gap-3 md:gap-6">
-                            <a
-                                    href="javascript:void(0)"
-                                    class="group relative text-sm font-semibold text-gray-900 hover:text-black dark:text-gray-100 dark:hover:text-white"
+                    <!-- END Left Section -->
+
+                    <!-- Right Section -->
+                    <div class="flex items-center gap-2 sm:gap-4">
+                        <!-- Mega Menu visible on large screens -->
+                        <ul class="mt-0.5 hidden items-center lg:flex">
+                            <li
+                                    class="group relative [&:focus-within>div]:visible [&:focus-within>div>div>div]:translate-y-0 [&:focus-within>div>div>div]:opacity-100"
                             >
-                <span
-                        class="absolute -inset-x-2.5 -inset-y-1.5 scale-0 rounded-xl bg-gray-100 transition ease-out group-hover:scale-100 dark:bg-gray-700/50"
-                        aria-hidden="true"
-                ></span>
-                                <span class="relative">Features</span>
-                            </a>
-                            <a
-                                    href="javascript:void(0)"
-                                    class="group relative text-sm font-semibold text-gray-900 hover:text-black dark:text-gray-100 dark:hover:text-white"
-                            >
-                <span
-                        class="absolute -inset-x-2.5 -inset-y-1.5 scale-0 rounded-xl bg-gray-100 transition ease-out group-hover:scale-100 dark:bg-gray-700/50"
-                        aria-hidden="true"
-                ></span>
-                                <span class="relative">About</span>
-                            </a>
-                        </nav>
-                        <div
-                                class="mx-4 h-8 w-px bg-linear-to-b from-transparent via-gray-300 to-transparent md:mx-6 dark:via-gray-700"
-                        ></div>
+                                <!-- Solutions Button -->
+                                <button
+                                        type="button"
+                                        class="inline-flex h-8 items-center gap-1 px-2.5 text-sm font-semibold text-gray-900 group-hover:text-gray-600 dark:text-gray-100 dark:group-hover:text-gray-400"
+                                        onclick="this.blur()"
+                                >
+                                    <span>Solutions</span>
+                                    <i class="fa-solid fa-chevron-down opacity-50 text-xs"></i>
+                                </button>
+                                <!-- END Solutions Button -->
+
+                                <!-- Solutions Menu -->
+                                <div
+                                        class="invisible absolute top-6 left-1/2 z-1 -ml-40 w-80 pt-6 group-hover:visible"
+                                >
+                                    <div
+                                            class="overflow-hidden rounded-xl bg-white shadow-xl ring-4 shadow-gray-500/5 ring-gray-300/25 dark:bg-gray-900 dark:shadow-gray-950/10 dark:ring-white/5"
+                                    >
+                                        <div
+                                                class="-translate-y-5 p-3 opacity-0 transition duration-300 ease-out group-hover:translate-y-0 group-hover:opacity-100"
+                                        >
+                                            <nav class="flex flex-col gap-1">
+                                                <a
+                                                        href="javascript:void(0)"
+                                                        class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
+                                                >
+                                                    <div
+                                                            class="flex size-12 flex-none items-center justify-center rounded-xl border border-gray-200/75 text-gray-800 dark:border-gray-700/75 dark:text-gray-200"
+                                                    >
+                                                        <i class="fa-regular fa-scale-balanced"></i>
+                                                    </div>
+                                                    <div class="space-y-0.5">
+                                                        <h5 class="font-semibold">Sales Flow</h5>
+                                                        <p
+                                                                class="text-xs leading-relaxed font-medium text-gray-500 dark:text-gray-400"
+                                                        >
+                                                            Track leads through custom stages and keep follow-ups
+                                                            visible.
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a
+                                                        href="javascript:void(0)"
+                                                        class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
+                                                >
+                                                    <div
+                                                            class="flex size-12 flex-none items-center justify-center rounded-xl border border-gray-200/75 text-gray-800 dark:border-gray-700/75 dark:text-gray-200"
+                                                    >
+                                                        <i class="fa-regular fa-people-group"></i>
+                                                    </div>
+                                                    <div class="space-y-0.5">
+                                                        <h5 class="font-semibold">HR Flow</h5>
+                                                        <p
+                                                                class="text-xs leading-relaxed font-medium text-gray-500 dark:text-gray-400"
+                                                        >
+                                                            Move candidates through interview steps using your own
+                                                            process.
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a
+                                                        href="javascript:void(0)"
+                                                        class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
+                                                >
+                                                    <div
+                                                            class="flex size-12 flex-none items-center justify-center rounded-xl border border-gray-200/75 text-gray-800 dark:border-gray-700/75 dark:text-gray-200"
+                                                    >
+                                                        <i class="fa-regular fa-diagram-project"></i>
+                                                    </div>
+                                                    <div class="space-y-0.5">
+                                                        <h5 class="font-semibold">Project Flow</h5>
+                                                        <p
+                                                                class="text-xs leading-relaxed font-medium text-gray-500 dark:text-gray-400"
+                                                        >
+                                                            Organize work by status and ownership so progress is always
+                                                            clear.
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END Solutions Menu -->
+                            </li>
+                            <li class="group relative">
+                                <a
+                                        href="javascript:void(0)"
+                                        class="inline-flex h-8 items-center gap-1 px-2.5 text-sm font-semibold text-gray-900 group-hover:text-gray-600 dark:text-gray-100 dark:group-hover:text-gray-400"
+                                >
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- END Mega Menu visible on large screens -->
+
+                        <!-- Actions -->
                         <div class="flex items-center justify-center gap-2">
                             <a
                                     href="javascript:void(0)"
-                                    class="group relative flex items-center gap-2 text-sm font-semibold text-gray-900 hover:text-black dark:text-gray-100 dark:hover:text-white"
+                                    class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-3 py-2 text-sm leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
                             >
-                <span
-                        class="absolute -inset-x-2.5 -inset-y-1.5 scale-0 rounded-xl bg-gray-100 transition ease-out group-hover:scale-100 dark:bg-gray-700/50"
-                        aria-hidden="true"
-                ></span>
-                                <span class="relative">Get Started</span>
+                                <span>Login</span>
+                                <i class="fa-solid fa-angle-right opacity-50 text-xs"></i>
+                            </a>
+                        </div>
+                        <!-- END Actions -->
+
+                        <!-- Open Mobile Navigation -->
+                        <div class="lg:hidden">
+                            <button
+                                    id="mobile-menu-open-button"
+                                    type="button"
+                                    class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm leading-5 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                    aria-controls="tkMobileNav"
+                            >
                                 <svg
+                                        class="hi-mini hi-bars-3 -mx-0.5 inline-block size-5"
                                         xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 16 16"
+                                        viewBox="0 0 20 20"
                                         fill="currentColor"
-                                        class="hi-micro hi-arrow-right relative inline-block size-4 group-hover:text-blue-600 dark:group-hover:text-blue-400"
+                                        aria-hidden="true"
                                 >
                                     <path
                                             fill-rule="evenodd"
-                                            d="M2 8a.75.75 0 0 1 .75-.75h8.69L8.22 4.03a.75.75 0 0 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 0 1-1.06-1.06l3.22-3.22H2.75A.75.75 0 0 1 2 8Z"
+                                            d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
                                             clip-rule="evenodd"
                                     />
                                 </svg>
-                            </a>
+                            </button>
                         </div>
+                        <!-- END Open Mobile Navigation -->
                     </div>
+                    <!-- END Right Section -->
                 </div>
                 <!-- END Main Header Content -->
+
+                <!-- Mobile Navigation -->
+                <!--
+                  Visibility
+                    Closed        'hidden'
+                    Opened        '' (no class)
+
+                  Show/Hide with transitions
+                    enter         'transition ease-out duration-200'
+                    enter-start   'opacity-0 scale-50'
+                    enter-end     'opacity-100 scale-100'
+                    leave         'transition ease-in duration-150'
+                    leave-start   'opacity-100 scale-100'
+                    leave-end     'opacity-0 scale-50'
+
+                  aria-modal="true"
+                    Set value to 'true' when the mobile nav is open
+
+                  role="dialog"
+                    Set value to 'dialog' when the mobile nav is open
+                -->
+                <nav
+                        id="mobile-menu"
+                        data-transition-name="fade-scale"
+                        class="fixed hidden inset-0 z-50 m-4 origin-top-right overflow-auto rounded-lg bg-white/95 shadow-lg sm:container sm:mx-auto lg:hidden dark:bg-gray-800/95"
+                        tabindex="-1"
+                        aria-labelledby="tkMobileNavLabel"
+                        aria-modal="true"
+                        role="dialog"
+                >
+                    <div class="flex items-center justify-between p-6">
+                        <!-- Logo -->
+                        <a
+                                href="javascript:void(0)"
+                                class="group inline-flex items-center gap-2 text-lg font-extrabold text-gray-900 hover:opacity-75 dark:text-gray-100"
+                        >
+                            <img src="./svgs/innoflow-logo.svg" alt="Innoflow Logo" class="h-4"/>
+                        </a>
+                        <!-- END Logo -->
+
+                        <!-- Close Mobile Navigation -->
+                        <button
+                                id="mobile-menu-close-button"
+                                type="button"
+                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm leading-5 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                        >
+                            <svg
+                                    class="hi-mini hi-x-mark -mx-0.5 inline-block size-5"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    aria-hidden="true"
+                            >
+                                <path
+                                        d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z"
+                                />
+                            </svg>
+                        </button>
+                        <!-- END Close Mobile Navigation -->
+                    </div>
+                    <div class="h-px bg-gray-200/75 dark:bg-gray-700/75"></div>
+                    <div class="flex flex-col gap-8 px-6 py-6">
+                        <div class="grid grid-cols-1 gap-6">
+                            <h3 class="col-span-2 font-semibold">Products</h3>
+                            <nav class="-mx-3 flex flex-col gap-1">
+                                <a
+                                        href="javascript:void(0)"
+                                        class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
+                                >
+                                    <div
+                                            class="flex size-12 flex-none items-center justify-center rounded-xl border border-gray-200/75 text-gray-800 dark:border-gray-700/75 dark:text-gray-200"
+                                    >
+                                        <i class="fa-regular fa-scale-balanced"></i>
+                                    </div>
+                                    <div class="space-y-0.5">
+                                        <h5 class="font-semibold">Sales Flow</h5>
+                                        <p
+                                                class="text-xs leading-relaxed font-medium text-gray-500 dark:text-gray-400"
+                                        >
+                                            Track leads through custom stages and keep follow-ups
+                                            visible.
+                                        </p>
+                                    </div>
+                                </a>
+                                <a
+                                        href="javascript:void(0)"
+                                        class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
+                                >
+                                    <div
+                                            class="flex size-12 flex-none items-center justify-center rounded-xl border border-gray-200/75 text-gray-800 dark:border-gray-700/75 dark:text-gray-200"
+                                    >
+                                        <i class="fa-regular fa-people-group"></i>
+                                    </div>
+                                    <div class="space-y-0.5">
+                                        <h5 class="font-semibold">HR Flow</h5>
+                                        <p
+                                                class="text-xs leading-relaxed font-medium text-gray-500 dark:text-gray-400"
+                                        >
+                                            Move candidates through interview steps using your own
+                                            process.
+                                        </p>
+                                    </div>
+                                </a>
+                                <a
+                                        href="javascript:void(0)"
+                                        class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
+                                >
+                                    <div
+                                            class="flex size-12 flex-none items-center justify-center rounded-xl border border-gray-200/75 text-gray-800 dark:border-gray-700/75 dark:text-gray-200"
+                                    >
+                                        <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="1"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                aria-hidden="true"
+                                                class="lucide lucide-puzzle inline-block size-6"
+                                        >
+                                            <path
+                                                    d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="space-y-0.5">
+                                        <h5 class="font-semibold">Project Flow</h5>
+                                        <p
+                                                class="text-xs leading-relaxed font-medium text-gray-500 dark:text-gray-400"
+                                        >
+                                            Organize work by status and ownership so progress is always
+                                            clear.
+                                        </p>
+                                    </div>
+                                </a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="h-px bg-gray-200/75 dark:bg-gray-700/75"></div>
+                    <div class="flex flex-col gap-2 p-6 sm:flex-row">
+                        <a
+                                href="javascript:void(0)"
+                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm leading-5 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                        >
+                            <span>Contact us</span>
+                        </a>
+
+                        <a
+                                href="javascript:void(0)"
+                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-700 px-3 py-2 text-sm leading-5 font-semibold text-white hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-700 dark:focus:ring-gray-400/90"
+                        >
+                            <span>Login</span>
+                            <i class="fa-solid fa-angle-right opacity-50 text-xs"></i>
+                        </a>
+                    </div>
+                </nav>
+                <!-- END Mobile Navigation -->
+
+                <!-- Mobile Navigation Backdrop -->
+                <!--
+                  Visibility
+                    Closed        'hidden'
+                    Opened        '' (no class)
+
+                  Show/Hide with transitions
+                    enter         'transition ease-out duration-200'
+                    enter-start   'opacity-0'
+                    enter-end     'opacity-100'
+                    leave         'transition ease-in duration-150'
+                    leave-start   'opacity-100'
+                    leave-end     'opacity-0'
+                -->
+                <div
+                        id="mobile-menu-backdrop"
+                        data-transition-name="fade"
+                        class="hidden fixed inset-0 z-40 bg-gray-900/20 backdrop-blur-xs will-change-auto lg:hidden dark:bg-gray-900/80"
+                ></div>
+                <!-- END Mobile Navigation Backdrop -->
             </header>
-            <!-- END Main Header -->
+            <!-- END Header -->
 
             <!-- Hero Content -->
             <div
@@ -1183,7 +1459,7 @@
                                     >
                                         <a
                                                 href="javascript:void(0)"
-                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-700 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-700 dark:focus:ring-gray-400/90"
+                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
                                         >
                                             <span>Get Started</span>
                                         </a>
@@ -1193,19 +1469,6 @@
                                         >
                                             <span>Learn More</span>
                                             <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
-                                            <!--                                            <svg-->
-                                            <!--                                                    class="hi-mini hi-arrow-right inline-block size-5 opacity-50"-->
-                                            <!--                                                    xmlns="http://www.w3.org/2000/svg"-->
-                                            <!--                                                    viewBox="0 0 20 20"-->
-                                            <!--                                                    fill="currentColor"-->
-                                            <!--                                                    aria-hidden="true"-->
-                                            <!--                                            >-->
-                                            <!--                                                <path-->
-                                            <!--                                                        fill-rule="evenodd"-->
-                                            <!--                                                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"-->
-                                            <!--                                                        clip-rule="evenodd"-->
-                                            <!--                                                />-->
-                                            <!--                                            </svg>-->
                                         </a>
                                     </div>
                                     <!-- END Actions -->
@@ -1264,7 +1527,7 @@
                                     >
                                         <a
                                                 href="javascript:void(0)"
-                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-700 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-700 dark:focus:ring-gray-400/90"
+                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
                                         >
                                             <span>Get Started</span>
                                         </a>
@@ -1347,7 +1610,7 @@
                                     >
                                         <a
                                                 href="javascript:void(0)"
-                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-700 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-700 dark:focus:ring-gray-400/90"
+                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
                                         >
                                             <span>Get Started</span>
                                         </a>
@@ -1467,7 +1730,7 @@
                                     >
                                         <a
                                                 href="javascript:void(0)"
-                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-700 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-700 dark:focus:ring-gray-400/90"
+                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
                                         >
                                             <span>Get Started</span>
                                         </a>
@@ -1550,7 +1813,7 @@
                                     >
                                         <a
                                                 href="javascript:void(0)"
-                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-700 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-700 dark:focus:ring-gray-400/90"
+                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
                                         >
                                             <span>Get Started</span>
                                         </a>
@@ -1633,7 +1896,7 @@
                                     >
                                         <a
                                                 href="javascript:void(0)"
-                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-700 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-700 dark:focus:ring-gray-400/90"
+                                                class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
                                         >
                                             <span>Get Started</span>
                                         </a>
@@ -1717,7 +1980,7 @@
                                         href="javascript:void(0)"
                                         class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
                                 >
-                                    <span>Request Demo</span>
+                                    <span>Contact us</span>
                                     <i class="fa-solid fa-circle-arrow-right text-lg"></i>
                                 </a>
                             </div>
