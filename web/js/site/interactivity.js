@@ -88,7 +88,7 @@ window.addEventListener('load', () => {
     })
 
 
-    // Nav bar style adjustment based on scroll position
+    // Nav bar style adjustment based on scroll
 
     const throttleDurationMs = 100;
     let isThrottleActive = false;

@@ -1,4 +1,3 @@
-// Transition (hide/show)
 /**
  * Handles the "enter" transition for an element.
  * @param {HTMLElement} element - The element to transition in.
@@ -45,7 +44,6 @@ const hideElement = (element, transitionName) => {
     element.classList.remove(leaveFromClass)
 
 
-    // 5. Wait for the transition to end
     element.addEventListener('transitionend', function onTransitionEnd() {
         element.classList.remove(leaveActiveClass, leaveToClass)
 

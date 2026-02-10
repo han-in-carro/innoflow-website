@@ -28,7 +28,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 
 <!-- Header -->
 <header id="page-header"
-        class="flex flex-none items-center py-8 sticky top-0 z-100 px-4">
+        class="flex flex-none items-center sticky top-8 z-100 px-4">
     <!-- Main Header Content -->
     <div
             id="page-header-content"
@@ -38,10 +38,10 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         <div class="flex items-center gap-4">
             <!-- Logo -->
             <a
-                    href="javascript:void(0)"
+                    href="/"
                     class="group inline-flex items-center gap-2 text-lg font-extrabold text-gray-900 hover:opacity-75 dark:text-gray-100"
             >
-                <img src="./svgs/innoflow-logo.svg" alt="Innoflow Logo" class="h-4"/>
+                <img src="/svgs/innoflow-logo.svg" alt="Innoflow Logo" class="h-4"/>
             </a>
             <!-- END Logo -->
         </div>
@@ -77,7 +77,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                             >
                                 <nav class="flex flex-col gap-1">
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/sales-solution"
                                             class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
                                     >
                                         <div
@@ -96,7 +96,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                                         </div>
                                     </a>
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/hr-solution"
                                             class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
                                     >
                                         <div
@@ -115,7 +115,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                                         </div>
                                     </a>
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/project-solution"
                                             class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
                                     >
                                         <div
@@ -141,7 +141,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 </li>
                 <li class="group relative">
                     <a
-                            href="javascript:void(0)"
+                            href="/site/contact"
                             class="inline-flex h-8 items-center gap-1 px-2.5 text-sm font-semibold text-gray-900 group-hover:text-gray-600 dark:text-gray-100 dark:group-hover:text-gray-400"
                     >
                         <span>Contact</span>
@@ -151,15 +151,15 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             <!-- END Mega Menu visible on large screens -->
 
             <!-- Actions -->
-            <div class="hidden lg:flex items-center justify-center gap-2">
-                <a
-                        href="javascript:void(0)"
-                        class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-3 py-2 text-sm leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
-                >
-                    <span>Login</span>
-                    <i class="fa-solid fa-angle-right opacity-50 text-xs"></i>
-                </a>
-            </div>
+            <!--            <div class="hidden lg:flex items-center justify-center gap-2">-->
+            <!--                <a-->
+            <!--                        href="/site/login"-->
+            <!--                        class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-3 py-2 text-sm leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"-->
+            <!--                >-->
+            <!--                    <span>Login</span>-->
+            <!--                    <i class="fa-solid fa-angle-right opacity-50 text-xs"></i>-->
+            <!--                </a>-->
+            <!--            </div>-->
             <!-- END Actions -->
 
             <!-- Open Mobile Navigation -->
@@ -223,7 +223,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         <div class="flex items-center justify-between p-6">
             <!-- Logo -->
             <a
-                    href="javascript:void(0)"
+                    href="/"
                     class="group inline-flex items-center gap-2 text-lg font-extrabold text-gray-900 hover:opacity-75 dark:text-gray-100"
             >
                 <img src="./svgs/innoflow-logo.svg" alt="Innoflow Logo" class="h-4"/>
@@ -256,7 +256,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 <h3 class="col-span-2 font-semibold">Products</h3>
                 <nav class="-mx-3 flex flex-col gap-1">
                     <a
-                            href="javascript:void(0)"
+                            href="/site/sales-solution"
                             class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
                     >
                         <div
@@ -275,7 +275,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                         </div>
                     </a>
                     <a
-                            href="javascript:void(0)"
+                            href="/site/hr-solution"
                             class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
                     >
                         <div
@@ -294,7 +294,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                         </div>
                     </a>
                     <a
-                            href="javascript:void(0)"
+                            href="/site/project-solution"
                             class="flex items-start gap-3 rounded-xl p-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-950 dark:text-gray-200 dark:hover:bg-gray-700/25 dark:hover:text-white"
                     >
                         <div
@@ -331,15 +331,15 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         </div>
         <div class="h-px bg-gray-200/75 dark:bg-gray-700/75"></div>
         <div class="flex flex-col gap-2 p-6 sm:flex-row">
-            <a
-                    href="javascript:void(0)"
-                    class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm leading-5 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
-            >
-                <span>Contact us</span>
-            </a>
+            <!--            <a-->
+            <!--                    href="/site/contact"-->
+            <!--                    class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm leading-5 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"-->
+            <!--            >-->
+            <!--                <span>Contact us</span>-->
+            <!--            </a>-->
 
             <a
-                    href="javascript:void(0)"
+                    href="/site/login"
                     class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-700 px-3 py-2 text-sm leading-5 font-semibold text-white hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-700 dark:focus:ring-gray-400/90"
             >
                 <span>Login</span>
