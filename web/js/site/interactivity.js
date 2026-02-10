@@ -86,4 +86,33 @@ window.addEventListener('load', () => {
         hideElement(mobileMenuEl, mobileMenuElTransitionName)
         hideElement(mobileMenuBackdropEl, mobileMenuBackdropElTransitionName)
     })
+
+
+    // Nav bar style adjustment based on scroll position
+
+    const throttleDurationMs = 100;
+    let isThrottleActive = false;
+
+    const pageHeaderContentEl = document.querySelector('#page-header-content')
+
+    window.addEventListener('scroll', (event) => {
+        if (isThrottleActive) {
+            return;
+        }
+
+        isThrottleActive = true;
+
+        setTimeout(() => {
+            if (window.scrollY > 100) {
+                pageHeaderContentEl.classList.remove('border-transparent');
+                pageHeaderContentEl.classList.add('shadow-xl', 'shadow-gray-500/5', 'dark:shadow-gray-950/10', 'border-gray-200', 'hover:backdrop-blur-none', 'hover:bg-white', 'bg-white/25', 'p-6', 'backdrop-blur-xs')
+            } else {
+                pageHeaderContentEl.classList.add('border-transparent');
+                pageHeaderContentEl.classList.remove('shadow-xl', 'shadow-gray-500/5', 'dark:shadow-gray-950/10', 'border-gray-200', 'hover:backdrop-blur-none', 'hover:bg-white', 'bg-white/25', 'p-6', 'backdrop-blur-xs')
+            }
+
+            isThrottleActive = false;
+
+        }, throttleDurationMs)
+    })
 })

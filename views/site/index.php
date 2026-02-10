@@ -6,28 +6,12 @@
     >
         <!-- Hero Content -->
         <div
-                class="relative container mx-auto border-gray-200 px-4 py-16 sm:border-x lg:px-12 lg:py-20 xl:max-w-7xl dark:border-gray-700/50"
+                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-20 xl:max-w-7xl"
         >
-            <!-- Line details left -->
-            <div class="absolute -top-1.5 -left-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail left -->
-
-            <!-- Line detail right -->
-            <div class="absolute -top-1.5 -right-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail right -->
-
             <div class="text-center">
                 <div class="mb-12 flex flex-col items-center justify-center gap-2">
                     <div
-                            class="font-['Caveat'] text-2xl text-indigo-600 dark:text-indigo-400"
+                            class="font-['Caveat'] text-2xl bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 bg-clip-text text-transparent"
                     >
                         Built for modern workflows.
                     </div>
@@ -88,24 +72,8 @@
             class="bg-linear-to-r from-amber-100 via-rose-100 to-indigo-100 dark:from-amber-950/25 dark:via-rose-950/25 dark:to-indigo-950/25 dark:text-gray-100"
     >
         <div
-                class="relative container mx-auto border-r-indigo-500/50 border-l-amber-500/50 px-4 py-8 sm:border-x lg:px-12 xl:max-w-7xl dark:border-r-indigo-500/50 dark:border-l-amber-500/50"
+                class="relative container mx-auto px-4 py-8 lg:px-12 xl:max-w-7xl"
         >
-            <!-- Line details left -->
-            <div class="absolute -top-1.5 -left-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail left -->
-
-            <!-- Line detail right -->
-            <div class="absolute -top-1.5 -right-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail right -->
-
             <div class="grid grid-cols-2 gap-2 text-center lg:grid-cols-6">
                 <div class="flex items-center justify-center">
                     <a
@@ -240,34 +208,18 @@
     <!-- Who it's For Section -->
     <div class="bg-white dark:bg-gray-950 dark:text-gray-100">
         <div
-                class="relative container mx-auto border-gray-200 px-4 py-16 sm:border-x lg:px-12 lg:py-32 xl:max-w-7xl dark:border-gray-700/50"
+                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl"
         >
-            <!-- Line details left -->
-            <div class="absolute -top-1.5 -left-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail left -->
-
-            <!-- Line detail right -->
-            <div class="absolute -top-1.5 -right-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail right -->
-
             <!-- Features Section: Vertical Cards -->
             <div class="flex flex-col gap-12 lg:flex-row lg:items-center lg:gap-20">
                 <!-- Heading -->
                 <div class="space-y-10 md:py-12 lg:w-5/12 xl:w-5/12">
                     <div>
-                        <div
-                                class="mb-1 text-sm font-bold tracking-wider text-indigo-600 uppercase dark:text-indigo-500"
+                        <span
+                                class="mb-1 text-sm font-bold tracking-wider uppercase bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 bg-clip-text text-transparent"
                         >
                             Who it's for
-                        </div>
+                        </span>
                         <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
                             Built for teams with structured processes
                         </h2>
@@ -401,27 +353,11 @@
 
     <!-- The Problem Section -->
     <div
-            class="border-t border-gray-200 bg-white dark:border-gray-700/50 dark:bg-gray-950 dark:text-gray-100"
+            class="bg-white dark:bg-gray-950 dark:text-gray-100"
     >
         <div
-                class="relative container mx-auto border-gray-200 px-4 py-16 sm:border-x lg:px-12 lg:py-32 xl:max-w-7xl dark:border-gray-700/50 bg-gray-50"
+                class="relative rounded-3xl container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl bg-gray-50"
         >
-            <!-- Line details left -->
-            <div class="absolute -top-1.5 -left-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail left -->
-
-            <!-- Line detail right -->
-            <div class="absolute -top-1.5 -right-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail right -->
-
             <!-- Features Section: Key Features List -->
             <div
                     class="space-y-16"
@@ -500,27 +436,11 @@
 
     <!-- The solution Section -->
     <div
-            class="border-t border-gray-200 bg-white dark:border-gray-700/50 dark:bg-gray-950 dark:text-gray-100"
+            class="bg-white dark:bg-gray-950 dark:text-gray-100"
     >
         <div
-                class="relative container mx-auto border-gray-200 px-4 py-16 sm:border-x lg:px-12 lg:py-32 xl:max-w-7xl dark:border-gray-700/50"
+                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl"
         >
-            <!-- Line details left -->
-            <div class="absolute -top-1.5 -left-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail left -->
-
-            <!-- Line detail right -->
-            <div class="absolute -top-1.5 -right-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail right -->
-
             <!-- Features Section: Featured Image Side Alternate -->
             <div
                     class="flex flex-col gap-12 lg:flex-row-reverse lg:items-center lg:gap-0"
@@ -622,27 +542,11 @@
 
     <!-- Core capabilities Section -->
     <div
-            class="border-t border-gray-200 bg-white dark:border-gray-700/50 dark:bg-gray-950 dark:text-gray-100"
+            class="bg-white dark:bg-gray-950 dark:text-gray-100"
     >
         <div
-                class="relative container mx-auto border-gray-200 px-4 py-16 sm:border-x lg:px-12 lg:py-32 xl:max-w-7xl dark:border-gray-700/50 bg-gray-50"
+                class="relative container rounded-3xl mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl bg-gray-50"
         >
-            <!-- Line details left -->
-            <div class="absolute -top-1.5 -left-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail left -->
-
-            <!-- Line detail right -->
-            <div class="absolute -top-1.5 -right-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail right -->
-
             <!-- Features Section: Modern Alternate With Icons -->
             <div
                     class="space-y-16"
@@ -763,27 +667,11 @@
 
     <!-- Bring data to workflow Section -->
     <div
-            class="border-t border-gray-200 bg-white dark:border-gray-700/50 dark:bg-gray-950 dark:text-gray-100"
+            class="bg-white dark:bg-gray-950 dark:text-gray-100"
     >
         <div
-                class="relative container mx-auto border-gray-200 px-4 py-16 sm:border-x lg:px-12 lg:py-32 xl:max-w-7xl dark:border-gray-700/50"
+                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl"
         >
-            <!-- Line details left -->
-            <div class="absolute -top-1.5 -left-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-indigo-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail left -->
-
-            <!-- Line detail right -->
-            <div class="absolute -top-1.5 -right-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-indigo-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail right -->
-
             <!-- Features Section: Secondary Features List -->
             <div
                     class="space-y-16"
@@ -791,7 +679,7 @@
                 <!-- Heading -->
                 <div class="text-center">
                     <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
-                        BRING DATA INTO YOUR WORKFLOWS
+                        Bring Data Into Your Workflows
                     </h2>
                     <p
                             class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
@@ -1006,30 +894,65 @@
     </div>
     <!-- END Bring data to workflow section -->
 
-    <!-- Real use cases Section -->
+    <!-- How it works Section -->
     <div
-            class="border-t border-gray-200 bg-white dark:border-gray-700/50 dark:bg-gray-950 dark:text-gray-100"
+            class="bg-white dark:bg-gray-950 dark:text-gray-100"
     >
         <div
-                class="relative container mx-auto border-gray-200 px-4 py-16 sm:border-x lg:px-12 lg:py-32 xl:max-w-7xl dark:border-gray-700/50 bg-gray-50"
+                class="container rounded-3xl mx-auto grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16 px-4 py-16 lg:px-12 lg:py-32  xl:max-w-7xl bg-gray-50"
         >
-            <!-- Line details left -->
-            <div class="absolute -top-1.5 -left-1.5" aria-hidden="true">
+            <!-- Heading -->
+            <div class="text-center lg:col-span-5 lg:text-left flex justify-center flex-col">
+                <h2 class="mb-4 text-4xl font-black text-black capitalize dark:text-white">
+                    How it works
+                </h2>
+                <p
+                        class="mx-auto text-lg leading-relaxed font-medium text-gray-700 lg:mx-0 lg:w-2/3 lg:w-auto dark:text-gray-300"
+                >
+                    We have been working with the biggest companies and delivered over 30
+                    high profile projects in the past year. Let's build something together
+                    today.
+                </p>
                 <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
+                        class="flex flex-col gap-4 sm:flex-row items-center justify-center lg:items-start lg:justify-start sm:gap-3 mt-8"
+                >
+                    <div class="relative">
+                        <div
+                                class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
+                        ></div>
+                        <a
+                                href="javascript:void(0)"
+                                class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
+                        >
+                            <span>Try yourself</span>
+                            <i class="fa-solid fa-circle-arrow-right text-lg"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <!-- END Line detail left -->
+            <!-- END Heading -->
 
-            <!-- Line detail right -->
-            <div class="absolute -top-1.5 -right-1.5" aria-hidden="true">
+            <!-- Logos -->
+            <div class="flex items-center lg:col-span-7">
                 <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
+                        href="javascript:void(0)"
+                        class="grow group relative rounded-xl bg-white p-4 shadow-md shadow-gray-100 transition duration-150 active:shadow-xs sm:col-span-5 sm:col-start-2 lg:p-6 dark:bg-gray-800 dark:shadow-gray-900"
+                >
+                    <img src="./assets/images/how-it-works.gif" alt="How it works - demo" class="w-full"/>
+                </div>
             </div>
-            <!-- END Line detail right -->
+            <!-- END Logos -->
+        </div>
+    </div>
+    <!-- END How it works -->
 
-
+    <!-- Real use cases Section -->
+    <div
+            class="bg-white dark:bg-gray-950 dark:text-gray-100"
+    >
+        <div
+                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl"
+        >
             <!-- Real use cases Section: For large screens -->
             <!-- Heading -->
             <div
@@ -1569,31 +1492,15 @@
 
     <!-- CTA Section -->
     <div
-            class="border-t border-gray-200 bg-white dark:border-gray-700/50 dark:bg-gray-950 dark:text-gray-100"
+            class="bg-linear-to-r from-amber-100 via-rose-100 to-indigo-100 dark:from-amber-950/25 dark:via-rose-950/25 dark:to-indigo-950/25 dark:text-gray-100"
     >
         <div
-                class="relative container mx-auto border-gray-200 px-4 py-16 sm:border-x lg:px-12 lg:py-32 xl:max-w-7xl dark:border-gray-700/50 bg-linear-to-r from-amber-100 via-rose-100 to-indigo-100 dark:from-amber-950/25 dark:via-rose-950/25 dark:to-indigo-950/25 dark:text-gray-100"
+                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl dark:text-gray-100"
         >
-            <!-- Line details left -->
-            <div class="absolute -top-1.5 -left-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-indigo-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail left -->
-
-            <!-- Line detail right -->
-            <div class="absolute -top-1.5 -right-1.5" aria-hidden="true">
-                <div
-                        class="size-3 border border-gray-200 bg-white transition ease-out hover:border-indigo-500 dark:border-gray-700/50 dark:bg-gray-950"
-                ></div>
-            </div>
-            <!-- END Line detail right -->
-
             <!-- CTA Section: Simple Boxed -->
 
             <div
-                    class="relative rounded-lg bg-white/50 p-8 text-center shadow-sm backdrop-blur-xs sm:p-10 lg:px-20 lg:py-16 dark:bg-gray-800/70 dark:shadow-none"
+                    class="relative rounded-xl bg-white/50 p-8 text-center shadow-sm backdrop-blur-xs sm:p-10 lg:px-20 lg:py-16 dark:bg-gray-800/70 dark:shadow-none"
             >
                 <div class="space-y-8">
                     <!-- Heading -->

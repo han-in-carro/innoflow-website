@@ -28,10 +28,11 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 
 <!-- Header -->
 <header id="page-header"
-        class="flex flex-none items-center border-b border-gray-200 bg-gray-50 dark:border-gray-700/50 dark:bg-gray-900/50 py-8">
+        class="flex flex-none items-center py-8 sticky top-0 z-100 px-4">
     <!-- Main Header Content -->
     <div
-            class="container border-gray-200 mx-auto -my-8 flex items-center justify-between px-4 py-8 lg:px-8 xl:max-w-7xl  sm:border-x dark:border-gray-700/50"
+            id="page-header-content"
+            class="container mx-auto flex items-center justify-between px-4 py-6 lg:px-8 xl:max-w-7xl transition duration-200 ease-in rounded-full border border-transparent"
     >
         <!-- Left Section -->
         <div class="flex items-center gap-4">
@@ -150,7 +151,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             <!-- END Mega Menu visible on large screens -->
 
             <!-- Actions -->
-            <div class="flex items-center justify-center gap-2">
+            <div class="hidden lg:flex items-center justify-center gap-2">
                 <a
                         href="javascript:void(0)"
                         class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-3 py-2 text-sm leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
@@ -378,26 +379,11 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <!-- Footer -->
 <footer
         id="page-footer"
-        class="border-t border-gray-200 bg-white dark:border-gray-700/50 dark:bg-gray-950 dark:text-gray-100"
+        class="bg-white dark:bg-gray-950 dark:text-gray-100"
 >
     <div
-            class="relative container mx-auto border-gray-200 px-4 py-16 sm:border-x lg:px-12 lg:py-32 xl:max-w-7xl dark:border-gray-700/50"
+            class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl"
     >
-        <!-- Line details left -->
-        <div class="absolute -top-1.5 -left-1.5" aria-hidden="true">
-            <div
-                    class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-            ></div>
-        </div>
-        <!-- END Line detail left -->
-
-        <!-- Line detail right -->
-        <div class="absolute -top-1.5 -right-1.5" aria-hidden="true">
-            <div
-                    class="size-3 border border-gray-200 bg-white transition ease-out hover:border-blue-500 dark:border-gray-700/50 dark:bg-gray-950"
-            ></div>
-        </div>
-        <!-- END Line detail right -->
 
         <div class="grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-6 lg:gap-10">
             <div class="space-y-6">
