@@ -1,3 +1,7 @@
+<?php
+$this->title = 'Home';
+?>
+
 <!-- Page Content -->
 <main id="page-content" role="main" class="flex max-w-full flex-auto flex-col">
     <!-- Hero Section: Centered with Social Proof and Lines -->
@@ -48,7 +52,7 @@
                                 class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
                         ></div>
                         <a
-                                href="javascript:void(0)"
+                                href="/site/contact"
                                 class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
                         >
                             <span>Request Demo</span>
@@ -250,7 +254,7 @@
                     <div class="relative flex flex-col gap-6 md:flex-row">
                         <div class="space-y-6 md:w-1/2">
                             <a
-                                    href="#"
+                                    href="/site/sales-solution"
                                     class="group block rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-orange-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-orange-700/75"
                             >
                                 <div
@@ -272,7 +276,7 @@
                                 </p>
                             </a>
                             <a
-                                    href="#"
+                                    href="/site/hr-solution"
                                     class="group block rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-rose-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-rose-700/75"
                             >
                                 <div
@@ -297,7 +301,7 @@
                         </div>
                         <div class="flex items-center space-y-6 md:w-1/2">
                             <a
-                                    href="#"
+                                    href="/site/project-solution"
                                     class="group block rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-indigo-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-indigo-700/75"
                             >
                                 <div
@@ -454,7 +458,7 @@
                     ></div>
                     <img
                             class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
-                            src="./assets/images/flow-for-hr.png"
+                            src="/assets/images/flow-for-hr.png"
                             alt="Preview Feature Image"
                     />
                 </div>
@@ -523,7 +527,7 @@
                                     class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
                             ></div>
                             <a
-                                    href="javascript:void(0)"
+                                    href="/site/contact"
                                     class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
                             >
                                 <span>Request Demo</span>
@@ -779,7 +783,7 @@
                                                 </svg>
                                             </div>
                                         </summary>
-                                        <img src="./assets/images/facebook-campaigns.png"/>
+                                        <img src="/assets/images/facebook-campaigns.png"/>
                                     </details>
                                     <details name="data-receiving-method" class="group pb-2">
                                         <summary
@@ -805,7 +809,7 @@
                                                 </svg>
                                             </div>
                                         </summary>
-                                        <img src="./assets/images/facebook-campaigns.png"/>
+                                        <img src="/assets/images/facebook-campaigns.png"/>
                                     </details>
                                     <details name="data-receiving-method" class="group pb-2">
                                         <summary
@@ -831,7 +835,7 @@
                                                 </svg>
                                             </div>
                                         </summary>
-                                        <img src="./assets/images/facebook-campaigns.png"/>
+                                        <img src="/assets/images/facebook-campaigns.png"/>
                                     </details>
                                 </div>
                                 <!-- END FAQ Section: Exclusive Toggleable -->
@@ -868,7 +872,7 @@
                 <!-- Action -->
                 <div class="text-center">
                     <a
-                            href="javascript:void(0)"
+                            href="/site/contact"
                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                     >
                         <span>Try yourself</span>
@@ -921,7 +925,7 @@
                                 class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
                         ></div>
                         <a
-                                href="javascript:void(0)"
+                                href="/site/contact"
                                 class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
                         >
                             <span>Try yourself</span>
@@ -938,7 +942,7 @@
                         href="javascript:void(0)"
                         class="grow group relative rounded-xl bg-white p-4 shadow-md shadow-gray-100 transition duration-150 active:shadow-xs sm:col-span-5 sm:col-start-2 lg:p-6 dark:bg-gray-800 dark:shadow-gray-900"
                 >
-                    <img src="./assets/images/how-it-works.gif" alt="How it works - demo" class="w-full"/>
+                    <img src="/assets/images/how-it-works.gif" alt="How it works - demo" class="w-full"/>
                 </div>
             </div>
             <!-- END Logos -->
@@ -997,7 +1001,7 @@
                                 <!--                                ></div>-->
                                 <img
                                         class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
-                                        src="./assets/images/flow-for-hr.png"
+                                        src="/assets/images/flow-for-hr.png"
                                         alt="HR Management"
                                 />
                             </div>
@@ -1027,13 +1031,13 @@
                                         class="flex flex-col gap-4 sm:flex-row sm:gap-3"
                                 >
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/contact"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/sales-solution"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
@@ -1065,7 +1069,7 @@
                                 <!--                                ></div>-->
                                 <img
                                         class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
-                                        src="./assets/images/flow-for-hr.png"
+                                        src="/assets/images/flow-for-hr.png"
                                         alt="HR Management"
                                 />
                             </div>
@@ -1095,13 +1099,13 @@
                                         class="flex flex-col gap-4 sm:flex-row sm:gap-3"
                                 >
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/contact"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/hr-solution"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
@@ -1148,7 +1152,7 @@
                                 <!--                                ></div>-->
                                 <img
                                         class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
-                                        src="./assets/images/flow-for-hr.png"
+                                        src="/assets/images/flow-for-hr.png"
                                         alt="HR Management"
                                 />
                             </div>
@@ -1178,13 +1182,13 @@
                                         class="flex flex-col gap-4 sm:flex-row sm:gap-3"
                                 >
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/contact"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/project-solution"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
@@ -1250,7 +1254,7 @@
                             <div class="group relative flex-none lg:ml-16 lg:w-1/2 xl:ml-28">
                                 <img
                                         class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
-                                        src="./assets/images/flow-for-hr.png"
+                                        src="/assets/images/flow-for-hr.png"
                                         alt="HR Management"
                                 />
                             </div>
@@ -1298,13 +1302,13 @@
                                         class="flex flex-col gap-4 sm:flex-row sm:gap-3"
                                 >
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/contact"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/sales-solution"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
@@ -1328,7 +1332,7 @@
                                 <!--                                ></div>-->
                                 <img
                                         class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
-                                        src="./assets/images/flow-for-hr.png"
+                                        src="/assets/images/flow-for-hr.png"
                                         alt="HR Management"
                                 />
                             </div>
@@ -1381,13 +1385,13 @@
                                         class="flex flex-col gap-4 sm:flex-row sm:gap-3"
                                 >
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/contact"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/hr-solution"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
@@ -1411,7 +1415,7 @@
                                 <!--                                ></div>-->
                                 <img
                                         class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
-                                        src="./assets/images/flow-for-hr.png"
+                                        src="/assets/images/flow-for-hr.png"
                                         alt="HR Management"
                                 />
                             </div>
@@ -1464,13 +1468,13 @@
                                         class="flex flex-col gap-4 sm:flex-row sm:gap-3"
                                 >
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/contact"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
-                                            href="javascript:void(0)"
+                                            href="/site/project-solution"
                                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
@@ -1530,7 +1534,7 @@
                                     class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
                             ></div>
                             <a
-                                    href="javascript:void(0)"
+                                    href="/site/contact"
                                     class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
                             >
                                 <span>Contact us</span>
