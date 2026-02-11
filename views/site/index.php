@@ -873,7 +873,7 @@ $this->title = 'Home';
                 <div class="text-center">
                     <a
                             href="/site/contact"
-                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                     >
                         <span>Try yourself</span>
                         <svg
@@ -1032,13 +1032,13 @@ $this->title = 'Home';
                                 >
                                     <a
                                             href="/site/contact"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
                                             href="/site/sales-solution"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
                                         <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
@@ -1100,13 +1100,13 @@ $this->title = 'Home';
                                 >
                                     <a
                                             href="/site/contact"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
                                             href="/site/hr-solution"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
                                         <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
@@ -1183,13 +1183,13 @@ $this->title = 'Home';
                                 >
                                     <a
                                             href="/site/contact"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
                                             href="/site/project-solution"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
                                         <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
@@ -1204,7 +1204,7 @@ $this->title = 'Home';
 
                 <!-- Nav Tabs-->
                 <div
-                        class="items-center border-b border-gray-200/75 text-sm dark:border-gray-700 tab-header-container hidden md:flex"
+                        class="items-center text-sm tab-header-container hidden md:flex gap-2"
                 >
                     <button
                             type="button"
@@ -1212,7 +1212,7 @@ $this->title = 'Home';
                             role="tab"
                             aria-controls="features-tab-pane"
                             aria-selected="true"
-                            class="-mb-px transition-all duration-75 flex grow items-center justify-center gap-2 border-y border-l border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
+                            class="-mb-px transition-all rounded-full duration-75 flex grow items-center justify-center gap-2 border border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
                             data-tab-id="1"
                     >
                         <i class="fa-solid fa-scale-balanced"></i>
@@ -1224,7 +1224,7 @@ $this->title = 'Home';
                             role="tab"
                             aria-controls="accounts-tab-pane"
                             aria-selected="false"
-                            class="-mb-px transition-all duration-75 flex grow items-center justify-center gap-2 border-y border-l border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
+                            class="-mb-px transition-all rounded-full duration-75 flex grow items-center justify-center gap-2 border border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
                             data-tab-id="2"
                     >
                         <i class="fa-solid fa-people-group"></i>
@@ -1236,7 +1236,7 @@ $this->title = 'Home';
                             role="tab"
                             aria-controls="licenses-tab-pane"
                             aria-selected="false"
-                            class="-mb-px transition-all duration-75 flex grow items-center justify-center gap-2 border-y border-l border-r border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
+                            class="-mb-px transition-all rounded-full duration-75 flex grow items-center justify-center gap-2 border border-r border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
                             data-tab-id="3"
                     >
                         <i class="fa-solid fa-diagram-project"></i>
@@ -1303,13 +1303,13 @@ $this->title = 'Home';
                                 >
                                     <a
                                             href="/site/contact"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
                                             href="/site/sales-solution"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
                                         <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
@@ -1386,13 +1386,13 @@ $this->title = 'Home';
                                 >
                                     <a
                                             href="/site/contact"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
                                             href="/site/hr-solution"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
                                         <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
@@ -1469,13 +1469,13 @@ $this->title = 'Home';
                                 >
                                     <a
                                             href="/site/contact"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
                                     >
                                         <span>Get Started</span>
                                     </a>
                                     <a
                                             href="/site/project-solution"
-                                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                                     >
                                         <span>Learn More</span>
                                         <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
@@ -1496,58 +1496,62 @@ $this->title = 'Home';
 
     <!-- CTA Section -->
     <div
-            class="bg-linear-to-r from-amber-100 via-rose-100 to-indigo-100 dark:from-amber-950/25 dark:via-rose-950/25 dark:to-indigo-950/25 dark:text-gray-100"
+            class="bg-white dark:bg-gray-950 dark:text-gray-100"
     >
-        <div
-                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl dark:text-gray-100"
-        >
-            <!-- CTA Section: Simple Boxed -->
-
+        <div class="px-4 pb-16 lg:px-12 lg:pb-32">
             <div
-                    class="relative rounded-xl bg-white/50 p-8 text-center shadow-sm backdrop-blur-xs sm:p-10 lg:px-20 lg:py-16 dark:bg-gray-800/70 dark:shadow-none"
+                    class="relative container mx-auto xl:max-w-5xl dark:text-gray-100"
             >
-                <div class="space-y-8">
-                    <!-- Heading -->
-                    <div class="text-center">
-                        <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
-                            Ready?
-                            <span
-                                    class="bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 bg-clip-text text-transparent"
-                            >Let’s do it!</span
+                <div
+                        class="absolute inset-0 rounded-3xl bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 opacity-15 blur-xl"
+                ></div>
+                <div
+                        class="px-4 py-12 lg:px-12 lg:py-24 relative rounded-3xl bg-white p-2.5 shadow-xl ring-1 shadow-purple-300/10 ring-gray-200/40 dark:bg-gray-500/10 dark:ring-gray-700/50"
+                >
+                    <div class="space-y-8">
+                        <!-- Heading -->
+                        <div class="text-center">
+                            <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
+                                Ready?
+                                <span
+                                        class="bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 bg-clip-text text-transparent"
+                                >Let’s do it!</span
+                                >
+                            </h2>
+                            <p
+                                    class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
                             >
-                        </h2>
-                        <p
-                                class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
-                        >
-                            Tell us what you want to track — leads, hiring, or work — and we’ll show you how to
-                            design the workflow
-                        </p>
-                    </div>
-                    <!-- END Heading -->
-
-                    <!-- Actions -->
-                    <div
-                            class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center sm:gap-3"
-                    >
-                        <div class="relative">
-                            <div
-                                    class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
-                            ></div>
-                            <a
-                                    href="/site/contact"
-                                    class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
-                            >
-                                <span>Contact us</span>
-                                <i class="fa-solid fa-circle-arrow-right text-lg"></i>
-                            </a>
+                                Tell us what you want to track — leads, hiring, or work — and we’ll show you how to
+                                design the workflow
+                            </p>
                         </div>
+                        <!-- END Heading -->
+
+                        <!-- Actions -->
+                        <div
+                                class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center sm:gap-3"
+                        >
+                            <div class="relative">
+                                <div
+                                        class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
+                                ></div>
+                                <a
+                                        href="/site/contact"
+                                        class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
+                                >
+                                    <span>Contact us</span>
+                                    <i class="fa-solid fa-circle-arrow-right text-lg"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END Actions -->
                     </div>
-                    <!-- END Actions -->
                 </div>
             </div>
-            <!-- END CTA Section: Simple Boxed -->
         </div>
     </div>
     <!-- END CTA section -->
 </main>
 <!-- END Page Content -->
+
+
