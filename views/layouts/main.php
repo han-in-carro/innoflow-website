@@ -331,20 +331,20 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         </div>
         <div class="h-px bg-gray-200/75 dark:bg-gray-700/75"></div>
         <div class="flex flex-col gap-2 p-6 sm:flex-row">
-            <!--            <a-->
-            <!--                    href="/site/contact"-->
-            <!--                    class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm leading-5 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"-->
-            <!--            >-->
-            <!--                <span>Contact us</span>-->
-            <!--            </a>-->
-
             <a
-                    href="/site/login"
-                    class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-700 px-3 py-2 text-sm leading-5 font-semibold text-white hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-700 dark:focus:ring-gray-400/90"
+                    href="/site/contact"
+                    class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm leading-5 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
             >
-                <span>Login</span>
-                <i class="fa-solid fa-angle-right opacity-50 text-xs"></i>
+                <span>Contact us</span>
             </a>
+
+            <!--            <a-->
+            <!--                    href="/site/login"-->
+            <!--                    class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 bg-gray-700 px-3 py-2 text-sm leading-5 font-semibold text-white hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-700 dark:focus:ring-gray-400/90"-->
+            <!--            >-->
+            <!--                <span>Login</span>-->
+            <!--                <i class="fa-solid fa-angle-right opacity-50 text-xs"></i>-->
+            <!--            </a>-->
         </div>
     </nav>
     <!-- END Mobile Navigation -->
@@ -379,7 +379,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <!-- Footer -->
 <footer
         id="page-footer"
-        class="bg-white dark:bg-gray-950 dark:text-gray-100"
+        class="dark:bg-gray-950 dark:text-gray-100 bg-gray-50"
 >
     <div
             class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl"
