@@ -97,10 +97,10 @@ window.addEventListener('load', () => {
     const syncNavBarStyleBasedOnScroll = () => {
         if (window.scrollY > 100) {
             pageHeaderContentEl.classList.remove('border-transparent');
-            pageHeaderContentEl.classList.add('shadow-xl', 'shadow-gray-500/5', 'dark:shadow-gray-950/10', 'border-gray-200', 'hover:backdrop-blur-none', 'hover:bg-white', 'bg-white/25', 'p-6', 'backdrop-blur-xs')
+            pageHeaderContentEl.classList.add('shadow-xl', 'shadow-gray-500/5', 'dark:shadow-gray-950/10', 'border-gray-200', 'hover:backdrop-blur-none', 'hover:bg-white', 'bg-white/50', 'p-6')
         } else {
             pageHeaderContentEl.classList.add('border-transparent');
-            pageHeaderContentEl.classList.remove('shadow-xl', 'shadow-gray-500/5', 'dark:shadow-gray-950/10', 'border-gray-200', 'hover:backdrop-blur-none', 'hover:bg-white', 'bg-white/25', 'p-6', 'backdrop-blur-xs')
+            pageHeaderContentEl.classList.remove('shadow-xl', 'shadow-gray-500/5', 'dark:shadow-gray-950/10', 'border-gray-200', 'hover:backdrop-blur-none', 'hover:bg-white', 'bg-white/50', 'p-6')
         }
     }
 
