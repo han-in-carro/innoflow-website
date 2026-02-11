@@ -125,4 +125,34 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    /**
+     * Displays hr solution page.
+     *
+     * @return string
+     */
+    public function actionSalesSolution()
+    {
+        return $this->render('sales-solution');
+    }
+
+    /**
+     * Displays about page.
+     *
+     * @return string
+     */
+    public function actionHrSolution()
+    {
+        return $this->render('hr-solution');
+    }
+
+    /**
+     * Displays about page.
+     *
+     * @return string
+     */
+    public function actionProjectSolution()
+    {
+        return $this->render('project-solution');
+    }
 }
