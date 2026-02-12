@@ -29,23 +29,11 @@ $this->title = 'Sales Solution';
                                 class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-amber-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:to-indigo-300"
                         ></div>
                         <a
-                                href="javascript:void(0)"
+                                href="/site/contact"
                                 class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-amber-500 to-indigo-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-amber-400/50 dark:focus:ring-amber-400/90 hover:scale-102 transition-all ease-in duration-150"
                         >
                             <span>Start for free now</span>
-                            <svg
-                                    class="hi-mini hi-arrow-right inline-block size-5 opacity-50 transition group-hover:translate-x-1"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 20 20"
-                                    fill="currentColor"
-                                    aria-hidden="true"
-                            >
-                                <path
-                                        fill-rule="evenodd"
-                                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                        clip-rule="evenodd"
-                                />
-                            </svg>
+                            <i class="fa-solid fa-arrow-right text-xs inline-block opacity-50 transition group-hover:translate-x-1"></i>
                         </a>
                     </div>
                 </div>
@@ -95,7 +83,7 @@ $this->title = 'Sales Solution';
                 <!-- Heading -->
                 <div class="text-center">
                     <h2 class="mb-4 text-4xl font-black text-rose-600 dark:text-white">
-                        Sales teams often deal with
+                        Most sales teams often deal with
                     </h2>
                 </div>
                 <!-- END Heading -->
@@ -158,7 +146,7 @@ $this->title = 'Sales Solution';
     </div>
     <!-- END The Problem Section -->
 
-    <!-- The solution Section -->
+    <!-- How it fits Section -->
     <div
             class="bg-white dark:bg-gray-950 dark:text-gray-100"
     >
@@ -167,13 +155,13 @@ $this->title = 'Sales Solution';
         >
             <!-- Heading -->
             <div class="text-center">
-                <div
-                        class="inline-block mb-1 text-sm font-bold tracking-wider bg-linear-to-r from-amber-500 to-indigo-500 bg-clip-text text-transparent uppercase"
-                >
-                    Top features for you
-                </div>
+                <!--                <div-->
+                <!--                        class="inline-block mb-1 text-sm font-bold tracking-wider bg-linear-to-r from-amber-500 to-indigo-500 bg-clip-text text-transparent uppercase"-->
+                <!--                >-->
+                <!--                    Top features for you-->
+                <!--                </div>-->
                 <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
-                    How InnoFlow Fits Sales Work
+                    How InnoFlow Fits Your Sales Work
                 </h2>
                 <p
                         class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
@@ -195,36 +183,6 @@ $this->title = 'Sales Solution';
                             Create a workflow that matches your real sales process — not a rigid template. A simple
                             sales workflow could be as follows.
                         </p>
-                        <!-- Actions -->
-                        <div
-                                class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-start sm:gap-3 flex-none mt-4"
-                        >
-                            <div class="relative">
-                                <div
-                                        class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-amber-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:to-indigo-300"
-                                ></div>
-                                <a
-                                        href="javascript:void(0)"
-                                        class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-amber-500 to-indigo-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-amber-400/50 dark:focus:ring-amber-400/90 hover:scale-102 transition-all ease-in duration-150"
-                                >
-                                    <span>Start for free now</span>
-                                    <svg
-                                            class="hi-mini hi-arrow-right inline-block size-5 opacity-50 transition group-hover:translate-x-1"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 20 20"
-                                            fill="currentColor"
-                                            aria-hidden="true"
-                                    >
-                                        <path
-                                                fill-rule="evenodd"
-                                                d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                                clip-rule="evenodd"
-                                        />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- END Actions -->
                     </div>
 
                     <div class="flex grow flex-col items-center justify-center">
@@ -236,7 +194,6 @@ $this->title = 'Sales Solution';
                             />
                         </div>
                     </div>
-
                 </div>
                 <!-- END Feature: Define own lead stages -->
 
@@ -252,6 +209,7 @@ $this->title = 'Sales Solution';
                     </div>
 
                     <!-- Promo Avatars -->
+                    <!--                    TODO: replace with local images -->
                     <div class="-mb-10 flex grow flex-col items-center justify-end">
                         <div>
                             <img
@@ -308,6 +266,7 @@ $this->title = 'Sales Solution';
                                         aria-valuemin="0"
                                         aria-valuemax="100"
                                         class="flex items-center justify-center self-stretch rounded-full bg-indigo-600 text-xs font-medium text-white transition-all duration-500 ease-out"
+                                        style="width: 7%"
                                 ></div>
                             </div>
                         </div>
@@ -399,19 +358,7 @@ $this->title = 'Sales Solution';
                                     <div
                                             class="flex size-10 items-center justify-center rounded-full bg-indigo-600 font-semibold text-white group-hover:bg-indigo-500 group-active:bg-indigo-600"
                                     >
-                                        <svg
-                                                class="hi-mini hi-check inline-block size-5"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 20 20"
-                                                fill="currentColor"
-                                                aria-hidden="true"
-                                        >
-                                            <path
-                                                    fill-rule="evenodd"
-                                                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                                                    clip-rule="evenodd"
-                                            />
-                                        </svg>
+                                        <i class="fa-solid fa-check text-xs"></i>
                                     </div>
                                     <div
                                             class="absolute -right-3 -left-3 hidden py-2 text-sm font-medium group-hover:text-indigo-600 sm:block dark:text-white dark:group-hover:text-indigo-400"
@@ -455,9 +402,23 @@ $this->title = 'Sales Solution';
                 <!-- END Feature: Move leads forward as work is done -->
             </div>
             <!-- END Features -->
+
+            <!-- Actions -->
+            <div
+                    class="flex justify-center sm:gap-3 flex-none mt-4"
+            >
+                <a
+                        href="/site/contact"
+                        class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                >
+                    <span>Request Demo</span>
+                    <i class="fa-solid fa-chevron-right text-xs opacity-50"></i>
+                </a>
+                <!-- END Actions -->
+            </div>
         </div>
     </div>
-    <!-- END The solution Section -->
+    <!-- END How it fits Section -->
 
     <!-- What you track Section -->
     <div
@@ -465,12 +426,6 @@ $this->title = 'Sales Solution';
     >
         <div class="container rounded-3xl mx-auto px-4 py-16 lg:px-8 lg:py-32 xl:max-w-7xl bg-gray-50 dark:text-gray-100">
             <div class="mb-12 text-center">
-                <!--                <div-->
-                <!--                        class="inline-block mb-1 text-sm font-bold tracking-wider bg-linear-to-r from-amber-500 to-indigo-500 bg-clip-text text-transparent uppercase"-->
-                <!--                >-->
-                <!--                    What you track-->
-                <!--                </div>-->
-
                 <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
                     With A Sales Workflow, you can track
                 </h2>
@@ -480,37 +435,15 @@ $this->title = 'Sales Solution';
                         class="flex h-20 items-center justify-center rounded-lg bg-white/50 text-center shadow-xs backdrop-blur-xs dark:bg-white/10 dark:shadow-none"
                 >
                     <div class="inline-flex items-center gap-2 text-2xl font-semibold">
-                        <svg
-                                class="hi-solid hi-cube inline-block size-8 text-indigo-600 dark:text-indigo-500"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                fill="currentColor"
-                                aria-hidden="true"
-                        >
-                            <path
-                                    d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z"
-                            />
-                        </svg>
-                        <span>Lead name and contact</span>
+                        <i class="fa-solid fa-address-card text-2xl text-indigo-600 dark:text-indigo-500"></i>
+                        <span>Lead contact</span>
                     </div>
                 </div>
                 <div
                         class="flex h-20 items-center justify-center rounded-lg bg-white/50 text-center shadow-xs backdrop-blur-xs dark:bg-white/10 dark:shadow-none"
                 >
                     <div class="inline-flex items-center gap-2 text-2xl font-semibold">
-                        <svg
-                                class="hi-solid hi-code-bracket-square inline-block size-8 text-purple-600 dark:text-purple-500"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                fill="currentColor"
-                                aria-hidden="true"
-                        >
-                            <path
-                                    fill-rule="evenodd"
-                                    d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z"
-                                    clip-rule="evenodd"
-                            />
-                        </svg>
+                        <i class="fa-solid fa-bar-progress text-2xl text-purple-600 dark:text-purple-500"></i>
                         <span>Sales statuses</span>
                     </div>
                 </div>
@@ -518,19 +451,7 @@ $this->title = 'Sales Solution';
                         class="flex h-20 items-center justify-center rounded-lg bg-white/50 text-center shadow-xs backdrop-blur-xs dark:bg-white/10 dark:shadow-none"
                 >
                     <div class="inline-flex items-center gap-2 text-2xl font-semibold">
-                        <svg
-                                class="hi-solid hi-cursor-arrow-rays inline-block size-8 text-rose-600 dark:text-rose-500"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                fill="currentColor"
-                                aria-hidden="true"
-                        >
-                            <path
-                                    fill-rule="evenodd"
-                                    d="M12 1.5a.75.75 0 01.75.75V4.5a.75.75 0 01-1.5 0V2.25A.75.75 0 0112 1.5zM5.636 4.136a.75.75 0 011.06 0l1.592 1.591a.75.75 0 01-1.061 1.06l-1.591-1.59a.75.75 0 010-1.061zm12.728 0a.75.75 0 010 1.06l-1.591 1.592a.75.75 0 01-1.06-1.061l1.59-1.591a.75.75 0 011.061 0zm-6.816 4.496a.75.75 0 01.82.311l5.228 7.917a.75.75 0 01-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 01-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 01-1.247-.606l.569-9.47a.75.75 0 01.554-.68zM3 10.5a.75.75 0 01.75-.75H6a.75.75 0 010 1.5H3.75A.75.75 0 013 10.5zm14.25 0a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5H18a.75.75 0 01-.75-.75zm-8.962 3.712a.75.75 0 010 1.061l-1.591 1.591a.75.75 0 11-1.061-1.06l1.591-1.592a.75.75 0 011.06 0z"
-                                    clip-rule="evenodd"
-                            />
-                        </svg>
+                        <i class="fa-solid fa-user text-2xl text-rose-600 dark:text-rose-500"></i>
                         <span>Assigned salesperson</span>
                     </div>
                 </div>
@@ -538,19 +459,7 @@ $this->title = 'Sales Solution';
                         class="flex h-20 items-center justify-center rounded-lg bg-white/50 text-center shadow-xs backdrop-blur-xs dark:bg-white/10 dark:shadow-none"
                 >
                     <div class="inline-flex items-center gap-2 text-2xl font-medium">
-                        <svg
-                                class="hi-mini hi-variable inline-block size-8 text-pink-600 dark:text-pink-500"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                                fill="currentColor"
-                                aria-hidden="true"
-                        >
-                            <path
-                                    fill-rule="evenodd"
-                                    d="M15.212 2.079a.75.75 0 011.006.336A16.932 16.932 0 0118 10c0 2.724-.641 5.3-1.782 7.585a.75.75 0 11-1.342-.67A15.432 15.432 0 0016.5 10c0-2.486-.585-4.834-1.624-6.915a.75.75 0 01.336-1.006zm-10.424 0a.75.75 0 01.336 1.006A15.433 15.433 0 003.5 10c0 2.486.585 4.834 1.624 6.915a.75.75 0 11-1.342.67A16.933 16.933 0 012 10c0-2.724.641-5.3 1.782-7.585a.75.75 0 011.006-.336zm2.285 3.554a1.5 1.5 0 012.219.677l.856 2.08 1.146-1.77a2.25 2.25 0 013.137-.65l.235.156a.75.75 0 11-.832 1.248l-.235-.156a.75.75 0 00-1.045.216l-1.71 2.644 1.251 3.04.739-.492a.75.75 0 11.832 1.248l-.739.493a1.5 1.5 0 01-2.219-.677l-.856-2.08-1.146 1.77a2.25 2.25 0 01-3.137.65l-.235-.156a.75.75 0 01.832-1.248l.235.157a.75.75 0 001.045-.217l1.71-2.644-1.251-3.04-.739.492a.75.75 0 01-.832-1.248l.739-.493z"
-                                    clip-rule="evenodd"
-                            />
-                        </svg>
+                        <i class="fa-solid fa-note text-2xl text-pink-600 dark:text-pink-500"></i>
                         <span>Notes</span>
                     </div>
                 </div>
@@ -558,20 +467,7 @@ $this->title = 'Sales Solution';
                         class="flex h-20 items-center justify-center rounded-lg bg-white/50 text-center shadow-xs backdrop-blur-xs dark:bg-white/10 dark:shadow-none"
                 >
                     <div class="inline-flex items-center gap-2 text-2xl font-bold">
-                        <svg
-                                class="hi-mini hi-truck inline-block size-8 text-sky-600 dark:text-sky-500"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                                fill="currentColor"
-                                aria-hidden="true"
-                        >
-                            <path
-                                    d="M6.5 3c-1.051 0-2.093.04-3.125.117A1.49 1.49 0 002 4.607V10.5h9V4.606c0-.771-.59-1.43-1.375-1.489A41.568 41.568 0 006.5 3zM2 12v2.5A1.5 1.5 0 003.5 16h.041a3 3 0 015.918 0h.791a.75.75 0 00.75-.75V12H2z"
-                            />
-                            <path
-                                    d="M6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM13.25 5a.75.75 0 00-.75.75v8.514a3.001 3.001 0 014.893 1.44c.37-.275.61-.719.595-1.227a24.905 24.905 0 00-1.784-8.549A1.486 1.486 0 0014.823 5H13.25zM14.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
-                            />
-                        </svg>
+                        <i class="fa-solid fa-chart-line text-2xl text-sky-600 dark:text-sky-500"></i>
                         <span>Activities</span>
                     </div>
                 </div>
@@ -579,19 +475,7 @@ $this->title = 'Sales Solution';
                         class="flex h-20 items-center justify-center rounded-lg bg-white/50 text-center shadow-xs backdrop-blur-xs dark:bg-white/10 dark:shadow-none"
                 >
                     <div class="inline-flex items-center gap-2 text-2xl font-semibold">
-                        <svg
-                                class="hi-solid hi-map-pin inline-block size-8 text-teal-600 dark:text-teal-500"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                fill="currentColor"
-                                aria-hidden="true"
-                        >
-                            <path
-                                    fill-rule="evenodd"
-                                    d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
-                                    clip-rule="evenodd"
-                            />
-                        </svg>
+                        <i class="fa-solid fa-asterisk text-2xl text-teal-600 dark:text-teal-500"></i>
                         <span>Any custom fields</span>
                     </div>
                 </div>
@@ -807,19 +691,7 @@ $this->title = 'Sales Solution';
                             class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
                     >
                         <span>Try yourself</span>
-                        <svg
-                                class="hi-mini hi-chevron-right inline-block size-5 opacity-50"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                                fill="currentColor"
-                                aria-hidden="true"
-                        >
-                            <path
-                                    fill-rule="evenodd"
-                                    d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                                    clip-rule="evenodd"
-                            />
-                        </svg>
+                        <i class="fa-solid fa-chevron-right text-xs opacity-50"></i>
                     </a>
                 </div>
                 <!-- END Action -->
@@ -835,62 +707,79 @@ $this->title = 'Sales Solution';
     >
         <div class="px-4 pb-16 lg:px-12 lg:pb-32">
             <div
-                    class="relative container mx-auto xl:max-w-5xl dark:text-gray-100"
+                    class="relative container mx-auto xl:max-w-7xl dark:text-gray-100"
             >
                 <div
                         class="absolute inset-0 rounded-3xl bg-linear-to-r from-amber-500 to-indigo-500 opacity-15 blur-xl"
                 ></div>
                 <div
-                        class="px-4 py-12 lg:px-12 lg:py-24 relative rounded-3xl bg-white p-2.5 shadow-xl ring-1 shadow-purple-300/10 ring-gray-200/40 dark:bg-gray-500/10 dark:ring-gray-700/50"
+                        class="px-4 py-12 lg:px-12 lg:py-24 grid grid-cols-1 lg:grid-cols-2 gap-16 relative rounded-3xl bg-white p-2.5 shadow-xl ring-1 shadow-purple-300/10 ring-gray-200/40 dark:bg-gray-500/10 dark:ring-gray-700/50"
                 >
-                    <div class="space-y-8">
-                        <!-- Heading -->
-                        <div class="text-center">
-                            <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
-                                Ready?
-                                <span
-                                        class="bg-linear-to-r from-amber-500 to-indigo-500 bg-clip-text text-transparent"
-                                >Let’s track leads!</span
+                    <div class="flex items-center text-center lg:text-left">
+                        <div class="space-y-8">
+                            <!-- Heading -->
+                            <div>
+                                <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
+                                    Take control of your sales pipeline today
+                                </h2>
+                                <p
+                                        class="text-xl leading-relaxed font-medium text-gray-700 dark:text-gray-300"
                                 >
-                            </h2>
-                            <p
-                                    class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
-                            >
-                                Tell us how your team handles leads and we’ll show you how to model it.
-                            </p>
-                        </div>
-                        <!-- END Heading -->
-
-                        <!-- Actions -->
-                        <div
-                                class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center sm:gap-3"
-                        >
-                            <div class="relative">
-                                <div
-                                        class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-amber-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:to-indigo-300"
-                                ></div>
-                                <a
-                                        href="javascript:void(0)"
-                                        class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-amber-500 to-indigo-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-amber-400/50 dark:focus:ring-amber-400/90 hover:scale-102 transition-all ease-in duration-150"
-                                >
-                                    <span>Contact us</span>
-                                    <svg
-                                            class="hi-mini hi-arrow-right inline-block size-5 opacity-50 transition group-hover:translate-x-1"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 20 20"
-                                            fill="currentColor"
-                                            aria-hidden="true"
-                                    >
-                                        <path
-                                                fill-rule="evenodd"
-                                                d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                                clip-rule="evenodd"
-                                        />
-                                    </svg>
-                                </a>
+                                    A structured workflow that keeps every lead clear, accountable, and moving
+                                    forward.
+                                </p>
                             </div>
+                            <!-- END Heading -->
+
+                            <!-- Features -->
+                            <div class="flex justify-center text-left lg:justify-start">
+                                <ul class="space-y-5">
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-regular fa-circle-check text-xl text-amber-600 dark:text-amber-400"></i>
+                                        <h4 class="font-medium">Everyone sees the same pipeline</h4>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-regular fa-circle-check text-xl text-amber-600 dark:text-amber-400"></i>
+                                        <h4 class="font-medium">No more guessing a lead’s status</h4>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-regular fa-circle-check text-xl text-amber-600 dark:text-amber-400"></i>
+                                        <h4 class="font-medium">Clear responsibility at each stage</h4>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-regular fa-circle-check text-xl text-amber-600 dark:text-amber-400"></i>
+                                        <h4 class="font-medium">Your workflow evolves as your process evolves</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- END Features -->
+
+                            <!-- Actions -->
+                            <div
+                                    class="flex gap-4 justify-center lg:justify-start sm:gap-3"
+                            >
+                                <div class="relative">
+                                    <div
+                                            class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-amber-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:to-indigo-300"
+                                    ></div>
+                                    <a
+                                            href="/site/contact"
+                                            class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-amber-500 to-indigo-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-amber-400/50 dark:focus:ring-amber-400/90 hover:scale-102 transition-all ease-in duration-150"
+                                    >
+                                        <span>Start for free now</span>
+                                        <i class="fa-solid fa-arrow-right text-xs inline-block opacity-50 transition group-hover:translate-x-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- END Actions -->
                         </div>
-                        <!-- END Actions -->
+                    </div>
+                    <div class="flex items-center lg:justify-end">
+                        <img
+                                src="/assets/images/flow-for-hr.png"
+                                class="w-full"
+                                alt="Photo of the mobile app"
+                        />
                     </div>
                 </div>
             </div>
