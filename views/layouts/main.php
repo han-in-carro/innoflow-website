@@ -226,7 +226,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                     href="/"
                     class="group inline-flex items-center gap-2 text-lg font-extrabold text-gray-900 hover:opacity-75 dark:text-gray-100"
             >
-                <img src="./svgs/innoflow-logo.svg" alt="Innoflow Logo" class="h-4"/>
+                <img src="/svgs/innoflow-logo.svg" alt="Innoflow Logo" class="h-4"/>
             </a>
             <!-- END Logo -->
 
