@@ -25,11 +25,11 @@ $this->title = 'HR Solution';
                 >
                     <div class="relative">
                         <div
-                                class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-amber-500 to-rose-500 opacity-20 blur-2xl dark:from-amber-300 dark:to-rose-300"
+                                class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-indigo-500 to-rose-500 opacity-20 blur-2xl dark:from-indigo-300 dark:to-rose-300"
                         ></div>
                         <a
                                 href="/site/contact"
-                                class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-amber-500 to-rose-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-amber-400/50 dark:focus:ring-amber-400/90 hover:scale-102 transition-all ease-in duration-150"
+                                class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-indigo-500 to-rose-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-indigo-400/50 dark:focus:ring-indigo-400/90 hover:scale-102 transition-all ease-in duration-150"
                         >
                             <span>Start for free now</span>
                             <i class="fa-solid fa-arrow-right text-xs inline-block opacity-50 transition group-hover:translate-x-1"></i>
@@ -710,7 +710,7 @@ $this->title = 'HR Solution';
                     class="relative container mx-auto xl:max-w-7xl dark:text-gray-100"
             >
                 <div
-                        class="absolute inset-0 rounded-3xl bg-linear-to-r from-amber-500 to-rose-500 opacity-15 blur-xl"
+                        class="absolute inset-0 rounded-3xl bg-linear-to-r from-indigo-500 to-rose-500 opacity-15 blur-xl"
                 ></div>
                 <div
                         class="px-4 py-12 lg:px-12 lg:py-24 grid grid-cols-1 lg:grid-cols-2 gap-16 relative rounded-3xl bg-white p-2.5 shadow-xl ring-1 shadow-purple-300/10 ring-gray-200/40 dark:bg-gray-500/10 dark:ring-gray-700/50"
@@ -735,19 +735,19 @@ $this->title = 'HR Solution';
                             <div class="flex justify-center text-left lg:justify-start">
                                 <ul class="space-y-5">
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-xl text-amber-600 dark:text-amber-400"></i>
+                                        <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400"></i>
                                         <h4 class="font-medium">One view of all candidates</h4>
                                     </li>
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-xl text-amber-600 dark:text-amber-400"></i>
+                                        <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400"></i>
                                         <h4 class="font-medium">No more manual tracking across tools</h4>
                                     </li>
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-xl text-amber-600 dark:text-amber-400"></i>
+                                        <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400"></i>
                                         <h4 class="font-medium">Clear handoffs between every stage</h4>
                                     </li>
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-xl text-amber-600 dark:text-amber-400"></i>
+                                        <i class="fa-regular fa-circle-check text-indigo-600 dark:text-indigo-400"></i>
                                         <h4 class="font-medium">Easy to adjust as your hiring process evolves</h4>
                                     </li>
                                 </ul>
@@ -760,11 +760,11 @@ $this->title = 'HR Solution';
                             >
                                 <div class="relative">
                                     <div
-                                            class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-amber-500 to-rose-500 opacity-20 blur-2xl dark:from-amber-300 dark:to-rose-300"
+                                            class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-indigo-500 to-rose-500 opacity-20 blur-2xl dark:from-indigo-300 dark:to-rose-300"
                                     ></div>
                                     <a
                                             href="/site/contact"
-                                            class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-amber-500 to-rose-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-amber-400/50 dark:focus:ring-amber-400/90 hover:scale-102 transition-all ease-in duration-150"
+                                            class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-indigo-500 to-rose-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-indigo-400/50 dark:focus:ring-indigo-400/90 hover:scale-102 transition-all ease-in duration-150"
                                     >
                                         <span>Start for free now</span>
                                         <i class="fa-solid fa-arrow-right text-xs inline-block opacity-50 transition group-hover:translate-x-1"></i>

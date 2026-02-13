@@ -1,5 +1,5 @@
 <?php
-$this->title = 'Sales Solution';
+$this->title = 'Project Solution';
 ?>
 
 <!-- Page Content -->
@@ -13,24 +13,24 @@ $this->title = 'Sales Solution';
                 <h1
                         class="mb-4 text-5xl font-black tracking-tight text-black xl:text-6xl dark:text-white"
                 >
-                    Never lose track of a lead again
+                    Keep every project moving forward
                 </h1>
                 <p
                         class="text-lg leading-relaxed font-medium text-gray-700 dark:text-gray-300"
                 >
-                    Design your own sales stages, track follow-ups effortlessly, and see exactly who owns each deal from
-                    first touch to closing.
+                    Organize work into clear stages, assign responsibility, and see exactly where things stand at any
+                    time.
                 </p>
                 <div
                         class="flex flex-col justify-center gap-3 sm:flex-row sm:items-center lg:justify-start pt-10"
                 >
                     <div class="relative">
                         <div
-                                class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-amber-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:to-indigo-300"
+                                class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-rose-500 to-amber-500 opacity-20 blur-2xl dark:from-rose-300 dark:to-amber-300"
                         ></div>
                         <a
                                 href="/site/contact"
-                                class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-amber-500 to-indigo-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-amber-400/50 dark:focus:ring-amber-400/90 hover:scale-102 transition-all ease-in duration-150"
+                                class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-rose-500 to-amber-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-rose-400/50 dark:focus:ring-rose-400/90 hover:scale-102 transition-all ease-in duration-150"
                         >
                             <span>Start for free now</span>
                             <i class="fa-solid fa-arrow-right text-xs inline-block opacity-50 transition group-hover:translate-x-1"></i>
@@ -83,7 +83,7 @@ $this->title = 'Sales Solution';
                 <!-- Heading -->
                 <div class="text-center">
                     <h2 class="mb-4 text-4xl font-black text-rose-600 dark:text-white">
-                        Most sales teams often deal with
+                        Most project teams often deal with
                     </h2>
                 </div>
                 <!-- END Heading -->
@@ -96,7 +96,7 @@ $this->title = 'Sales Solution';
                         >
                             <i class="fa-solid fa-circle-xmark"></i>
                         </div>
-                        <h3 class="font-semibold">Leads scattered across chat, sheets, and inboxes</h3>
+                        <h3 class="font-semibold">Tasks spread across tools</h3>
                     </div>
                     <div class="flex items-center gap-3">
                         <div
@@ -104,7 +104,7 @@ $this->title = 'Sales Solution';
                         >
                             <i class="fa-solid fa-circle-xmark"></i>
                         </div>
-                        <h3 class="font-semibold">No clear stage for each lead</h3>
+                        <h3 class="font-semibold">No clear flow from request to completion</h3>
                     </div>
                     <div class="flex items-center gap-3">
                         <div
@@ -112,7 +112,7 @@ $this->title = 'Sales Solution';
                         >
                             <i class="fa-solid fa-circle-xmark"></i>
                         </div>
-                        <h3 class="font-semibold">Follow-ups that depend on memory</h3>
+                        <h3 class="font-semibold">Work stuck without clear owner</h3>
                     </div>
                     <div class="flex items-center gap-3">
                         <div
@@ -120,7 +120,7 @@ $this->title = 'Sales Solution';
                         >
                             <i class="fa-solid fa-circle-xmark"></i>
                         </div>
-                        <h3 class="font-semibold">Hard to see where deals are stuck</h3>
+                        <h3 class="font-semibold">Hard to see progress across teams</h3>
                     </div>
                     <div class="flex items-center gap-3">
                         <div
@@ -128,7 +128,7 @@ $this->title = 'Sales Solution';
                         >
                             <i class="fa-solid fa-circle-xmark"></i>
                         </div>
-                        <h3 class="font-semibold">Unclear ownership — no one knows who’s responsible for what</h3>
+                        <h3 class="font-semibold">Priorities constantly shifting without visibility</h3>
                     </div>
                     <div class="flex items-center gap-3">
                         <div
@@ -136,7 +136,7 @@ $this->title = 'Sales Solution';
                         >
                             <i class="fa-solid fa-circle-xmark"></i>
                         </div>
-                        <h3 class="font-semibold">No reliable view of pipeline performance or future revenue</h3>
+                        <h3 class="font-semibold">Delays caused by unclear handoffs between teams</h3>
                     </div>
                 </div>
                 <!-- END Features -->
@@ -161,12 +161,12 @@ $this->title = 'Sales Solution';
                 <!--                    Top features for you-->
                 <!--                </div>-->
                 <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
-                    How InnoFlow Fits Your Sales Work
+                    How InnoFlow Fits Your Project Work
                 </h2>
                 <p
                         class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
                 >
-                    InnoFlow lets you design a sales workflow that matches how your team really sells.
+                    InnoFlow lets you design a workflow for your work process.
                 </p>
             </div>
             <!-- END Heading -->
@@ -178,10 +178,9 @@ $this->title = 'Sales Solution';
                         class="flex flex-col gap-8 overflow-hidden rounded-xl border border-gray-200/75 p-4 sm:p-5 lg:col-span-7 lg:row-span-3 dark:border-gray-700/75"
                 >
                     <div class="flex-none">
-                        <h3 class="text-xl font-bold">Define your own lead stages</h3>
+                        <h3 class="text-xl font-bold">Define task stages</h3>
                         <p class="font-medium text-gray-600 dark:text-gray-400">
-                            Create a workflow that matches your real sales process — not a rigid template. A simple
-                            sales workflow could be as follows.
+                            Create stages that reflect how your work actually moves — from request to completion.
                         </p>
                     </div>
 
@@ -202,9 +201,9 @@ $this->title = 'Sales Solution';
                         class="flex flex-col gap-8 overflow-hidden rounded-xl border border-gray-200/75 p-4 sm:p-5 lg:col-span-5 dark:border-gray-700/75"
                 >
                     <div class="flex-none">
-                        <h3 class="text-xl font-bold">Assign owners at each stage</h3>
+                        <h3 class="text-xl font-bold">Assign owners per stage</h3>
                         <p class="font-medium text-gray-600 dark:text-gray-400">
-                            Make responsibility clear so every lead always has someone accountable.
+                            Make responsibility clear at every step to prevent work from getting stuck.
                         </p>
                     </div>
 
@@ -248,24 +247,26 @@ $this->title = 'Sales Solution';
                         class="flex flex-col gap-8 overflow-hidden rounded-xl border border-gray-200/75 p-4 sm:p-5 lg:col-span-5 dark:border-gray-700/75"
                 >
                     <div class="flex-none">
-                        <h3 class="text-xl font-bold">See where every lead is in the process</h3>
+                        <h3 class="text-xl font-bold">See status across all work</h3>
                         <p class="font-medium text-gray-600 dark:text-gray-400">
-                            Get a clear view of your pipeline and instantly spot what needs attention.
+                            Get a real-time view of where tasks stand and how work is distributed across the team.
                         </p>
                     </div>
+
+                    <!-- TODO: adjust UI for this -->
 
                     <!-- Steps: Circles with Labels -->
                     <nav class="relative sm:pb-9 px-4">
                         <div class="absolute top-0 right-0 left-0 flex h-10 items-center">
                             <div
-                                    class="flex h-1 w-full items-center overflow-hidden rounded-full bg-indigo-100 dark:bg-indigo-900"
+                                    class="flex h-1 w-full items-center overflow-hidden rounded-full bg-amber-100 dark:bg-amber-900"
                             >
                                 <div
                                         role="progressbar"
                                         aria-valuenow="33.3"
                                         aria-valuemin="0"
                                         aria-valuemax="100"
-                                        class="flex items-center justify-center self-stretch rounded-full bg-indigo-600 text-xs font-medium text-white transition-all duration-500 ease-out"
+                                        class="flex items-center justify-center self-stretch rounded-full bg-amber-600 text-xs font-medium text-white transition-all duration-500 ease-out"
                                         style="width: 7%"
                                 ></div>
                             </div>
@@ -277,42 +278,42 @@ $this->title = 'Sales Solution';
                             <li>
                                 <a href="javascript:void(0)" class="group relative">
                                     <div
-                                            class="flex size-10 items-center justify-center rounded-full border-4 border-indigo-600 bg-white font-semibold group-hover:border-indigo-500 group-active:border-indigo-600 dark:bg-gray-800 dark:text-white"
+                                            class="flex size-10 items-center justify-center rounded-full border-4 border-amber-600 bg-white font-semibold group-hover:border-amber-500 group-active:border-amber-600 dark:bg-gray-800 dark:text-white"
                                     >
                                         2
                                     </div>
                                     <div
-                                            class="absolute -right-6 -left-6 hidden py-2 text-center text-sm font-medium group-hover:text-indigo-600 sm:block dark:text-white dark:group-hover:text-indigo-400"
+                                            class="absolute -right-6 -left-6 hidden py-2 text-center text-sm font-medium group-hover:text-amber-600 sm:block dark:text-white dark:group-hover:text-amber-400"
                                     >
-                                        Interested
+                                        Review
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" class="group relative">
                                     <div
-                                            class="flex size-10 items-center justify-center rounded-full bg-indigo-100 font-semibold group-hover:bg-indigo-200 group-active:bg-indigo-100 dark:bg-indigo-900 dark:text-white dark:group-hover:bg-indigo-800 dark:group-active:bg-indigo-900"
+                                            class="flex size-10 items-center justify-center rounded-full bg-amber-100 font-semibold group-hover:bg-amber-200 group-active:bg-amber-100 dark:bg-amber-900 dark:text-white dark:group-hover:bg-amber-800 dark:group-active:bg-amber-900"
                                     >
                                         3
                                     </div>
                                     <div
-                                            class="absolute -right-6 -left-6 hidden py-2 text-center text-sm font-medium group-hover:text-indigo-600 sm:block dark:text-white dark:group-hover:text-indigo-400"
+                                            class="absolute -right-6 -left-6 hidden py-2 text-center text-sm font-medium group-hover:text-amber-600 sm:block dark:text-white dark:group-hover:text-amber-400"
                                     >
-                                        Prospect
+                                        In Progress
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" class="group relative">
                                     <div
-                                            class="flex size-10 items-center justify-center rounded-full bg-indigo-100 font-semibold group-hover:bg-indigo-200 group-active:bg-indigo-100 dark:bg-indigo-900 dark:text-white dark:group-hover:bg-indigo-800 dark:group-active:bg-indigo-900"
+                                            class="flex size-10 items-center justify-center rounded-full bg-amber-100 font-semibold group-hover:bg-amber-200 group-active:bg-amber-100 dark:bg-amber-900 dark:text-white dark:group-hover:bg-amber-800 dark:group-active:bg-amber-900"
                                     >
                                         4
                                     </div>
                                     <div
-                                            class="absolute -right-6 -left-6 hidden py-2 text-center text-sm font-medium group-hover:text-indigo-600 sm:block dark:text-white dark:group-hover:text-indigo-400"
+                                            class="absolute -right-6 -left-6 hidden py-2 text-center text-sm font-medium group-hover:text-amber-600 sm:block dark:text-white dark:group-hover:text-amber-400"
                                     >
-                                        Piloting
+                                        Testing
                                     </div>
                                 </a>
                             </li>
@@ -322,14 +323,14 @@ $this->title = 'Sales Solution';
                 </div>
                 <!-- END Feature: See where every lead is in the process -->
 
-                <!-- Feature: Move leads forward as work is done -->
+                <!-- Feature: Move work as it progresses -->
                 <div
                         class="flex flex-col gap-8 overflow-hidden rounded-xl border border-gray-200/75 p-4 sm:p-5 lg:col-span-5 dark:border-gray-700/75"
                 >
                     <div class="flex-none">
-                        <h3 class="text-xl font-bold">Move leads forward as work is done</h3>
+                        <h3 class="text-xl font-bold">Move work as it progresses</h3>
                         <p class="font-medium text-gray-600 dark:text-gray-400">
-                            Update stages instantly as conversations, meetings, and tasks are completed.
+                            Update tasks as they change status, so every stage clearly reflects what’s happening now.
                         </p>
                     </div>
 
@@ -337,14 +338,14 @@ $this->title = 'Sales Solution';
                     <nav class="relative sm:pb-9 px-4">
                         <div class="absolute top-0 right-0 left-0 flex h-10 items-center">
                             <div
-                                    class="flex h-1 w-full items-center overflow-hidden rounded-full bg-indigo-100 dark:bg-indigo-900"
+                                    class="flex h-1 w-full items-center overflow-hidden rounded-full bg-amber-100 dark:bg-amber-900"
                             >
                                 <div
                                         role="progressbar"
                                         aria-valuenow="33.3"
                                         aria-valuemin="0"
                                         aria-valuemax="100"
-                                        class="flex items-center justify-center self-stretch rounded-full bg-indigo-600 text-xs font-medium text-white transition-all duration-500 ease-out"
+                                        class="flex items-center justify-center self-stretch rounded-full bg-amber-600 text-xs font-medium text-white transition-all duration-500 ease-out"
                                         style="width: 50%"
                                 ></div>
                             </div>
@@ -356,42 +357,42 @@ $this->title = 'Sales Solution';
                             <li>
                                 <a href="javascript:void(0)" class="group relative">
                                     <div
-                                            class="flex size-10 items-center justify-center rounded-full bg-indigo-600 font-semibold text-white group-hover:bg-indigo-500 group-active:bg-indigo-600"
+                                            class="flex size-10 items-center justify-center rounded-full bg-amber-600 font-semibold text-white group-hover:bg-amber-500 group-active:bg-amber-600"
                                     >
                                         <i class="fa-solid fa-check text-xs"></i>
                                     </div>
                                     <div
-                                            class="absolute -right-3 -left-3 hidden py-2 text-sm font-medium group-hover:text-indigo-600 sm:block dark:text-white dark:group-hover:text-indigo-400"
+                                            class="absolute -right-3 -left-3 hidden py-2 text-sm font-medium group-hover:text-amber-600 sm:block dark:text-white dark:group-hover:text-amber-400"
                                     >
-                                        Interested
+                                        Review
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" class="group relative">
                                     <div
-                                            class="flex size-10 items-center justify-center rounded-full border-4 border-indigo-600 bg-white font-semibold group-hover:border-indigo-500 group-active:border-indigo-600 dark:bg-gray-800 dark:text-white"
+                                            class="flex size-10 items-center justify-center rounded-full border-4 border-amber-600 bg-white font-semibold group-hover:border-amber-500 group-active:border-amber-600 dark:bg-gray-800 dark:text-white"
                                     >
                                         3
                                     </div>
                                     <div
-                                            class="absolute -right-6 -left-6 hidden py-2 text-center text-sm font-medium group-hover:text-indigo-600 sm:block dark:text-white dark:group-hover:text-indigo-400"
+                                            class="absolute -right-6 -left-6 hidden py-2 text-center text-sm font-medium group-hover:text-amber-600 sm:block dark:text-white dark:group-hover:text-amber-400"
                                     >
-                                        Prospect
+                                        In Progress
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" class="group relative">
                                     <div
-                                            class="flex size-10 items-center justify-center rounded-full bg-indigo-100 font-semibold group-hover:bg-indigo-200 group-active:bg-indigo-100 dark:bg-indigo-900 dark:text-white dark:group-hover:bg-indigo-800 dark:group-active:bg-indigo-900"
+                                            class="flex size-10 items-center justify-center rounded-full bg-amber-100 font-semibold group-hover:bg-amber-200 group-active:bg-amber-100 dark:bg-amber-900 dark:text-white dark:group-hover:bg-amber-800 dark:group-active:bg-amber-900"
                                     >
                                         4
                                     </div>
                                     <div
-                                            class="absolute -right-6 -left-6 hidden py-2 text-center text-sm font-medium group-hover:text-indigo-600 sm:block dark:text-white dark:group-hover:text-indigo-400"
+                                            class="absolute -right-6 -left-6 hidden py-2 text-center text-sm font-medium group-hover:text-amber-600 sm:block dark:text-white dark:group-hover:text-amber-400"
                                     >
-                                        Piloting
+                                        Testing
                                     </div>
                                 </a>
                             </li>
@@ -427,16 +428,17 @@ $this->title = 'Sales Solution';
         <div class="container rounded-3xl mx-auto px-4 py-16 lg:px-8 lg:py-32 xl:max-w-7xl bg-gray-50 dark:text-gray-100">
             <div class="mb-12 text-center">
                 <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
-                    With A Sales Workflow, you can track
+                    With A Project Workflow, you can track
                 </h2>
             </div>
+            <!--            TODO: update icons-->
             <div class="grid grid-cols-1 gap-4 text-center md:grid-cols-3">
                 <div
                         class="flex h-20 items-center justify-center rounded-lg bg-white/50 text-center shadow-xs backdrop-blur-xs dark:bg-white/10 dark:shadow-none"
                 >
                     <div class="inline-flex items-center gap-2 text-2xl font-semibold">
                         <i class="fa-solid fa-address-card text-2xl text-indigo-600 dark:text-indigo-500"></i>
-                        <span>Lead contact</span>
+                        <span>Task or request name</span>
                     </div>
                 </div>
                 <div
@@ -444,7 +446,7 @@ $this->title = 'Sales Solution';
                 >
                     <div class="inline-flex items-center gap-2 text-2xl font-semibold">
                         <i class="fa-solid fa-bar-progress text-2xl text-purple-600 dark:text-purple-500"></i>
-                        <span>Sales statuses</span>
+                        <span>Current stage</span>
                     </div>
                 </div>
                 <div
@@ -452,7 +454,7 @@ $this->title = 'Sales Solution';
                 >
                     <div class="inline-flex items-center gap-2 text-2xl font-semibold">
                         <i class="fa-solid fa-user text-2xl text-rose-600 dark:text-rose-500"></i>
-                        <span>Assigned salesperson</span>
+                        <span>Assigned person</span>
                     </div>
                 </div>
                 <div
@@ -460,7 +462,7 @@ $this->title = 'Sales Solution';
                 >
                     <div class="inline-flex items-center gap-2 text-2xl font-medium">
                         <i class="fa-solid fa-note text-2xl text-pink-600 dark:text-pink-500"></i>
-                        <span>Notes</span>
+                        <span>Due date</span>
                     </div>
                 </div>
                 <div
@@ -468,7 +470,7 @@ $this->title = 'Sales Solution';
                 >
                     <div class="inline-flex items-center gap-2 text-2xl font-bold">
                         <i class="fa-solid fa-chart-line text-2xl text-sky-600 dark:text-sky-500"></i>
-                        <span>Activities</span>
+                        <span>Notes and attachments</span>
                     </div>
                 </div>
                 <div
@@ -484,6 +486,7 @@ $this->title = 'Sales Solution';
     </div>
     <!-- END What you track Section -->
 
+    <!--    TODO: adjust content-->
     <!-- Bring data to workflow Section -->
     <div
             class="bg-white dark:bg-gray-950 dark:text-gray-100"
@@ -518,11 +521,11 @@ $this->title = 'Sales Solution';
                             aria-hidden="true"
                     >
                         <div
-                                class="mx-auto h-2.5 w-1 grow-0 rounded-t bg-linear-to-b from-transparent to-indigo-100 dark:to-indigo-900"
+                                class="mx-auto h-2.5 w-1 grow-0 rounded-t bg-linear-to-b from-transparent to-amber-100 dark:to-amber-900"
                         ></div>
-                        <div class="mx-auto w-1 grow bg-indigo-100 dark:bg-indigo-900"></div>
+                        <div class="mx-auto w-1 grow bg-amber-100 dark:bg-amber-900"></div>
                         <div
-                                class="mx-auto h-2.5 w-1 grow-0 rounded-b bg-linear-to-t from-transparent to-indigo-100 dark:to-indigo-900"
+                                class="mx-auto h-2.5 w-1 grow-0 rounded-b bg-linear-to-t from-transparent to-amber-100 dark:to-amber-900"
                         ></div>
                     </div>
                     <!-- END Vertical Guide -->
@@ -535,7 +538,7 @@ $this->title = 'Sales Solution';
                                     class="absolute top-0 bottom-0 left-0 mt-5 flex w-14 -translate-x-full justify-center md:w-20 lg:right-0 lg:left-auto lg:translate-x-10"
                             >
                                 <div
-                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-600 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-500 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
+                                        class="flex size-8 items-center justify-center rounded-full bg-amber-600 text-white ring-3 ring-amber-100 ring-offset-2 dark:bg-amber-500 dark:text-amber-900 dark:ring-amber-900 dark:ring-offset-gray-900"
                                 >
                                     <i class="fa-solid fa-link"></i>
                                 </div>
@@ -557,7 +560,7 @@ $this->title = 'Sales Solution';
                                     class="absolute top-0 bottom-0 left-0 mt-5 flex w-14 -translate-x-full justify-center md:w-20 lg:-translate-x-10"
                             >
                                 <div
-                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-600 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-500 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
+                                        class="flex size-8 items-center justify-center rounded-full bg-amber-600 text-white ring-3 ring-amber-100 ring-offset-2 dark:bg-amber-500 dark:text-amber-900 dark:ring-amber-900 dark:ring-offset-gray-900"
                                 >
                                     <i class="fa-solid fa-paper-plane"></i>
                                 </div>
@@ -664,7 +667,7 @@ $this->title = 'Sales Solution';
                                     class="absolute top-0 bottom-0 left-0 mt-5 flex w-14 -translate-x-full justify-center md:w-20 lg:right-0 lg:left-auto lg:translate-x-10"
                             >
                                 <div
-                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-600 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-500 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
+                                        class="flex size-8 items-center justify-center rounded-full bg-amber-600 text-white ring-3 ring-amber-100 ring-offset-2 dark:bg-amber-500 dark:text-amber-900 dark:ring-amber-900 dark:ring-offset-gray-900"
                                 >
                                     <i class="fa-solid fa-check-double"></i>
                                 </div>
@@ -710,7 +713,7 @@ $this->title = 'Sales Solution';
                     class="relative container mx-auto xl:max-w-7xl dark:text-gray-100"
             >
                 <div
-                        class="absolute inset-0 rounded-3xl bg-linear-to-r from-amber-500 to-indigo-500 opacity-15 blur-xl"
+                        class="absolute inset-0 rounded-3xl bg-linear-to-r from-rose-500 to-amber-500 opacity-15 blur-xl"
                 ></div>
                 <div
                         class="px-4 py-12 lg:px-12 lg:py-24 grid grid-cols-1 lg:grid-cols-2 gap-16 relative rounded-3xl bg-white p-2.5 shadow-xl ring-1 shadow-purple-300/10 ring-gray-200/40 dark:bg-gray-500/10 dark:ring-gray-700/50"
@@ -720,13 +723,13 @@ $this->title = 'Sales Solution';
                             <!-- Heading -->
                             <div>
                                 <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
-                                    Take control of your sales pipeline today
+                                    Start making Project Work Flow Clearly
                                 </h2>
                                 <p
                                         class="text-xl leading-relaxed font-medium text-gray-700 dark:text-gray-300"
                                 >
-                                    A structured workflow that keeps every lead clear, accountable, and moving
-                                    forward.
+                                    Bring structure to how your team manages work — from request to completion — with a
+                                    workflow built around the way you actually operate.
                                 </p>
                             </div>
                             <!-- END Heading -->
@@ -735,20 +738,20 @@ $this->title = 'Sales Solution';
                             <div class="flex justify-center text-left lg:justify-start">
                                 <ul class="space-y-5">
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-amber-600 dark:text-amber-400"></i>
-                                        <h4 class="font-medium">Everyone sees the same pipeline</h4>
+                                        <i class="fa-regular fa-circle-check text-rose-600 dark:text-rose-400"></i>
+                                        <h4 class="font-medium">One source of truth for all tasks</h4>
                                     </li>
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-amber-600 dark:text-amber-400"></i>
-                                        <h4 class="font-medium">No more guessing a lead’s status</h4>
+                                        <i class="fa-regular fa-circle-check text-rose-600 dark:text-rose-400"></i>
+                                        <h4 class="font-medium">Clear ownership at every stage</h4>
                                     </li>
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-amber-600 dark:text-amber-400"></i>
-                                        <h4 class="font-medium">Clear responsibility at each stage</h4>
+                                        <i class="fa-regular fa-circle-check text-rose-600 dark:text-rose-400"></i>
+                                        <h4 class="font-medium">Visual status across the entire workflow</h4>
                                     </li>
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-amber-600 dark:text-amber-400"></i>
-                                        <h4 class="font-medium">Your workflow evolves as your process evolves</h4>
+                                        <i class="fa-regular fa-circle-check text-rose-600 dark:text-rose-400"></i>
+                                        <h4 class="font-medium">Flexible enough to evolve with your process</h4>
                                     </li>
                                 </ul>
                             </div>
@@ -760,11 +763,11 @@ $this->title = 'Sales Solution';
                             >
                                 <div class="relative">
                                     <div
-                                            class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-amber-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:to-indigo-300"
+                                            class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-r from-rose-500 to-amber-500 opacity-20 blur-2xl dark:from-rose-300 dark:to-amber-300"
                                     ></div>
                                     <a
                                             href="/site/contact"
-                                            class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-amber-500 to-indigo-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-amber-400/50 dark:focus:ring-amber-400/90 hover:scale-102 transition-all ease-in duration-150"
+                                            class="group inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-rose-500 to-amber-500 px-7 py-3.5 text-sm font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-rose-400/50 dark:focus:ring-rose-400/90 hover:scale-102 transition-all ease-in duration-150"
                                     >
                                         <span>Start for free now</span>
                                         <i class="fa-solid fa-arrow-right text-xs inline-block opacity-50 transition group-hover:translate-x-1"></i>
