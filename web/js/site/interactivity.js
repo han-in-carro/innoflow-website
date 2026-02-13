@@ -89,18 +89,17 @@ window.addEventListener('load', () => {
 
 
     // Nav bar style adjustment based on scroll
-
-    const throttleDurationMs = 100;
+    
     let isThrottleActive = false;
 
     const pageHeaderContentEl = document.querySelector('#page-header-content')
     const syncNavBarStyleBasedOnScroll = () => {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 50) {
             pageHeaderContentEl.classList.remove('border-transparent');
-            pageHeaderContentEl.classList.add('shadow-xl', 'shadow-gray-500/5', 'dark:shadow-gray-950/10', 'border-gray-200', 'hover:backdrop-blur-none', 'hover:bg-white', 'bg-white/50', 'p-6')
+            pageHeaderContentEl.classList.add('shadow-xl', 'shadow-gray-500/5', 'dark:shadow-gray-950/10', 'border-gray-200', 'hover:backdrop-blur-none', 'hover:bg-white', 'bg-white/70', 'p-6')
         } else {
             pageHeaderContentEl.classList.add('border-transparent');
-            pageHeaderContentEl.classList.remove('shadow-xl', 'shadow-gray-500/5', 'dark:shadow-gray-950/10', 'border-gray-200', 'hover:backdrop-blur-none', 'hover:bg-white', 'bg-white/50', 'p-6')
+            pageHeaderContentEl.classList.remove('shadow-xl', 'shadow-gray-500/5', 'dark:shadow-gray-950/10', 'border-gray-200', 'hover:backdrop-blur-none', 'hover:bg-white', 'bg-white/70', 'p-6')
         }
     }
 
@@ -114,7 +113,7 @@ window.addEventListener('load', () => {
         setTimeout(() => {
             syncNavBarStyleBasedOnScroll();
             isThrottleActive = false;
-        }, throttleDurationMs)
+        }, 100)
     })
 
     // Run once on load
