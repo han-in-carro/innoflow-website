@@ -382,7 +382,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         class="dark:bg-gray-950 dark:text-gray-100 bg-gray-50"
 >
     <div
-            class="container mx-auto flex flex-col gap-6 px-4 py-16 text-center text-sm lg:flex-row-reverse lg:gap-0 lg:px-8 lg:py-32 xl:max-w-7xl"
+            class="container mx-auto flex flex-col gap-6 px-4 py-8 text-center text-sm lg:flex-row-reverse lg:gap-0 lg:px-8 lg:py-16 xl:max-w-7xl"
     >
         <nav class="space-x-4 lg:w-1/3 lg:text-right">
             <a

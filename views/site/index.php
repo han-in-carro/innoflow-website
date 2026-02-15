@@ -1498,7 +1498,7 @@ $this->title = 'Home';
     <div
             class="bg-white dark:bg-gray-950 dark:text-gray-100"
     >
-        <div class="px-4 pb-16 lg:px-12 lg:pb-32">
+        <div class="px-4 pb-8 lg:px-12 lg:pb-16">
             <div
                     class="relative container mx-auto xl:max-w-5xl dark:text-gray-100"
             >
@@ -1506,7 +1506,7 @@ $this->title = 'Home';
                         class="absolute inset-0 rounded-3xl bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 opacity-15 blur-xl"
                 ></div>
                 <div
-                        class="px-4 py-12 lg:px-12 lg:py-24 relative rounded-3xl bg-white p-2.5 shadow-xl ring-1 shadow-purple-300/10 ring-gray-200/40 dark:bg-gray-500/10 dark:ring-gray-700/50"
+                        class="px-4 py-12 lg:px-12 lg:py-24 relative rounded-3xl bg-white p-2.5 shadow-sm ring-1 shadow-purple-300/10 ring-gray-200/40 dark:bg-gray-500/10 dark:ring-gray-700/50"
                 >
                     <div class="space-y-8">
                         <!-- Heading -->

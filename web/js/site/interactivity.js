@@ -89,7 +89,7 @@ window.addEventListener('load', () => {
 
 
     // Nav bar style adjustment based on scroll
-    
+
     let isThrottleActive = false;
 
     const pageHeaderContentEl = document.querySelector('#page-header-content')
@@ -118,4 +118,20 @@ window.addEventListener('load', () => {
 
     // Run once on load
     syncNavBarStyleBasedOnScroll()
+
+    // Add interaction to banner components
+    const bannerEls = document.querySelectorAll('.banner-container');
+    bannerEls.forEach(bannerEl => {
+        const bannerElTransitionName = bannerEl.dataset.transitionName;
+        let bannerElIsOpen = bannerEl.dataset.isOpen;
+
+        if (bannerElIsOpen === 'true' && bannerElTransitionName) showElement(bannerEl, bannerElTransitionName);
+
+        const bannerCloseBtnEl = bannerEl.querySelector('.banner__close-button')
+        bannerCloseBtnEl.addEventListener('click', (ev) => {
+            ev.preventDefault();
+            bannerEl.dataset.isOpen = 'false';
+            hideElement(bannerEl, bannerElTransitionName)
+        })
+    })
 })

@@ -9,8 +9,9 @@ const showElement = (element, transitionName) => {
     const enterActiveClass = `${transitionName}-enter-active`
     const enterToClass = `${transitionName}-enter-to`
 
-    // Show element
+    // Show element (consider both - css level, html attribute level)
     element.classList.remove('hidden');
+    element.removeAttribute('hidden')
 
     element.classList.add(enterActiveClass, enterFromClass);
 
@@ -47,8 +48,9 @@ const hideElement = (element, transitionName) => {
     element.addEventListener('transitionend', function onTransitionEnd() {
         element.classList.remove(leaveActiveClass, leaveToClass)
 
-        // Hide
+        // Hide (consider both - css level, html attribute level)
         element.classList.add('hidden');
+        element.setAttribute('hidden', '')
 
         // Clean up listener
         element.removeEventListener('transitionend', onTransitionEnd);
