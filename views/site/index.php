@@ -1494,63 +1494,56 @@ $this->title = 'Home';
     </div>
     <!-- END Real use cases Section -->
 
-    <!-- CTA Section -->
+    <!-- CTA Section: Simple Boxed -->
     <div
-            class="bg-white dark:bg-gray-950 dark:text-gray-100"
+            class="bg-linear-to-tr from-amber-100 via-rose-100 to-indigo-100 dark:from-amber-900 dark:via-rose-900 dark:to-indigo-900 dark:text-gray-100"
     >
-        <div class="px-4 pb-8 lg:px-12 lg:pb-16">
+        <div class="container mx-auto px-4 py-16 lg:px-8 lg:py-32 xl:max-w-7xl">
             <div
-                    class="relative container mx-auto xl:max-w-5xl dark:text-gray-100"
+                    class="relative rounded-lg bg-white/50 p-8 text-center shadow-sm backdrop-blur-xs sm:p-10 lg:px-20 lg:py-16 dark:bg-gray-800/70 dark:shadow-none"
             >
-                <div
-                        class="absolute inset-0 rounded-3xl bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 opacity-15 blur-xl"
-                ></div>
-                <div
-                        class="px-4 py-12 lg:px-12 lg:py-24 relative rounded-3xl bg-white p-2.5 shadow-sm ring-1 shadow-purple-300/10 ring-gray-200/40 dark:bg-gray-500/10 dark:ring-gray-700/50"
-                >
-                    <div class="space-y-8">
-                        <!-- Heading -->
-                        <div class="text-center">
-                            <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
-                                Ready?
-                                <span
-                                        class="bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 bg-clip-text text-transparent"
-                                >Let’s do it!</span
-                                >
-                            </h2>
-                            <p
-                                    class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
+                <div class="space-y-8">
+                    <!-- Heading -->
+                    <div class="text-center">
+                        <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
+                            Ready?
+                            <span
+                                    class="bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 bg-clip-text text-transparent"
+                            >Let’s start now!</span
                             >
-                                Tell us what you want to track — leads, hiring, or work — and we’ll show you how to
-                                design the workflow
-                            </p>
-                        </div>
-                        <!-- END Heading -->
-
-                        <!-- Actions -->
-                        <div
-                                class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center sm:gap-3"
+                        </h2>
+                        <p
+                                class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
                         >
-                            <div class="relative">
-                                <div
-                                        class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
-                                ></div>
-                                <a
-                                        href="/site/contact"
-                                        class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
-                                >
-                                    <span>Contact us</span>
-                                    <i class="fa-solid fa-circle-arrow-right text-lg"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- END Actions -->
+                            Tell us what you want to track — leads, hiring, or work — and we’ll show you how to
+                            design the workflow
+                        </p>
                     </div>
+                    <!-- END Heading -->
+
+                    <!-- Actions -->
+                    <div
+                            class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center sm:gap-3"
+                    >
+                        <div class="relative">
+                            <div
+                                    class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
+                            ></div>
+                            <a
+                                    href="/site/contact"
+                                    class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
+                            >
+                                <span>Contact us</span>
+                                <i class="fa-solid fa-circle-arrow-right text-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- END Actions -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- END CTA section -->
+    <!-- END CTA Section: Simple Boxed -->
 </main>
 <!-- END Page Content -->
 
