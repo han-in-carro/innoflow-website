@@ -379,7 +379,7 @@ $this->title = 'Home';
 
     <!-- The Problem Section -->
     <div
-            class="bg-white dark:bg-gray-950 dark:text-gray-100"
+            class="bg-gray-50 dark:bg-gray-950 dark:text-gray-100"
     >
         <div
                 class="relative rounded-3xl container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl bg-gray-50"
@@ -568,7 +568,7 @@ $this->title = 'Home';
 
     <!-- Core capabilities Section -->
     <div
-            class="bg-white dark:bg-gray-950 dark:text-gray-100"
+            class="bg-gray-50 dark:bg-gray-950 dark:text-gray-100"
     >
         <div
                 class="relative container rounded-3xl mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl bg-gray-50"
@@ -718,10 +718,10 @@ $this->title = 'Home';
                 <!-- END Heading -->
 
                 <!-- Timeline: Centered with Icons -->
-                <div class="relative dark:text-gray-100">
+                <div class="relative dark:text-gray-100 py-5">
                     <!-- Vertical Guide -->
                     <div
-                            class="absolute top-0 bottom-0 left-0 flex w-14 flex-col justify-center md:w-20 lg:left-1/2 lg:-ml-10"
+                            class="absolute top-0 bottom-0 left-0 flex w-14 flex-col justify-center md:w-20"
                             aria-hidden="true"
                     >
                         <div
@@ -735,14 +735,14 @@ $this->title = 'Home';
                     <!-- END Vertical Guide -->
 
                     <!-- Timeline -->
-                    <ul class="relative space-y-4 pl-14 md:pl-20 lg:pl-0">
+                    <ul class="relative space-y-4 pl-14 md:pl-20">
                         <!-- Event -->
-                        <li class="relative lg:mr-auto lg:w-1/2 lg:pr-10">
+                        <li class="relative">
                             <div
-                                    class="absolute top-0 bottom-0 left-0 mt-5 flex w-14 -translate-x-full justify-center md:w-20 lg:right-0 lg:left-auto lg:translate-x-10"
+                                    class="absolute top-0 bottom-0 left-0 mt-3 flex w-14 -translate-x-full justify-center md:w-20"
                             >
                                 <div
-                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-600 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-500 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
+                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-500 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-300 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
                                 >
                                     <i class="fa-solid fa-link"></i>
                                 </div>
@@ -759,12 +759,12 @@ $this->title = 'Home';
                         <!-- END Event -->
 
                         <!-- Event -->
-                        <li class="relative lg:ml-auto lg:w-1/2 lg:pl-10">
+                        <li class="relative">
                             <div
-                                    class="absolute top-0 bottom-0 left-0 mt-5 flex w-14 -translate-x-full justify-center md:w-20 lg:-translate-x-10"
+                                    class="absolute top-0 bottom-0 left-0 mt-3 flex w-14 -translate-x-full justify-center md:w-20"
                             >
                                 <div
-                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-600 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-500 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
+                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-500 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-300 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
                                 >
                                     <i class="fa-solid fa-paper-plane"></i>
                                 </div>
@@ -779,7 +779,7 @@ $this->title = 'Home';
 
                                 <!-- FAQ Section: Exclusive Toggleable -->
                                 <div
-                                        class="mx-auto max-w-2xl divide-y divide-gray-200 dark:divide-gray-700/50"
+                                        class="max-w-2xl divide-y divide-gray-200 dark:divide-gray-700/50"
                                 >
                                     <details name="data-receiving-method" class="group pb-2" open>
                                         <summary
@@ -866,12 +866,12 @@ $this->title = 'Home';
                         <!-- END Event -->
 
                         <!-- Event -->
-                        <li class="relative lg:mr-auto lg:w-1/2 lg:pr-10">
+                        <li class="relative">
                             <div
-                                    class="absolute top-0 bottom-0 left-0 mt-5 flex w-14 -translate-x-full justify-center md:w-20 lg:right-0 lg:left-auto lg:translate-x-10"
+                                    class="absolute top-0 bottom-0 left-0 mt-3 flex w-14 -translate-x-full justify-center md:w-20"
                             >
                                 <div
-                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-600 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-500 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
+                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-500 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-300 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
                                 >
                                     <i class="fa-solid fa-check-double"></i>
                                 </div>
@@ -886,6 +886,7 @@ $this->title = 'Home';
                                 </p>
                             </div>
                         </li>
+                        <!-- END Event -->
                     </ul>
                     <!-- END Timeline -->
                 </div>
@@ -922,7 +923,7 @@ $this->title = 'Home';
 
     <!-- How it works Section -->
     <div
-            class="bg-white dark:bg-gray-950 dark:text-gray-100"
+            class="bg-gray-50 dark:bg-gray-950 dark:text-gray-100"
     >
         <div
                 class="relative container rounded-3xl mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl bg-gray-50"

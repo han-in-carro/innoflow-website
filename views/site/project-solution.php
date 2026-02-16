@@ -71,7 +71,7 @@ $this->title = 'Project Solution';
 
     <!-- The Problem Section -->
     <div
-            class="bg-white dark:bg-gray-950 dark:text-gray-100"
+            class="bg-gray-50 dark:bg-gray-950 dark:text-gray-100"
     >
         <div
                 class="relative rounded-3xl container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl bg-gray-50"
@@ -423,7 +423,7 @@ $this->title = 'Project Solution';
 
     <!-- What you track Section -->
     <div
-            class="bg-white dark:bg-gray-950 dark:text-gray-100"
+            class="bg-gray-50 dark:bg-gray-950 dark:text-gray-100"
     >
         <div class="container rounded-3xl mx-auto px-4 py-16 lg:px-8 lg:py-32 xl:max-w-7xl bg-gray-50 dark:text-gray-100">
             <div class="mb-12 text-center">
@@ -738,19 +738,19 @@ $this->title = 'Project Solution';
                             <div class="flex justify-center text-left lg:justify-start">
                                 <ul class="space-y-5">
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-rose-600 dark:text-rose-400"></i>
+                                        <i class="fa-solid fa-circle-check text-rose-600 dark:text-rose-400"></i>
                                         <h4 class="font-medium">One source of truth for all tasks</h4>
                                     </li>
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-rose-600 dark:text-rose-400"></i>
+                                        <i class="fa-solid fa-circle-check text-rose-600 dark:text-rose-400"></i>
                                         <h4 class="font-medium">Clear ownership at every stage</h4>
                                     </li>
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-rose-600 dark:text-rose-400"></i>
+                                        <i class="fa-solid fa-circle-check text-rose-600 dark:text-rose-400"></i>
                                         <h4 class="font-medium">Visual status across the entire workflow</h4>
                                     </li>
                                     <li class="flex items-center gap-3">
-                                        <i class="fa-regular fa-circle-check text-rose-600 dark:text-rose-400"></i>
+                                        <i class="fa-solid fa-circle-check text-rose-600 dark:text-rose-400"></i>
                                         <h4 class="font-medium">Flexible enough to evolve with your process</h4>
                                     </li>
                                 </ul>

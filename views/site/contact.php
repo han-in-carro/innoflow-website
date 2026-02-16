@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
   "
 >
     <div
-            class="bg-gray-50/95 dark:bg-gray-900/95 dark:text-gray-100 grow relative"
+            class="bg-gray-50/95 dark:bg-gray-900/95 dark:text-gray-100 grow relative flex flex-col justify-center"
     >
         <?php if (Yii::$app->session->getFlash('contactFormSubmitted')): ?>
             <!-- Banners: Top Bubble -->
