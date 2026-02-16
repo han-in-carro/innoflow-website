@@ -476,7 +476,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         <div
                 class="text-gray-500 lg:w-1/3 lg:text-left dark:text-gray-400/80"
         >
-            <span class="font-medium">Company Inc</span> ©
+            <span class="font-medium">©2026 InnoFlow, All Rights Reserved.</span>
         </div>
     </div>
 </footer>

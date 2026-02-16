@@ -121,7 +121,6 @@ $this->params['breadcrumbs'][] = $this->title;
                             ></div>
                             <button
                                     type="submit"
-                                    href="/site/contact"
                                     class="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-linear-to-r from-indigo-500 to-rose-500 px-8 py-4 leading-6 font-semibold text-white hover:opacity-95 hover:text-white focus:ring-3 focus:ring-indigo-400/50 dark:focus:ring-indigo-400/90 hover:scale-102 transition-all ease-in duration-150"
                             >
 

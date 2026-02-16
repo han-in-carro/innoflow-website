@@ -209,7 +209,7 @@ $this->title = 'Sales Solution';
                     </div>
 
                     <!-- Promo Avatars -->
-                    <!--                    TODO: replace with local images -->
+                    <!-- TODO: replace with local images -->
                     <div class="-mb-10 flex grow flex-col items-center justify-end">
                         <div>
                             <img

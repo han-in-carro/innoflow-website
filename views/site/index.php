@@ -562,7 +562,7 @@ $this->title = 'Home';
                     <!--                        >-->
                     <!--                            Created with passion-->
                     <!--                        </div>-->
-                    <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
+                    <h2 class="mb-4 text-4xl font-black text-black dark:text-white capitalize">
                         Core capabilities
                     </h2>
                     <p
@@ -903,49 +903,74 @@ $this->title = 'Home';
             class="bg-white dark:bg-gray-950 dark:text-gray-100"
     >
         <div
-                class="container rounded-3xl mx-auto grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16 px-4 py-16 lg:px-12 lg:py-32  xl:max-w-7xl bg-gray-50"
+                class="relative container rounded-3xl mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl bg-gray-50"
         >
-            <!-- Heading -->
-            <div class="text-center lg:col-span-5 lg:text-left flex justify-center flex-col">
-                <h2 class="mb-4 text-4xl font-black text-black capitalize dark:text-white">
-                    How it works
-                </h2>
-                <p
-                        class="mx-auto text-lg leading-relaxed font-medium text-gray-700 lg:mx-0 lg:w-2/3 lg:w-auto dark:text-gray-300"
-                >
-                    We have been working with the biggest companies and delivered over 30
-                    high profile projects in the past year. Let's build something together
-                    today.
-                </p>
-                <div
-                        class="flex flex-col gap-4 sm:flex-row items-center justify-center lg:items-start lg:justify-start sm:gap-3 mt-8"
-                >
-                    <div class="relative">
-                        <div
-                                class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
-                        ></div>
-                        <a
-                                href="/site/contact"
-                                class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
-                        >
-                            <span>Try yourself</span>
-                            <i class="fa-solid fa-circle-arrow-right text-lg"></i>
-                        </a>
+            <div
+                    class="space-y-16"
+            >
+                <!-- Heading -->
+                <div class="text-center">
+                    <!--                        <div-->
+                    <!--                                class="mb-1 text-sm font-bold tracking-wider text-primary-600 uppercase dark:text-primary-500"-->
+                    <!--                        >-->
+                    <!--                            Created with passion-->
+                    <!--                        </div>-->
+                    <h2 class="mb-4 text-4xl font-black text-black dark:text-white capitalize">
+                        How InnoFlow Works
+                    </h2>
+                    <p
+                            class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
+                    >
+                        See how InnoFlow turns scattered work into clear, structured workflows in this short
+                        walkthrough.
+                    </p>
+                </div>
+                <!-- END Heading -->
+
+                <div class="flex grow flex-col items-center justify-center">
+                    <div class="mx-auto max-w-3xl w-full flex h-full overflow-hidden rounded-3xl border border-gray-200 shadow-lg shadow-gray-300/25 dark:border-gray-700 dark:shadow-gray-950/50">
+                        <!--                        <video width="100%" class="">-->
+                        <!--                            <source src="https://www.youtube.com/watch?v=ZK-rNEhJIDs"/>-->
+                        <!--                        </video>-->
+                        <!--                        <div class="aspect-4/3 w-full rounded-3xl object-contain">-->
+                        <iframe allowfullscreen
+                                loading="lazy"
+                                class="aspect-16/9 h-auto w-full object-center"
+                                src="https://www.youtube.com/embed/ZK-rNEhJIDs?autoplay=1&mute=1">
+                        </iframe>
+                        <!--                        </div>-->
+
+                        <!--                        <img-->
+                        <!--                                src="/assets/images/how-it-works.gif" alt="How it works - demo"-->
+                        <!--                                -->
+                        <!--                        />-->
                     </div>
                 </div>
-            </div>
-            <!-- END Heading -->
 
-            <!-- Logos -->
-            <div class="flex items-center lg:col-span-7">
-                <div
-                        href="javascript:void(0)"
-                        class="grow group relative rounded-xl bg-white p-4 shadow-md shadow-gray-100 transition duration-150 active:shadow-xs sm:col-span-5 sm:col-start-2 lg:p-6 dark:bg-gray-800 dark:shadow-gray-900"
-                >
-                    <img src="/assets/images/how-it-works.gif" alt="How it works - demo" class="w-full"/>
+                <!-- Action -->
+                <div class="text-center">
+                    <a
+                            href="/site/contact"
+                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                    >
+                        <span>Try yourself</span>
+                        <svg
+                                class="hi-mini hi-chevron-right inline-block size-5 opacity-50"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                aria-hidden="true"
+                        >
+                            <path
+                                    fill-rule="evenodd"
+                                    d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                    clip-rule="evenodd"
+                            />
+                        </svg>
+                    </a>
                 </div>
+                <!-- END Action -->
             </div>
-            <!-- END Logos -->
         </div>
     </div>
     <!-- END How it works -->
@@ -1500,7 +1525,7 @@ $this->title = 'Home';
     >
         <div class="container mx-auto px-4 py-16 lg:px-8 lg:py-32 xl:max-w-7xl">
             <div
-                    class="relative rounded-lg bg-white/50 p-8 text-center shadow-sm backdrop-blur-xs sm:p-10 lg:px-20 lg:py-16 dark:bg-gray-800/70 dark:shadow-none"
+                    class="relative rounded-3xl bg-white/50 p-8 text-center shadow-sm backdrop-blur-xs sm:p-10 lg:px-20 lg:py-16 dark:bg-gray-800/70 dark:shadow-none"
             >
                 <div class="space-y-8">
                     <!-- Heading -->
@@ -1515,7 +1540,7 @@ $this->title = 'Home';
                         <p
                                 class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
                         >
-                            Tell us what you want to track — leads, hiring, or work — and we’ll show you how to
+                            Tell us what you want to track — Leads, Hiring, or Work — and we’ll show you how to
                             design the workflow
                         </p>
                     </div>
