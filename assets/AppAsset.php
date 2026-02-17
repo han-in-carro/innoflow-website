@@ -8,6 +8,8 @@
 
 namespace app\assets;
 
+use yii\web\View;
+
 use yii\web\AssetBundle;
 
 /**
@@ -21,12 +23,15 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
+        ['fa-kit/css/all.min.css', 'position' => View::POS_HEAD],
+        'css/output.css',
     ];
     public $js = [
+        ['fa-kit/js/all.min.js', 'position' => View::POS_HEAD],
+        'js/site/interactivity.js',
+        'js/site/transition.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap5\BootstrapAsset'
     ];
 }

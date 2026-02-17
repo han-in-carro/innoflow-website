@@ -3,12 +3,13 @@
 namespace app\controllers;
 
 use Yii;
+use yii\db\Exception;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
-use app\models\ContactForm;
+use app\models\Contact;
 
 class SiteController extends Controller
 {
@@ -102,17 +103,19 @@ class SiteController extends Controller
      * Displays contact page.
      *
      * @return Response|string
+     * @throws Exception
      */
     public function actionContact()
     {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-            Yii::$app->session->setFlash('contactFormSubmitted');
+        $model = new Contact();
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            Yii::$app->session->setFlash('contactFormSubmitted', 'Your message has been sent. Thank you.');
 
             return $this->refresh();
         }
         return $this->render('contact', [
             'model' => $model,
+            'companySizeOptions' => Contact::optsCompanySize()
         ]);
     }
 
@@ -124,5 +127,35 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+
+    /**
+     * Displays hr solution page.
+     *
+     * @return string
+     */
+    public function actionSalesSolution()
+    {
+        return $this->render('sales-solution');
+    }
+
+    /**
+     * Displays about page.
+     *
+     * @return string
+     */
+    public function actionHrSolution()
+    {
+        return $this->render('hr-solution');
+    }
+
+    /**
+     * Displays about page.
+     *
+     * @return string
+     */
+    public function actionProjectSolution()
+    {
+        return $this->render('project-solution');
     }
 }

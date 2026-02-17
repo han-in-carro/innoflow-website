@@ -1,53 +1,1597 @@
 <?php
-
-/** @var yii\web\View $this */
-
-$this->title = 'My Yii Application';
+$this->title = 'Home';
 ?>
-<div class="site-index">
 
-    <div class="jumbotron text-center bg-transparent mt-5 mb-5">
-        <h1 class="display-4">Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="https://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4 mb-3">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-outline-secondary" href="https://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4 mb-3">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-outline-secondary" href="https://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-outline-secondary" href="https://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+<!-- Page Content -->
+<main id="page-content" role="main" class="flex max-w-full flex-auto flex-col">
+    <!-- Hero Section: Centered with Social Proof and Lines -->
+    <div
+            class="relative overflow-hidden bg-white dark:bg-gray-950 dark:text-gray-100"
+    >
+        <!-- Hero Content -->
+        <div
+                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-20 xl:max-w-7xl"
+        >
+            <div class="text-center">
+                <div class="mb-12 flex flex-col items-center justify-center gap-2">
+                    <div
+                            class="font-['Caveat'] text-2xl bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 bg-clip-text text-transparent"
+                    >
+                        Built for modern workflows.
+                    </div>
+                </div>
+                <div
+                        class="mb-5 inline-flex items-center gap-2 rounded-full bg-gray-100 py-1.5 pr-3 pl-1.5 text-sm font-medium text-gray-800 dark:bg-gray-800 dark:text-gray-200"
+                >
+            <span
+                    class="inline-flex items-center justify-center rounded-full bg-indigo-600 px-2 py-1.5 text-xs leading-none font-medium text-white"
+            >
+              New Release
+            </span>
+                    <span>Latest features now available!</span>
+                </div>
+                <div>
+                    <h1
+                            class="mx-auto mb-4 max-w-4xl text-4xl font-black text-black lg:text-6xl dark:text-white"
+                    >
+                        Design workflows and track work the way your team actually
+                        <span
+                                class="underline decoration-indigo-600 decoration-2 underline-offset-8"
+                        >works</span
+                        >.
+                    </h1>
+                    <p
+                            class="mx-auto max-w-3xl text-lg/relaxed font-medium text-gray-700 lg:text-xl/relaxed dark:text-gray-400"
+                    >
+                        Manage leads, tasks, and requests in one place using visual workflows you design yourself.
+                    </p>
+                </div>
+                <div class="mt-12 flex flex-col items-center justify-center gap-3">
+                    <div class="relative">
+                        <div
+                                class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
+                        ></div>
+                        <a
+                                href="/site/contact"
+                                class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
+                        >
+                            <span>Request Demo</span>
+                            <i class="fa-solid fa-circle-arrow-right text-lg"></i>
+                        </a>
+                    </div>
+                    <div
+                            class="mt-2 text-center text-sm font-medium text-gray-500 dark:text-gray-400"
+                    >
+                        No credit card required · 14-day free trial
+                    </div>
+                </div>
             </div>
         </div>
-
+        <!-- END Hero Content -->
     </div>
-</div>
+    <!-- END Hero Section: Centered with Social Proof and Lines -->
+
+    <!-- Statistics Section -->
+    <div
+            class="bg-linear-to-r from-amber-100 via-rose-100 to-indigo-100 dark:from-amber-950/25 dark:via-rose-950/25 dark:to-indigo-950/25 dark:text-gray-100"
+    >
+        <div
+                class="relative container mx-auto px-4 py-8 lg:px-12 xl:max-w-7xl"
+        >
+            <div class="grid grid-cols-2 gap-2 text-center lg:grid-cols-4">
+                <!--                <div class="flex items-center justify-center">-->
+                <!--                    <dl class="space-y-1 group">-->
+                <!--                        <dd class="text-2xl font-semibold text-gray-900 opacity-75 grayscale transition group-hover:opacity-100 group-hover:grayscale-0 group-active:opacity-50 dark:text-gray-100">-->
+                <!--                            1,000+-->
+                <!--                        </dd>-->
+                <!--                        <dt-->
+                <!--                                class="inline-flex items-center gap-2 opacity-75 grayscale transition group-hover:opacity-100 group-hover:grayscale-0 group-active:opacity-50"-->
+                <!--                        >-->
+                <!--                            <svg-->
+                <!--                                    class="hi-solid hi-cube inline-block size-5 text-indigo-600 dark:text-indigo-500"-->
+                <!--                                    xmlns="http://www.w3.org/2000/svg"-->
+                <!--                                    viewBox="0 0 24 24"-->
+                <!--                                    fill="currentColor"-->
+                <!--                                    aria-hidden="true"-->
+                <!--                            >-->
+                <!--                                <path-->
+                <!--                                        d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z"-->
+                <!--                                />-->
+                <!--                            </svg>-->
+                <!--                            <span class="text-sm font-semibold tracking-wider text-gray-500 dark:text-gray-400">Sales</span>-->
+                <!--                        </dt>-->
+                <!--                    </dl>-->
+                <!--                </div>-->
+                <!--                <div class="flex items-center justify-center">-->
+                <!--                    <dl class="space-y-1 group">-->
+                <!--                        <dd class="text-2xl font-semibold text-gray-900 opacity-75 grayscale transition group-hover:opacity-100 group-hover:grayscale-0 group-active:opacity-50 dark:text-gray-100">-->
+                <!--                            1,000-->
+                <!--                        </dd>-->
+                <!--                        <dt-->
+                <!--                                class="inline-flex items-center gap-2 opacity-75 grayscale transition group-hover:opacity-100 group-hover:grayscale-0 group-active:opacity-50"-->
+                <!--                        >-->
+                <!--                            <svg-->
+                <!--                                    class="hi-solid hi-code-bracket-square inline-block size-5 text-purple-600 dark:text-purple-500"-->
+                <!--                                    xmlns="http://www.w3.org/2000/svg"-->
+                <!--                                    viewBox="0 0 24 24"-->
+                <!--                                    fill="currentColor"-->
+                <!--                                    aria-hidden="true"-->
+                <!--                            >-->
+                <!--                                <path-->
+                <!--                                        fill-rule="evenodd"-->
+                <!--                                        d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z"-->
+                <!--                                        clip-rule="evenodd"-->
+                <!--                                />-->
+                <!--                            </svg>-->
+                <!--                            <span class="text-sm font-semibold tracking-wider text-gray-500 dark:text-gray-400">Users</span>-->
+                <!--                        </dt>-->
+                <!--                    </dl>-->
+                <!--                </div>-->
+                <div class="flex items-center justify-center">
+                    <dl class="space-y-2 p-5">
+                        <dt class="text-4xl font-black">83,589</dt>
+                        <dd class="font-medium text-gray-600 dark:text-gray-400">
+                            Customers
+                        </dd>
+                    </dl>
+                </div>
+                <div class="flex items-center justify-center">
+                    <dl class="space-y-2 p-5">
+                        <dt class="text-4xl font-black">83,589</dt>
+                        <dd class="font-medium text-gray-600 dark:text-gray-400">
+                            Sales
+                        </dd>
+                    </dl>
+                </div>
+                <div class="flex items-center justify-center">
+                    <dl class="space-y-2 p-5">
+                        <dt class="text-4xl font-black">83,589</dt>
+                        <dd class="font-medium text-gray-600 dark:text-gray-400">
+                            Sales
+                        </dd>
+                    </dl>
+                </div>
+                <div class="flex items-center justify-center">
+                    <!--                    <dl class="space-y-1 group">-->
+                    <!--                        <dd class="text-2xl font-semibold text-gray-900 opacity-75 grayscale transition group-hover:opacity-100 group-hover:grayscale-0 group-active:opacity-50 dark:text-gray-100">-->
+                    <!--                            1,000-->
+                    <!--                        </dd>-->
+                    <!--                        <dt-->
+                    <!--                                class="inline-flex items-center gap-2 opacity-75 grayscale transition group-hover:opacity-100 group-hover:grayscale-0 group-active:opacity-50"-->
+                    <!--                        >-->
+                    <!--                            <svg-->
+                    <!--                                    class="hi-mini hi-truck inline-block size-6 text-sky-600 dark:text-sky-500"-->
+                    <!--                                    xmlns="http://www.w3.org/2000/svg"-->
+                    <!--                                    viewBox="0 0 20 20"-->
+                    <!--                                    fill="currentColor"-->
+                    <!--                                    aria-hidden="true"-->
+                    <!--                            >-->
+                    <!--                                <path-->
+                    <!--                                        d="M6.5 3c-1.051 0-2.093.04-3.125.117A1.49 1.49 0 002 4.607V10.5h9V4.606c0-.771-.59-1.43-1.375-1.489A41.568 41.568 0 006.5 3zM2 12v2.5A1.5 1.5 0 003.5 16h.041a3 3 0 015.918 0h.791a.75.75 0 00.75-.75V12H2z"-->
+                    <!--                                />-->
+                    <!--                                <path-->
+                    <!--                                        d="M6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM13.25 5a.75.75 0 00-.75.75v8.514a3.001 3.001 0 014.893 1.44c.37-.275.61-.719.595-1.227a24.905 24.905 0 00-1.784-8.549A1.486 1.486 0 0014.823 5H13.25zM14.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"-->
+                    <!--                                />-->
+                    <!--                            </svg>-->
+                    <!--                            <span class="text-sm font-semibold tracking-wider text-gray-500 dark:text-gray-400">Users</span>-->
+                    <!--                        </dt>-->
+                    <!--                    </dl>-->
+                    <dl class="space-y-2 p-5">
+                        <dt class="text-4xl font-black">83,589</dt>
+                        <dd class="font-medium text-gray-600 dark:text-gray-400">
+                            Revenue
+                        </dd>
+                    </dl>
+                </div>
+                <!--                <div class="flex items-center justify-center">-->
+                <!--                    <dl class="space-y-2 p-5">-->
+                <!--                        <dt class="text-4xl font-black">83,589</dt>-->
+                <!--                        <dd class="font-medium text-gray-600 dark:text-gray-400">-->
+                <!--                            Customers-->
+                <!--                        </dd>-->
+                <!--                    </dl>-->
+                <!--                </div>-->
+                <!--                <div class="flex items-center justify-center">-->
+                <!--                    <a-->
+                <!--                            href="javascript:void(0)"-->
+                <!--                            class="inline-flex items-center gap-2 py-2 text-lg font-semibold text-gray-900 opacity-75 grayscale transition hover:opacity-100 hover:grayscale-0 active:opacity-50 dark:text-gray-100"-->
+                <!--                    >-->
+                <!--                        <span>Klickers</span>-->
+                <!--                    </a>-->
+                <!--                </div>-->
+                <!--                <div class="flex items-center justify-center">-->
+                <!--                    <a-->
+                <!--                            href="javascript:void(0)"-->
+                <!--                            class="inline-flex items-center gap-2 py-2 text-lg font-semibold text-gray-900 opacity-75 grayscale transition hover:opacity-100 hover:grayscale-0 active:opacity-50 dark:text-gray-100"-->
+                <!--                    >-->
+
+                <!--                        <span>sBoard</span>-->
+                <!--                    </a>-->
+                <!--                </div>-->
+                <!--                <div class="flex items-center justify-center">-->
+                <!--                    <a-->
+                <!--                            href="javascript:void(0)"-->
+                <!--                            class="inline-flex items-center gap-2 py-2 text-lg font-semibold text-gray-900 opacity-75 grayscale transition hover:opacity-100 hover:grayscale-0 active:opacity-50 dark:text-gray-100"-->
+                <!--                    >-->
+
+                <!--                        <span>upTruck</span>-->
+                <!--                    </a>-->
+                <!--                </div>-->
+                <!--                <div class="flex items-center justify-center">-->
+                <!--                    <a-->
+                <!--                            href="javascript:void(0)"-->
+                <!--                            class="inline-flex items-center gap-2 py-2 text-lg font-semibold text-gray-900 opacity-75 grayscale transition hover:opacity-100 hover:grayscale-0 active:opacity-50 dark:text-gray-100"-->
+                <!--                    >-->
+
+                <!--                        <span>freshloc</span>-->
+                <!--                    </a>-->
+                <!--                </div>-->
+            </div>
+        </div>
+    </div>
+    <!-- END Statistics Section -->
+
+    <!-- Who it's For Section -->
+    <div class="bg-white dark:bg-gray-950 dark:text-gray-100">
+        <div
+                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl"
+        >
+            <!-- Features Section: Vertical Cards -->
+            <div class="flex flex-col gap-12 lg:flex-row lg:items-center lg:gap-20">
+                <!-- Heading -->
+                <div class="space-y-10 md:py-12 lg:w-5/12 xl:w-5/12">
+                    <div>
+                        <span
+                                class="mb-1 text-sm font-bold tracking-wider uppercase bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 bg-clip-text text-transparent"
+                        >
+                            Who it's for
+                        </span>
+                        <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
+                            Built for teams with structured processes
+                        </h2>
+                        <p
+                                class="text-xl leading-relaxed font-medium text-gray-700 dark:text-gray-300"
+                        >
+                            Work confidently in a dashboard built for teams that rely on structured workflows,
+                            approvals, and shared accountability.
+                        </p>
+                    </div>
+                </div>
+                <!-- END Heading -->
+
+                <!-- Features in Cards -->
+                <div class="relative flex-none lg:w-7/12 xl:w-7/12">
+                    <div
+                            class="bg-tranparent absolute top-0 left-0 -mt-5 -ml-12 size-40 rounded-full border border-orange-200 lg:size-72 dark:border-orange-900"
+                    ></div>
+                    <div
+                            class="bg-tranparent absolute top-0 left-0 -mt-2 -ml-14 size-40 rounded-full border border-orange-100 lg:size-72 dark:border-orange-950"
+                    ></div>
+                    <div
+                            class="bg-tranparent absolute right-0 bottom-0 -mr-12 -mb-5 size-40 rounded-full border border-purple-200 lg:size-72 dark:border-purple-900"
+                    ></div>
+                    <div
+                            class="bg-tranparent absolute right-0 bottom-0 -mr-14 -mb-2 size-40 rounded-full border border-purple-100 lg:size-72 dark:border-purple-950"
+                    ></div>
+                    <div class="relative flex flex-col gap-6 md:flex-row">
+                        <div class="space-y-6 md:w-1/2">
+                            <a
+                                    href="/site/sales-solution"
+                                    class="group block rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-orange-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-orange-700/75"
+                            >
+                                <div
+                                        class="relative m-2 mb-6 inline-flex size-10 items-center justify-center"
+                                >
+                                    <div
+                                            class="absolute inset-0 -m-2 rotate-6 rounded-3xl bg-orange-300 transition duration-200 ease-out group-hover:scale-105 group-hover:-rotate-3"
+                                    ></div>
+                                    <div
+                                            class="absolute inset-0 -rotate-6 rounded-2xl bg-orange-700/75 shadow-inner transition duration-200 ease-out group-hover:scale-105 group-hover:rotate-2"
+                                    ></div>
+                                    <i class="fa-regular fa-scale-balanced relative inline-block size-6 text-white transition duration-200 ease-out group-hover:scale-110"></i>
+                                </div>
+                                <h3 class="mb-2 text-lg font-bold">Sales Teams</h3>
+                                <p
+                                        class="text-sm leading-relaxed text-gray-600 dark:text-gray-400"
+                                >
+                                    Track leads through custom stages and keep every follow-up visible and on time.
+                                </p>
+                            </a>
+                            <a
+                                    href="/site/hr-solution"
+                                    class="group block rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-rose-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-rose-700/75"
+                            >
+                                <div
+                                        class="relative m-2 mb-6 inline-flex size-10 items-center justify-center"
+                                >
+                                    <div
+                                            class="absolute inset-0 -m-2 rotate-6 rounded-3xl bg-rose-300 transition duration-200 ease-out group-hover:scale-105 group-hover:-rotate-3"
+                                    ></div>
+                                    <div
+                                            class="absolute inset-0 -rotate-6 rounded-2xl bg-rose-700/75 shadow-inner transition duration-200 ease-out group-hover:scale-105 group-hover:rotate-2"
+                                    ></div>
+                                    <i class="fa-regular fa-people-group  relative inline-block size-6 text-white transition duration-200 ease-out group-hover:scale-110"></i>
+                                </div>
+                                <h3 class="mb-2 text-lg font-bold">HR & Hiring Teams</h3>
+                                <p
+                                        class="text-sm leading-relaxed text-gray-600 dark:text-gray-400"
+                                >
+                                    Move candidates through interviews, approvals, and onboarding using your own
+                                    hiring process.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="flex items-center space-y-6 md:w-1/2">
+                            <a
+                                    href="/site/project-solution"
+                                    class="group block rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-indigo-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-indigo-700/75"
+                            >
+                                <div
+                                        class="relative m-2 mb-6 inline-flex size-10 items-center justify-center"
+                                >
+                                    <div
+                                            class="absolute inset-0 -m-2 rotate-6 rounded-3xl bg-indigo-300 transition duration-200 ease-out group-hover:scale-105 group-hover:-rotate-3"
+                                    ></div>
+                                    <div
+                                            class="absolute inset-0 -rotate-6 rounded-2xl bg-indigo-700/75 shadow-inner transition duration-200 ease-out group-hover:scale-105 group-hover:rotate-2"
+                                    ></div>
+                                    <i class="fa-regular fa-diagram-project relative inline-block size-6 text-white transition duration-200 ease-out group-hover:scale-110"></i>
+                                </div>
+                                <h3 class="mb-2 text-lg font-bold">Project & Task Teams</h3>
+                                <p
+                                        class="text-sm leading-relaxed text-gray-600 dark:text-gray-400"
+                                >
+                                    Organize work by status and ownership so progress, blockers, and
+                                    responsibilities are always clear.
+                                </p>
+                            </a>
+                            <!--                                <div-->
+                            <!--                                        class="group rounded-2xl border border-gray-200 bg-white/25 p-6 backdrop-blur-xs transition duration-200 ease-out hover:border-purple-300 xl:p-8 dark:border-gray-700/75 dark:bg-gray-800/25 dark:hover:border-purple-700/75"-->
+                            <!--                                >-->
+                            <!--                                    <div-->
+                            <!--                                            class="relative m-2 mb-6 inline-flex size-10 items-center justify-center"-->
+                            <!--                                    >-->
+                            <!--                                        <div-->
+                            <!--                                                class="absolute inset-0 -m-2 rotate-6 rounded-3xl bg-purple-300 transition duration-200 ease-out group-hover:scale-105 group-hover:-rotate-3"-->
+                            <!--                                        ></div>-->
+                            <!--                                        <div-->
+                            <!--                                                class="absolute inset-0 -rotate-6 rounded-2xl bg-purple-700/75 shadow-inner transition duration-200 ease-out group-hover:scale-105 group-hover:rotate-2"-->
+                            <!--                                        ></div>-->
+                            <!--                                        <i class="fa-regular fa-gear relative inline-block size-6 text-white transition duration-200 ease-out group-hover:scale-110"></i>-->
+                            <!--                                    </div>-->
+                            <!--                                    <h3 class="mb-2 text-lg font-bold">Operations & Process Teams</h3>-->
+                            <!--                                    <p-->
+                            <!--                                            class="text-sm leading-relaxed text-gray-600 dark:text-gray-400"-->
+                            <!--                                    >-->
+                            <!--                                        Standardize recurring processes, approvals, and handoffs to keep day-to-day-->
+                            <!--                                        operations running smoothly.-->
+                            <!--                                    </p>-->
+                            <!--                                </div>-->
+                        </div>
+                    </div>
+                </div>
+                <!-- END Features in Cards -->
+            </div>
+            <!-- END Features Section: Vertical Cards -->
+        </div>
+    </div>
+    <!-- END Who it's For Section -->
+
+    <!-- The Problem Section -->
+    <div
+            class="bg-gray-50 dark:bg-gray-950 dark:text-gray-100"
+    >
+        <div
+                class="relative rounded-3xl container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl bg-gray-50"
+        >
+            <!-- Features Section: Key Features List -->
+            <div
+                    class="space-y-16"
+            >
+                <!-- Heading -->
+                <div class="text-center">
+                    <h2 class="mb-4 text-4xl font-black text-rose-600 dark:text-white">
+                        Most teams struggle with fixed systems
+                    </h2>
+                </div>
+                <!-- END Heading -->
+
+                <!-- Features -->
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8 lg:grid-cols-3">
+                    <div class="flex items-center gap-3">
+                        <div
+                                class="flex flex-none items-center justify-center text-rose-600 dark:text-rose-500"
+                        >
+                            <i class="fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <h3 class="font-semibold">Work is scattered across spreadsheets, chat tools,
+                            and disconnected systems</h3>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div
+                                class="flex flex-none items-center justify-center text-rose-600 dark:text-rose-500"
+                        >
+                            <i class="fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <h3 class="font-semibold">Processes live in people’s heads instead of being
+                            documented and repeatable</h3>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div
+                                class="flex flex-none items-center justify-center text-rose-600 dark:text-rose-500"
+                        >
+                            <i class="fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <h3 class="font-semibold">Status changes without clear ownership or
+                            accountability</h3>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div
+                                class="flex flex-none items-center justify-center text-rose-600 dark:text-rose-500"
+                        >
+                            <i class="fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <h3 class="font-semibold">Rigid tools force teams into workflows that don’t fit
+                            their real needs</h3>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div
+                                class="flex flex-none items-center justify-center text-rose-600 dark:text-rose-500"
+                        >
+                            <i class="fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <h3 class="font-semibold">Follow-ups and approvals rely on manual reminders
+                            instead of built-in rules</h3>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div
+                                class="flex flex-none items-center justify-center text-rose-600 dark:text-rose-500"
+                        >
+                            <i class="fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <h3 class="font-semibold">Teams lack a clear, real-time view of progress,
+                            bottlenecks, and delays</h3>
+                    </div>
+                </div>
+                <!-- END Features -->
+            </div>
+            <!-- END Features Section: Key Features List -->
+        </div>
+    </div>
+    <!-- END The Problem Section -->
+
+    <!-- The solution Section -->
+    <div
+            class="bg-white dark:bg-gray-950 dark:text-gray-100"
+    >
+        <div
+                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl"
+        >
+            <!-- Features Section: Featured Image Side Alternate -->
+            <div
+                    class="flex flex-col gap-12 lg:flex-row-reverse lg:items-center lg:gap-0"
+            >
+                <div class="group relative flex-none lg:ml-16 lg:w-1/2 xl:ml-28">
+                    <div
+                            class="absolute top-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-amber-500 opacity-10 blur-2xl lg:block"
+                    ></div>
+                    <div
+                            class="absolute bottom-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-pink-500 opacity-10 blur-2xl lg:block"
+                    ></div>
+                    <img
+                            class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
+                            src="/assets/images/flow-for-hr.png"
+                            alt="Preview Feature Image"
+                    />
+                </div>
+                <div class="space-y-10 lg:w-1/2">
+                    <!-- Heading -->
+                    <div>
+                        <!--                            <div-->
+                        <!--                                    class="mb-3 inline-flex rounded-sm bg-indigo-100 px-2 py-1 text-sm leading-4 font-semibold text-indigo-700 dark:bg-indigo-950 dark:text-indigo-200"-->
+                        <!--                            >-->
+                        <!--                                v6.0 is now live!-->
+                        <!--                            </div>-->
+                        <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
+                            We offer a simple way to model your real process
+                        </h2>
+                        <p
+                                class="text-lg leading-relaxed font-medium text-gray-700 dark:text-gray-300"
+                        >
+                            Innoflow started as an internal tool to manage real sales work.
+                            We needed something flexible enough to match real processes — not just fixed templates.
+                        </p>
+                    </div>
+                    <!-- END Heading -->
+
+                    <!-- Features -->
+                    <ul class="space-y-5">
+                        <li class="flex items-center gap-3">
+                            <div
+                                    class="flex flex-none items-center justify-center text-green-600 dark:text-green-400"
+                            >
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <h3 class="font-medium">Track leads, tasks, or requests as structured records</h3>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div
+                                    class="flex flex-none items-center justify-center text-green-600 dark:text-green-400"
+                            >
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                            <h3 class="font-medium">Design your own stages with a visual workflow builder</h3>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div
+                                    class="flex flex-none items-center justify-center text-green-600 dark:text-green-400"
+                            >
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                            <h3 class="font-medium">See where every item is in the process</h3>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div
+                                    class="flex flex-none items-center justify-center text-green-600 dark:text-green-400"
+                            >
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                            <h3 class="font-medium">Keep ownership clear as work moves forward</h3>
+                        </li>
+                    </ul>
+                    <!-- END Features -->
+
+                    <!-- Actions -->
+                    <div class="flex flex-row justify-start items-center">
+                        <div class="relative">
+                            <div
+                                    class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
+                            ></div>
+                            <a
+                                    href="/site/contact"
+                                    class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
+                            >
+                                <span>Request Demo</span>
+                                <i class="fa-solid fa-circle-arrow-right text-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- END Actions -->
+                </div>
+            </div>
+            <!-- END Features Section: Featured Image Side Alternate -->
+        </div>
+    </div>
+    <!-- END The solution Section -->
+
+    <!-- Core capabilities Section -->
+    <div
+            class="bg-gray-50 dark:bg-gray-950 dark:text-gray-100"
+    >
+        <div
+                class="relative container rounded-3xl mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl bg-gray-50"
+        >
+            <!-- Features Section: Modern Alternate With Icons -->
+            <div
+                    class="space-y-16"
+            >
+                <!-- Heading -->
+                <div class="text-center">
+                    <!--                        <div-->
+                    <!--                                class="mb-1 text-sm font-bold tracking-wider text-primary-600 uppercase dark:text-primary-500"-->
+                    <!--                        >-->
+                    <!--                            Created with passion-->
+                    <!--                        </div>-->
+                    <h2 class="mb-4 text-4xl font-black text-black dark:text-white capitalize">
+                        Core capabilities
+                    </h2>
+                    <p
+                            class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
+                    >
+                        Everything you need to turn messy work into clear, structured processes. These core
+                        capabilities help your team stay aligned, accountable, and in control as work moves forward.
+                    </p>
+                </div>
+                <!-- END Heading -->
+
+                <!-- Features -->
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-5 lg:grid-cols-4">
+                    <div
+                            class="group rounded-2xl p-5 text-center transition duration-200 ease-out hover:bg-orange-50 xl:p-6 dark:hover:bg-orange-800/25"
+                    >
+                        <div
+                                class="relative m-5 mb-12 inline-flex size-12 items-center justify-center"
+                        >
+                            <div
+                                    class="absolute inset-0 -m-5 rotate-3 rounded-3xl bg-orange-300 transition duration-200 ease-out group-hover:scale-105 group-hover:-rotate-3 group-hover:shadow-lg"
+                            ></div>
+                            <div
+                                    class="absolute inset-0 -m-2 -rotate-3 rounded-2xl bg-orange-700/75 shadow-inner transition duration-200 ease-out group-hover:scale-105 group-hover:rotate-2"
+                            ></div>
+                            <i class="fa-regular fa-hammer-crash relative inline-block text-2xl text-white transition duration-200 ease-out group-hover:scale-110"></i>
+                        </div>
+                        <h3 class="mb-2 text-lg font-bold">Visual Workflow Builder</h3>
+                        <p
+                                class="text-center leading-relaxed text-gray-600 group-hover:text-gray-800 dark:text-gray-400 dark:group-hover:text-gray-200"
+                        >
+                            Create and adjust stages using drag and drop.
+                        </p>
+                    </div>
+                    <div
+                            class="group rounded-2xl p-5 text-center transition duration-200 ease-out hover:bg-rose-50 xl:p-6 dark:hover:bg-rose-800/25"
+                    >
+                        <div
+                                class="relative m-5 mb-12 inline-flex size-12 items-center justify-center"
+                        >
+                            <div
+                                    class="absolute inset-0 -m-5 rotate-3 rounded-3xl bg-rose-300 transition duration-200 ease-out group-hover:scale-105 group-hover:-rotate-3 group-hover:shadow-lg"
+                            ></div>
+                            <div
+                                    class="absolute inset-0 -m-2 -rotate-3 rounded-2xl bg-rose-700/75 shadow-inner transition duration-200 ease-out group-hover:scale-105 group-hover:rotate-2"
+                            ></div>
+                            <i class="fa-regular fa-chart-pie relative inline-block text-2xl text-white transition duration-200 ease-out group-hover:scale-110"></i>
+                        </div>
+                        <h3 class="mb-2 text-lg font-bold">Record & Task Management</h3>
+                        <p
+                                class="text-center leading-relaxed text-gray-600 group-hover:text-gray-800 dark:text-gray-400 dark:group-hover:text-gray-200"
+                        >
+                            Manage leads, candidates, or work items in one system.
+                        </p>
+                    </div>
+                    <div
+                            class="group rounded-2xl p-5 text-center transition duration-200 ease-out hover:bg-indigo-50 xl:p-6 dark:hover:bg-indigo-800/25"
+                    >
+                        <div
+                                class="relative m-5 mb-12 inline-flex size-12 items-center justify-center"
+                        >
+                            <div
+                                    class="absolute inset-0 -m-5 rotate-3 rounded-3xl bg-indigo-300 transition duration-200 ease-out group-hover:scale-105 group-hover:-rotate-3 group-hover:shadow-lg"
+                            ></div>
+                            <div
+                                    class="absolute inset-0 -m-2 -rotate-3 rounded-2xl bg-indigo-700/75 shadow-inner transition duration-200 ease-out group-hover:scale-105 group-hover:rotate-2"
+                            ></div>
+                            <i class="fa-regular fa-chart-line relative inline-block text-2xl text-white transition duration-200 ease-out group-hover:scale-110"></i>
+                        </div>
+                        <h3 class="mb-2 text-lg font-bold">Dashboards & Activity Views</h3>
+                        <p
+                                class="text-center leading-relaxed text-gray-600 group-hover:text-gray-800 dark:text-gray-400 dark:group-hover:text-gray-200"
+                        >
+                            See progress and activity across your workflows.
+                        </p>
+                    </div>
+                    <div
+                            class="group rounded-2xl p-5 text-center transition duration-200 ease-out hover:bg-purple-50 xl:p-6 dark:hover:bg-purple-800/25"
+                    >
+                        <div
+                                class="relative m-5 mb-12 inline-flex size-12 items-center justify-center"
+                        >
+                            <div
+                                    class="absolute inset-0 -m-5 rotate-3 rounded-3xl bg-purple-300 transition duration-200 ease-out group-hover:scale-105 group-hover:-rotate-3 group-hover:shadow-lg"
+                            ></div>
+                            <div
+                                    class="absolute inset-0 -m-2 -rotate-3 rounded-2xl bg-purple-700/75 shadow-inner transition duration-200 ease-out group-hover:scale-105 group-hover:rotate-2"
+                            ></div>
+                            <i class="fa-regular fa-universal-access relative inline-block text-2xl text-white transition duration-200 ease-out group-hover:scale-110"></i>
+                        </div>
+                        <h3 class="mb-2 text-lg font-bold">Team Access Control</h3>
+                        <p
+                                class="text-center leading-relaxed text-gray-600 group-hover:text-gray-800 dark:text-gray-400 dark:group-hover:text-gray-200"
+                        >
+                            Control who can see and edit what using roles and business units.
+                        </p>
+                    </div>
+
+                </div>
+                <!-- END Features -->
+            </div>
+            <!-- END Features Section: Modern Alternate With Icons -->
+        </div>
+    </div>
+    <!-- END Core capabilities -->
+
+    <!-- Bring data to workflow Section -->
+    <div
+            class="bg-white dark:bg-gray-950 dark:text-gray-100"
+    >
+        <div
+                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl"
+        >
+            <!-- Features Section: Secondary Features List -->
+            <div
+                    class="space-y-16"
+            >
+                <!-- Heading -->
+                <div class="text-center">
+                    <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
+                        Bring Data Into Your Workflows
+                    </h2>
+                    <p
+                            class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
+                    >
+                        Connect your lead sources and automatically capture information where your team already
+                        manages processes. Every submission becomes a structured record that can move through your
+                        workflow with clear ownership and visibility.
+                    </p>
+                </div>
+                <!-- END Heading -->
+
+                <!-- Timeline: Centered with Icons -->
+                <div class="relative dark:text-gray-100 py-5">
+                    <!-- Vertical Guide -->
+                    <div
+                            class="absolute top-0 bottom-0 left-0 flex w-14 flex-col justify-center md:w-20"
+                            aria-hidden="true"
+                    >
+                        <div
+                                class="mx-auto h-2.5 w-1 grow-0 rounded-t bg-linear-to-b from-transparent to-indigo-100 dark:to-indigo-900"
+                        ></div>
+                        <div class="mx-auto w-1 grow bg-indigo-100 dark:bg-indigo-900"></div>
+                        <div
+                                class="mx-auto h-2.5 w-1 grow-0 rounded-b bg-linear-to-t from-transparent to-indigo-100 dark:to-indigo-900"
+                        ></div>
+                    </div>
+                    <!-- END Vertical Guide -->
+
+                    <!-- Timeline -->
+                    <ul class="relative space-y-4 pl-14 md:pl-20">
+                        <!-- Event -->
+                        <li class="relative">
+                            <div
+                                    class="absolute top-0 bottom-0 left-0 mt-3 flex w-14 -translate-x-full justify-center md:w-20"
+                            >
+                                <div
+                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-500 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-300 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
+                                >
+                                    <i class="fa-solid fa-link"></i>
+                                </div>
+                            </div>
+                            <div
+                                    class="rounded-xl bg-gray-100 p-4 hover:ring-3 hover:ring-gray-100 hover:ring-offset-2 dark:bg-gray-800 dark:ring-offset-gray-900 dark:hover:ring-gray-700"
+                            >
+                                <h4 class="mb-2 font-semibold">Connect your lead sources</h4>
+                                <p class="text-sm leading-relaxed">
+                                    Choose how leads and requests enter your system (Facebook, website forms, etc).
+                                </p>
+                            </div>
+                        </li>
+                        <!-- END Event -->
+
+                        <!-- Event -->
+                        <li class="relative">
+                            <div
+                                    class="absolute top-0 bottom-0 left-0 mt-3 flex w-14 -translate-x-full justify-center md:w-20"
+                            >
+                                <div
+                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-500 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-300 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
+                                >
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </div>
+                            </div>
+                            <div
+                                    class="rounded-xl bg-gray-100 p-4 hover:ring-3 hover:ring-gray-100 hover:ring-offset-2 dark:bg-gray-800 dark:ring-offset-gray-900 dark:hover:ring-gray-700"
+                            >
+                                <h4 class="mb-2 font-semibold">Receive data from connected sources</h4>
+                                <!--                                    <p class="text-sm leading-relaxed mb-3">-->
+                                <!--                                        Data can come from multiple sources:-->
+                                <!--                                    </p>-->
+
+                                <!-- FAQ Section: Exclusive Toggleable -->
+                                <div
+                                        class="max-w-2xl divide-y divide-gray-200 dark:divide-gray-700/50"
+                                >
+                                    <details name="data-receiving-method" class="group pb-2" open>
+                                        <summary
+                                                class="flex cursor-pointer list-none items-center justify-between px-3 py-4 [&::-webkit-details-marker]:hidden"
+                                        >
+                                            <h3 class="text-sm leading-relaxed"><span
+                                                        class="font-bold">(1) Facebook campaigns</span> –
+                                                receive leads
+                                                directly from ads</h3>
+                                            <div class="opacity-50 transition duration-300 group-open:rotate-180">
+                                                <svg
+                                                        class="hi-mini hi-chevron-down inline-block size-5"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                        aria-hidden="true"
+                                                >
+                                                    <path
+                                                            fill-rule="evenodd"
+                                                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                                            clip-rule="evenodd"
+                                                    />
+                                                </svg>
+                                            </div>
+                                        </summary>
+                                        <img src="/assets/images/facebook-campaigns.png"/>
+                                    </details>
+                                    <details name="data-receiving-method" class="group pb-2">
+                                        <summary
+                                                class="flex cursor-pointer list-none items-center justify-between px-3 py-4 [&::-webkit-details-marker]:hidden"
+                                        >
+                                            <h3 class="text-sm leading-relaxed"><span
+                                                        class="font-bold">(2) Website forms</span> –
+                                                capture inquiries
+                                                from your site</h3>
+                                            <div class="opacity-50 transition duration-300 group-open:rotate-180">
+                                                <svg
+                                                        class="hi-mini hi-chevron-down inline-block size-5"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                        aria-hidden="true"
+                                                >
+                                                    <path
+                                                            fill-rule="evenodd"
+                                                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                                            clip-rule="evenodd"
+                                                    />
+                                                </svg>
+                                            </div>
+                                        </summary>
+                                        <img src="/assets/images/facebook-campaigns.png"/>
+                                    </details>
+                                    <details name="data-receiving-method" class="group pb-2">
+                                        <summary
+                                                class="flex cursor-pointer list-none items-center justify-between px-3 py-4 [&::-webkit-details-marker]:hidden"
+                                        >
+                                            <h3 class="text-sm leading-relaxed"><span
+                                                        class="font-bold">(3) External systems</span>
+                                                – accept data via
+                                                webhooks with bearer token authentication</h3>
+                                            <div class="opacity-50 transition duration-300 group-open:rotate-180">
+                                                <svg
+                                                        class="hi-mini hi-chevron-down inline-block size-5"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                        aria-hidden="true"
+                                                >
+                                                    <path
+                                                            fill-rule="evenodd"
+                                                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                                            clip-rule="evenodd"
+                                                    />
+                                                </svg>
+                                            </div>
+                                        </summary>
+                                        <img src="/assets/images/facebook-campaigns.png"/>
+                                    </details>
+                                </div>
+                                <!-- END FAQ Section: Exclusive Toggleable -->
+                            </div>
+                        </li>
+                        <!-- END Event -->
+
+                        <!-- Event -->
+                        <li class="relative">
+                            <div
+                                    class="absolute top-0 bottom-0 left-0 mt-3 flex w-14 -translate-x-full justify-center md:w-20"
+                            >
+                                <div
+                                        class="flex size-8 items-center justify-center rounded-full bg-indigo-500 text-white ring-3 ring-indigo-100 ring-offset-2 dark:bg-indigo-300 dark:text-indigo-900 dark:ring-indigo-900 dark:ring-offset-gray-900"
+                                >
+                                    <i class="fa-solid fa-check-double"></i>
+                                </div>
+                            </div>
+                            <div
+                                    class="rounded-xl bg-gray-100 p-4 hover:ring-3 hover:ring-gray-100 hover:ring-offset-2 dark:bg-gray-800 dark:ring-offset-gray-900 dark:hover:ring-gray-700"
+                            >
+                                <h4 class="mb-2 font-semibold">Create workflow records</h4>
+                                <p class="text-sm leading-relaxed">
+                                    Incoming data is automatically converted into a structured record in your
+                                    workflow—ready to be reviewed, assigned, and progressed.
+                                </p>
+                            </div>
+                        </li>
+                        <!-- END Event -->
+                    </ul>
+                    <!-- END Timeline -->
+                </div>
+                <!-- END Timeline: Centered with Icons -->
+
+                <!-- Action -->
+                <div class="text-center">
+                    <a
+                            href="/site/contact"
+                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                    >
+                        <span>Try yourself</span>
+                        <svg
+                                class="hi-mini hi-chevron-right inline-block size-5 opacity-50"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                aria-hidden="true"
+                        >
+                            <path
+                                    fill-rule="evenodd"
+                                    d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                    clip-rule="evenodd"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <!-- END Action -->
+            </div>
+            <!-- END Features Section: Secondary Features List -->
+        </div>
+    </div>
+    <!-- END Bring data to workflow section -->
+
+    <!-- How it works Section -->
+    <div
+            class="bg-gray-50 dark:bg-gray-950 dark:text-gray-100"
+    >
+        <div
+                class="relative container rounded-3xl mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl bg-gray-50"
+        >
+            <div
+                    class="space-y-16"
+            >
+                <!-- Heading -->
+                <div class="text-center">
+                    <!--                        <div-->
+                    <!--                                class="mb-1 text-sm font-bold tracking-wider text-primary-600 uppercase dark:text-primary-500"-->
+                    <!--                        >-->
+                    <!--                            Created with passion-->
+                    <!--                        </div>-->
+                    <h2 class="mb-4 text-4xl font-black text-black dark:text-white capitalize">
+                        How InnoFlow Works
+                    </h2>
+                    <p
+                            class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
+                    >
+                        See how InnoFlow turns scattered work into clear, structured workflows in this short
+                        walkthrough.
+                    </p>
+                </div>
+                <!-- END Heading -->
+
+                <div class="flex grow flex-col items-center justify-center">
+                    <div class="mx-auto max-w-3xl w-full flex h-full overflow-hidden rounded-3xl border border-gray-200 shadow-lg shadow-gray-300/25 dark:border-gray-700 dark:shadow-gray-950/50">
+                        <!--                        <video width="100%" class="">-->
+                        <!--                            <source src="https://www.youtube.com/watch?v=ZK-rNEhJIDs"/>-->
+                        <!--                        </video>-->
+                        <!--                        <div class="aspect-4/3 w-full rounded-3xl object-contain">-->
+                        <iframe allowfullscreen
+                                loading="lazy"
+                                class="aspect-16/9 h-auto w-full object-center"
+                                src="https://www.youtube.com/embed/ZK-rNEhJIDs?autoplay=1&mute=1">
+                        </iframe>
+                        <!--                        </div>-->
+
+                        <!--                        <img-->
+                        <!--                                src="/assets/images/how-it-works.gif" alt="How it works - demo"-->
+                        <!--                                -->
+                        <!--                        />-->
+                    </div>
+                </div>
+
+                <!-- Action -->
+                <div class="text-center">
+                    <a
+                            href="/site/contact"
+                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                    >
+                        <span>Try yourself</span>
+                        <svg
+                                class="hi-mini hi-chevron-right inline-block size-5 opacity-50"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                aria-hidden="true"
+                        >
+                            <path
+                                    fill-rule="evenodd"
+                                    d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                    clip-rule="evenodd"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <!-- END Action -->
+            </div>
+        </div>
+    </div>
+    <!-- END How it works -->
+
+    <!-- Real use cases Section -->
+    <div
+            class="bg-white dark:bg-gray-950 dark:text-gray-100"
+    >
+        <div
+                class="relative container mx-auto px-4 py-16 lg:px-12 lg:py-32 xl:max-w-7xl"
+        >
+            <!-- Real use cases Section: For large screens -->
+            <!-- Heading -->
+            <div
+                    class="mx-auto space-y-16 tab-panel"
+            >
+                <div class="text-center">
+                    <h2 class="mb-3 text-4xl font-black text-black dark:text-white">
+                        Real Use Examples
+                    </h2>
+                    <p
+                            class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
+                    >
+                        Our flow management platform is designed to fit the way different teams work. Explore how
+                        organizations across Sales, HR team, and Project team use our solution to organize tasks,
+                        reduce friction, and deliver results faster.
+                    </p>
+                </div>
+                <!-- END Heading -->
+
+                <!-- Real use cases Section: For small screens -->
+                <div
+                        class="divide-y divide-gray-200 rounded-lg border border-gray-200 dark:divide-gray-700/50 dark:border-gray-700/50 block md:hidden"
+                >
+                    <details class="group data-active:inline-block" name="real-use-case" open>
+                        <summary
+                                class="flex cursor-pointer list-none items-center justify-between px-3 py-4 group-open:bg-gray-50 hover:bg-gray-50 dark:group-open:bg-gray-800/50 dark:hover:bg-gray-800/50 [&::-webkit-details-marker]:hidden"
+                        >
+                            <h3 class="text-left font-semibold">Sales team</h3>
+                            <div class="opacity-50 group-open:rotate-180 transition-all duration-200">
+                                <i class="fa-solid fa-chevron-down text-xs"></i>
+                            </div>
+                        </summary>
+                        <div
+                                class="flex flex-col gap-12 lg:flex-row-reverse lg:items-center lg:gap-0 p-4"
+                        >
+                            <div class="group relative flex-none lg:ml-16 lg:w-1/2 xl:ml-28">
+                                <!--                                <div-->
+                                <!--                                        class="absolute top-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-amber-500 opacity-40 blur-2xl lg:block"-->
+                                <!--                                ></div>-->
+                                <!--                                <div-->
+                                <!--                                        class="absolute bottom-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-pink-500 opacity-40 blur-2xl lg:block"-->
+                                <!--                                ></div>-->
+                                <img
+                                        class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
+                                        src="/assets/images/flow-for-hr.png"
+                                        alt="HR Management"
+                                />
+                            </div>
+                            <div class="space-y-10 lg:w-1/2">
+                                <!-- Heading -->
+                                <div>
+                                    <!--                                        <div-->
+                                    <!--                                                class="mb-3 inline-flex rounded-sm bg-blue-100 px-2 py-1 text-sm leading-4 font-semibold text-blue-700 dark:bg-blue-950 dark:text-blue-200"-->
+                                    <!--                                        >-->
+                                    <!--                                            v6.0 is now live!-->
+                                    <!--                                        </div>-->
+                                    <h2 class="text-lg mb-4 font-black text-black dark:text-white">
+                                        Smarter HR workflows, more control
+                                    </h2>
+                                    <p
+                                            class="leading-relaxed font-medium text-gray-700 dark:text-gray-300"
+                                    >
+                                        Explore our redesigned dashboard built for HR teams. Manage hiring
+                                        pipelines, onboarding flows, approvals, and employee processes—all from one
+                                        centralized workspace.
+                                    </p>
+                                </div>
+                                <!-- END Heading -->
+
+                                <!-- Actions -->
+                                <div
+                                        class="flex flex-col gap-4 sm:flex-row sm:gap-3"
+                                >
+                                    <a
+                                            href="/site/contact"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
+                                    >
+                                        <span>Get Started</span>
+                                    </a>
+                                    <a
+                                            href="/site/sales-solution"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                    >
+                                        <span>Learn More</span>
+                                        <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
+                                    </a>
+                                </div>
+                                <!-- END Actions -->
+                            </div>
+                        </div>
+                    </details>
+                    <details class="group" name="real-use-case">
+                        <summary
+                                class="flex cursor-pointer list-none items-center justify-between px-3 py-4 group-open:bg-gray-50 hover:bg-gray-50 dark:group-open:bg-gray-800/50 dark:hover:bg-gray-800/50 [&::-webkit-details-marker]:hidden"
+                        >
+                            <h3 class="text-left font-semibold">HR team</h3>
+                            <div class="opacity-50 group-open:rotate-180 transition-all duration-200">
+                                <i class="fa-solid fa-chevron-down text-xs"></i>
+                            </div>
+                        </summary>
+                        <div
+                                class="flex flex-col gap-12 lg:flex-row-reverse lg:items-center lg:gap-0 p-4"
+                        >
+                            <div class="group relative flex-none lg:ml-16 lg:w-1/2 xl:ml-28">
+                                <!--                                <div-->
+                                <!--                                        class="absolute top-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-amber-500 opacity-40 blur-2xl lg:block"-->
+                                <!--                                ></div>-->
+                                <!--                                <div-->
+                                <!--                                        class="absolute bottom-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-pink-500 opacity-40 blur-2xl lg:block"-->
+                                <!--                                ></div>-->
+                                <img
+                                        class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
+                                        src="/assets/images/flow-for-hr.png"
+                                        alt="HR Management"
+                                />
+                            </div>
+                            <div class="space-y-10 lg:w-1/2">
+                                <!-- Heading -->
+                                <div>
+                                    <!--                                        <div-->
+                                    <!--                                                class="mb-3 inline-flex rounded-sm bg-blue-100 px-2 py-1 text-sm leading-4 font-semibold text-blue-700 dark:bg-blue-950 dark:text-blue-200"-->
+                                    <!--                                        >-->
+                                    <!--                                            v6.0 is now live!-->
+                                    <!--                                        </div>-->
+                                    <h2 class="text-lg mb-4 font-black text-black dark:text-white">
+                                        Smarter HR workflows, more control
+                                    </h2>
+                                    <p
+                                            class="leading-relaxed font-medium text-gray-700 dark:text-gray-300"
+                                    >
+                                        Explore our redesigned dashboard built for HR teams. Manage hiring
+                                        pipelines, onboarding flows, approvals, and employee processes—all from one
+                                        centralized workspace.
+                                    </p>
+                                </div>
+                                <!-- END Heading -->
+
+                                <!-- Actions -->
+                                <div
+                                        class="flex flex-col gap-4 sm:flex-row sm:gap-3"
+                                >
+                                    <a
+                                            href="/site/contact"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
+                                    >
+                                        <span>Get Started</span>
+                                    </a>
+                                    <a
+                                            href="/site/hr-solution"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                    >
+                                        <span>Learn More</span>
+                                        <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
+                                        <!--                                            <svg-->
+                                        <!--                                                    class="hi-mini hi-arrow-right inline-block size-5 opacity-50"-->
+                                        <!--                                                    xmlns="http://www.w3.org/2000/svg"-->
+                                        <!--                                                    viewBox="0 0 20 20"-->
+                                        <!--                                                    fill="currentColor"-->
+                                        <!--                                                    aria-hidden="true"-->
+                                        <!--                                            >-->
+                                        <!--                                                <path-->
+                                        <!--                                                        fill-rule="evenodd"-->
+                                        <!--                                                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"-->
+                                        <!--                                                        clip-rule="evenodd"-->
+                                        <!--                                                />-->
+                                        <!--                                            </svg>-->
+                                    </a>
+                                </div>
+                                <!-- END Actions -->
+                            </div>
+                        </div>
+                    </details>
+                    <details class="group" name="real-use-case">
+                        <summary
+                                class="flex cursor-pointer list-none items-center justify-between px-3 py-4 group-open:bg-gray-50 hover:bg-gray-50 dark:group-open:bg-gray-800/50 dark:hover:bg-gray-800/50 [&::-webkit-details-marker]:hidden"
+                        >
+                            <h3 class="text-left font-semibold">
+                                Project team
+                            </h3>
+                            <div class="opacity-50 group-open:rotate-180 transition-all duration-200">
+                                <i class="fa-solid fa-chevron-down text-xs"></i>
+                            </div>
+                        </summary>
+                        <div
+                                class="flex flex-col gap-12 lg:flex-row-reverse lg:items-center lg:gap-0 p-4"
+                        >
+                            <div class="group relative flex-none lg:ml-16 lg:w-1/2 xl:ml-28">
+                                <!--                                <div-->
+                                <!--                                        class="absolute top-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-amber-500 opacity-40 blur-2xl lg:block"-->
+                                <!--                                ></div>-->
+                                <!--                                <div-->
+                                <!--                                        class="absolute bottom-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-pink-500 opacity-40 blur-2xl lg:block"-->
+                                <!--                                ></div>-->
+                                <img
+                                        class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
+                                        src="/assets/images/flow-for-hr.png"
+                                        alt="HR Management"
+                                />
+                            </div>
+                            <div class="space-y-10 lg:w-1/2">
+                                <!-- Heading -->
+                                <div>
+                                    <!--                                        <div-->
+                                    <!--                                                class="mb-3 inline-flex rounded-sm bg-blue-100 px-2 py-1 text-sm leading-4 font-semibold text-blue-700 dark:bg-blue-950 dark:text-blue-200"-->
+                                    <!--                                        >-->
+                                    <!--                                            v6.0 is now live!-->
+                                    <!--                                        </div>-->
+                                    <h2 class="text-lg mb-4 font-black text-black dark:text-white">
+                                        Smarter HR workflows, more control
+                                    </h2>
+                                    <p
+                                            class="leading-relaxed font-medium text-gray-700 dark:text-gray-300"
+                                    >
+                                        Explore our redesigned dashboard built for HR teams. Manage hiring
+                                        pipelines, onboarding flows, approvals, and employee processes—all from one
+                                        centralized workspace.
+                                    </p>
+                                </div>
+                                <!-- END Heading -->
+
+                                <!-- Actions -->
+                                <div
+                                        class="flex flex-col gap-4 sm:flex-row sm:gap-3"
+                                >
+                                    <a
+                                            href="/site/contact"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-900 active:bg-gray-900 dark:focus:ring-gray-400/90"
+                                    >
+                                        <span>Get Started</span>
+                                    </a>
+                                    <a
+                                            href="/site/project-solution"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                    >
+                                        <span>Learn More</span>
+                                        <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
+                                    </a>
+                                </div>
+                                <!-- END Actions -->
+                            </div>
+                        </div>
+                    </details>
+                </div>
+                <!-- END Real use cases Section: For small screens -->
+
+                <!-- Nav Tabs-->
+                <div
+                        class="items-center text-sm tab-header-container hidden md:flex gap-2"
+                >
+                    <button
+                            type="button"
+                            id="features-tab"
+                            role="tab"
+                            aria-controls="features-tab-pane"
+                            aria-selected="true"
+                            class="-mb-px transition-all rounded-full duration-75 flex grow items-center justify-center gap-2 border border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
+                            data-tab-id="1"
+                    >
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <span class="hidden sm:inline-block">Sales team</span>
+                    </button>
+                    <button
+                            type="button"
+                            id="accounts-tab"
+                            role="tab"
+                            aria-controls="accounts-tab-pane"
+                            aria-selected="false"
+                            class="-mb-px transition-all rounded-full duration-75 flex grow items-center justify-center gap-2 border border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
+                            data-tab-id="2"
+                    >
+                        <i class="fa-solid fa-people-group"></i>
+                        <span class="hidden sm:inline-block">HR team</span>
+                    </button>
+                    <button
+                            type="button"
+                            id="licenses-tab"
+                            role="tab"
+                            aria-controls="licenses-tab-pane"
+                            aria-selected="false"
+                            class="-mb-px transition-all rounded-full duration-75 flex grow items-center justify-center gap-2 border border-r border-gray-300 px-3 py-3 font-semibold text-gray-600 dark:text-gray-600 md:px-5 dark:border-gray-300 tab-header data-active:border-gray-700 data-active:bg-gray-700 data-active:text-white hover:bg-gray-50 cursor-pointer data-active:hover:bg-gray-700"
+                            data-tab-id="3"
+                    >
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span class="hidden sm:inline-block">Project team</span>
+                    </button>
+                </div>
+                <!-- END Nav Tabs -->
+
+                <!-- Tab contents container -->
+                <ul class="tab-content-container hidden md:block">
+                    <li class="tab-content hidden data-active:inline-block" data-tab-id="1">
+                        <div
+                                class="flex flex-col gap-12 lg:flex-row-reverse lg:items-center lg:gap-0"
+                        >
+                            <div class="group relative flex-none lg:ml-16 lg:w-1/2 xl:ml-28">
+                                <img
+                                        class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
+                                        src="/assets/images/flow-for-hr.png"
+                                        alt="HR Management"
+                                />
+                            </div>
+                            <div class="space-y-10 lg:w-1/2">
+                                <!-- Heading -->
+                                <div>
+                                    <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
+                                        Smarter HR workflows, more control
+                                    </h2>
+                                    <p
+                                            class="text-lg leading-relaxed font-medium text-gray-700 dark:text-gray-300"
+                                    >
+                                        Explore our redesigned dashboard built for HR teams. Manage hiring
+                                        pipelines, onboarding flows, approvals, and employee processes—all from one
+                                        centralized workspace.
+                                    </p>
+                                </div>
+                                <!-- END Heading -->
+
+                                <!-- Features -->
+                                <ul class="space-y-5">
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Enhanced HR workflow dashboard</h3>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Role-based access for HR, managers, and
+                                            approvers</h3>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Customizable stages for hiring, onboarding, and
+                                            reviews</h3>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Advanced settings for compliance and control</h3>
+                                    </li>
+                                </ul>
+                                <!-- END Features -->
+
+                                <!-- Actions -->
+                                <div
+                                        class="flex flex-col gap-4 sm:flex-row sm:gap-3"
+                                >
+                                    <a
+                                            href="/site/contact"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
+                                    >
+                                        <span>Get Started</span>
+                                    </a>
+                                    <a
+                                            href="/site/sales-solution"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                    >
+                                        <span>Learn More</span>
+                                        <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
+                                    </a>
+                                </div>
+                                <!-- END Actions -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tab-content hidden data-active:inline-block" data-tab-id="2">
+                        <div
+                                class="flex flex-col gap-12 lg:flex-row-reverse lg:items-center lg:gap-0"
+                        >
+                            <div class="group relative flex-none lg:ml-16 lg:w-1/2 xl:ml-28">
+                                <!--                                <div-->
+                                <!--                                        class="absolute top-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-amber-500 opacity-40 blur-2xl lg:block"-->
+                                <!--                                ></div>-->
+                                <!--                                <div-->
+                                <!--                                        class="absolute bottom-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-pink-500 opacity-40 blur-2xl lg:block"-->
+                                <!--                                ></div>-->
+                                <img
+                                        class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
+                                        src="/assets/images/flow-for-hr.png"
+                                        alt="HR Management"
+                                />
+                            </div>
+                            <div class="space-y-10 lg:w-1/2">
+                                <!-- Heading -->
+                                <div>
+                                    <!--                                        <div-->
+                                    <!--                                                class="mb-3 inline-flex rounded-sm bg-blue-100 px-2 py-1 text-sm leading-4 font-semibold text-blue-700 dark:bg-blue-950 dark:text-blue-200"-->
+                                    <!--                                        >-->
+                                    <!--                                            v6.0 is now live!-->
+                                    <!--                                        </div>-->
+                                    <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
+                                        Smarter HR workflows, more control
+                                    </h2>
+                                    <p
+                                            class="text-lg leading-relaxed font-medium text-gray-700 dark:text-gray-300"
+                                    >
+                                        Explore our redesigned dashboard built for HR teams. Manage hiring
+                                        pipelines, onboarding flows, approvals, and employee processes—all from one
+                                        centralized workspace.
+                                    </p>
+                                </div>
+                                <!-- END Heading -->
+
+                                <!-- Features -->
+                                <ul class="space-y-5">
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Enhanced HR workflow dashboard</h3>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Role-based access for HR, managers, and
+                                            approvers</h3>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Customizable stages for hiring, onboarding, and
+                                            reviews</h3>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Advanced settings for compliance and control</h3>
+                                    </li>
+                                </ul>
+                                <!-- END Features -->
+
+                                <!-- Actions -->
+                                <div
+                                        class="flex flex-col gap-4 sm:flex-row sm:gap-3"
+                                >
+                                    <a
+                                            href="/site/contact"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
+                                    >
+                                        <span>Get Started</span>
+                                    </a>
+                                    <a
+                                            href="/site/hr-solution"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                    >
+                                        <span>Learn More</span>
+                                        <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
+                                    </a>
+                                </div>
+                                <!-- END Actions -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tab-content hidden data-active:inline-block" data-tab-id="3">
+                        <div
+                                class="flex flex-col gap-12 lg:flex-row-reverse lg:items-center lg:gap-0"
+                        >
+                            <div class="group relative flex-none lg:ml-16 lg:w-1/2 xl:ml-28">
+                                <!--                                <div-->
+                                <!--                                        class="absolute top-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-amber-500 opacity-40 blur-2xl lg:block"-->
+                                <!--                                ></div>-->
+                                <!--                                <div-->
+                                <!--                                        class="absolute bottom-0 left-0 hidden h-64 w-full scale-105 rounded-xl bg-pink-500 opacity-40 blur-2xl lg:block"-->
+                                <!--                                ></div>-->
+                                <img
+                                        class="relative mx-auto rounded-tl-3xl rounded-br-3xl"
+                                        src="/assets/images/flow-for-hr.png"
+                                        alt="HR Management"
+                                />
+                            </div>
+                            <div class="space-y-10 lg:w-1/2">
+                                <!-- Heading -->
+                                <div>
+                                    <!--                                        <div-->
+                                    <!--                                                class="mb-3 inline-flex rounded-sm bg-blue-100 px-2 py-1 text-sm leading-4 font-semibold text-blue-700 dark:bg-blue-950 dark:text-blue-200"-->
+                                    <!--                                        >-->
+                                    <!--                                            v6.0 is now live!-->
+                                    <!--                                        </div>-->
+                                    <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
+                                        Smarter HR workflows, more control
+                                    </h2>
+                                    <p
+                                            class="text-lg leading-relaxed font-medium text-gray-700 dark:text-gray-300"
+                                    >
+                                        Explore our redesigned dashboard built for HR teams. Manage hiring
+                                        pipelines, onboarding flows, approvals, and employee processes—all from one
+                                        centralized workspace.
+                                    </p>
+                                </div>
+                                <!-- END Heading -->
+
+                                <!-- Features -->
+                                <ul class="space-y-5">
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Enhanced HR workflow dashboard</h3>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Role-based access for HR, managers, and
+                                            approvers</h3>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Customizable stages for hiring, onboarding, and
+                                            reviews</h3>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <i class="fa-solid fa-circle-check text-indigo-600 dark:text-indigo-400 text-xl"></i>
+                                        <h3 class="font-medium">Advanced settings for compliance and control</h3>
+                                    </li>
+                                </ul>
+                                <!-- END Features -->
+
+                                <!-- Actions -->
+                                <div
+                                        class="flex flex-col gap-4 sm:flex-row sm:gap-3"
+                                >
+                                    <a
+                                            href="/site/contact"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-3 leading-6 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-800 active:bg-gray-800 dark:focus:ring-gray-400/90"
+                                    >
+                                        <span>Get Started</span>
+                                    </a>
+                                    <a
+                                            href="/site/project-solution"
+                                            class="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 leading-6 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700"
+                                    >
+                                        <span>Learn More</span>
+                                        <i class="fa-solid fa-angle-right opacity-50 text-lg"></i>
+                                    </a>
+                                </div>
+                                <!-- END Actions -->
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Tab contents container -->
+            </div>
+            <!-- END FAQ Section: For large screens -->
+        </div>
+    </div>
+    <!-- END Real use cases Section -->
+
+    <!-- CTA Section: Simple Boxed -->
+    <div
+            class="bg-linear-to-tr from-amber-100 via-rose-100 to-indigo-100 dark:from-amber-900 dark:via-rose-900 dark:to-indigo-900 dark:text-gray-100"
+    >
+        <div class="container mx-auto px-4 py-16 lg:px-8 lg:py-32 xl:max-w-7xl">
+            <div
+                    class="relative rounded-3xl bg-white/50 p-8 text-center shadow-sm backdrop-blur-xs sm:p-10 lg:px-20 lg:py-16 dark:bg-gray-800/70 dark:shadow-none"
+            >
+                <div class="space-y-8">
+                    <!-- Heading -->
+                    <div class="text-center">
+                        <h2 class="mb-4 text-4xl font-black text-black dark:text-white">
+                            Ready?
+                            <span
+                                    class="bg-linear-to-r from-amber-500 via-rose-500 to-indigo-500 bg-clip-text text-transparent"
+                            >Let’s start now!</span
+                            >
+                        </h2>
+                        <p
+                                class="mx-auto text-xl leading-relaxed font-medium text-gray-700 lg:w-2/3 dark:text-gray-300"
+                        >
+                            Tell us what you want to track — Leads, Hiring, or Work — and we’ll show you how to
+                            design the workflow
+                        </p>
+                    </div>
+                    <!-- END Heading -->
+
+                    <!-- Actions -->
+                    <div
+                            class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center sm:gap-3"
+                    >
+                        <div class="relative">
+                            <div
+                                    class="pointer-events-none absolute -inset-x-12 -inset-y-7 rounded-3xl bg-linear-to-b from-amber-500 via-rose-500 to-indigo-500 opacity-20 blur-2xl dark:from-amber-300 dark:via-rose-300 dark:to-indigo-300"
+                            ></div>
+                            <a
+                                    href="/site/contact"
+                                    class="group relative inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-7 py-5 leading-5 font-semibold text-white hover:border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-3 focus:ring-gray-400/50 active:border-gray-700 active:bg-gray-800 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-950 dark:focus:ring-gray-500/90 dark:active:border-white dark:active:bg-white"
+                            >
+                                <span>Contact us</span>
+                                <i class="fa-solid fa-circle-arrow-right text-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- END Actions -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END CTA Section: Simple Boxed -->
+</main>
+<!-- END Page Content -->
+
